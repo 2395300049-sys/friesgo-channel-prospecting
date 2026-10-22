@@ -6,11 +6,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 QUEUES = {'P1 小批验证','P2 条件验证','P3 暂缓'}
+QUOTE_FIELDS = {'exact_specification','quantity_timing','buyer_authority','destination_consignee','incoterm','payment_terms','compliance_path','packing_freight','authorized_cost','approval_and_validity'}
 
 def require(condition, message):
     if not condition: raise ValueError(message)
 
 def quotation_readiness(review, fields):
+    require(set(fields)==QUOTE_FIELDS and len(fields)==len(QUOTE_FIELDS),'All ten quotation fields must be assessed')
     missing=[]
     for key in fields:
         item=review.get('quote_gates',{}).get(key,{})
@@ -23,6 +25,7 @@ def quotation_readiness(review, fields):
     return {'ready':not missing,'missing':missing}
 
 def validate_current(accounts, model):
+    require(set(model['quote_fields'])==QUOTE_FIELDS and len(model['quote_fields'])==len(QUOTE_FIELDS),'All ten quotation fields must be retained')
     require(len(accounts)==model['account_count']==20, 'The one-page contract requires 20 independent accounts')
     report_date=date.fromisoformat(model['report_date'])
     for field in ['id','name','display_name','email']:

@@ -78,4 +78,11 @@ class CurrentPackTests(unittest.TestCase):
             (copy/'开发信_逐家/V01.txt').write_text('changed after review')
             with self.assertRaisesRegex(ValueError,'Changed release file'):validate_release(copy)
 
+    def test_missing_gate_configuration_cannot_approve_a_quote(self):
+        with self.assertRaisesRegex(ValueError,'ten quotation fields'):
+            quotation_readiness(self.accounts[0]['review'],[])
+        self.model['quote_fields'].remove('authorized_cost')
+        with self.assertRaisesRegex(ValueError,'ten quotation fields'):
+            validate_current(self.accounts,self.model)
+
 if __name__=='__main__':unittest.main()
