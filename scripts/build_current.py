@@ -35,14 +35,14 @@ def write_texts(dest, accounts, model):
     for name in ['audit-primary-sources.json','source-audit-2026-10-23.json']:
         shutil.copy2(ROOT/'evidence'/name,evidence/name)
     shutil.copytree(ROOT/'evidence/trade',evidence/'trade')
-    (dest/'04_20家客户与开发信.md').write_text('# 20家候选账户与逐家开发信\n\nP1为小批研究验证队列，P2先补条件，P3暂缓；均未确认购买意愿。\n\n'+''.join(account_text(a) for a in accounts))
+    (dest/'04_20家客户与开发信.md').write_text(('# 20家候选账户与逐家开发信\n\nP1为小批研究验证队列，P2先补条件，P3暂缓；均未确认购买意愿。\n\n'+''.join(account_text(a) for a in accounts)).rstrip()+'\n')
     letters=dest/'开发信_逐家';letters.mkdir()
     for a in accounts:
-        (letters/f'{a["id"]}.md').write_text(account_text(a))
+        (letters/f'{a["id"]}.md').write_text(account_text(a).rstrip()+'\n')
         (letters/f'{a["id"]}.txt').write_text(f"To: {a['email']}\n状态: 草稿 未发送；{a['review']['queue']}\nSubject: {a['local_subject']}\n\n{a['local']}\n")
     with (dest/'05_客户来源与行动.csv').open('w',encoding='utf-8-sig',newline='') as f:
         keys=['id','name','country','email','phone','queue','unlock','stop','checked_on','reviewed_on','product_url','contact_url']
-        w=csv.DictWriter(f,fieldnames=keys);w.writeheader()
+        w=csv.DictWriter(f,fieldnames=keys,lineterminator='\n');w.writeheader()
         for a in accounts:w.writerow({k:(a['review'][k] if k in a['review'] else a[k]) for k in keys})
     (dest/'00_先读这里.txt').write_text('先读01审核报告，再看02推进手册和07客户工作簿。06打印表始终一页横版，记录格留空。\n20家是候选账户，当前队列见07；没有发送或确认需求。\n03为原市场研究，旧A/B分数和排序仅供追溯；当前行动以01及07的P队列为准。\n填写操作、买方回复和成本前，请将电子工作副本移到private目录或公司受控位置；不上传公开仓库。\n')
 

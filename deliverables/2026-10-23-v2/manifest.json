@@ -26,13 +26,13 @@
     },
     {
       "path": "04_20家客户与开发信.md",
-      "sha256": "e1ec6ec129e14b45ccd7c705aeebd6fbe91e4084e9712da41e7ca8644ccff680",
-      "bytes": 68996
+      "sha256": "73f33551b2a7298d8b3e1d0f765da2e7bbf7fc5c06865ad515cf5a536a933e2c",
+      "bytes": 68995
     },
     {
       "path": "05_客户来源与行动.csv",
-      "sha256": "f23e7545022d84da31cc2d722dca5088bf0c253755da5454e8cb5f255ab00a44",
-      "bytes": 7138
+      "sha256": "2b4ad139df84c24100422afea17d9f51a55ec6195c9dc706b81a913b4c0f1d50",
+      "bytes": 7117
     },
     {
       "path": "06_业务员操作记录_一页横版.pdf",
@@ -176,8 +176,8 @@
     },
     {
       "path": "开发信_逐家/M01.md",
-      "sha256": "ffeab439738763cfde826f08505177fcfb4d2130ba688e75173bd290f7adbb0c",
-      "bytes": 2927
+      "sha256": "c67b07b24a890fe35dee88aeeba163fd573598ef45ba78b2d00cba8989635ff6",
+      "bytes": 2926
     },
     {
       "path": "开发信_逐家/M01.txt",
@@ -186,8 +186,8 @@
     },
     {
       "path": "开发信_逐家/M02.md",
-      "sha256": "17d4513539fb6a4d26cece0c6a9d2764a32c8e138ab4e44eda8ac5176c99a378",
-      "bytes": 3075
+      "sha256": "77d22d361fe47efe2967e3af3073e25db9e6756ad1edfb4e6bebb1381d636eda",
+      "bytes": 3074
     },
     {
       "path": "开发信_逐家/M02.txt",
@@ -196,8 +196,8 @@
     },
     {
       "path": "开发信_逐家/M03.md",
-      "sha256": "974bf80913db677d788eebaf3ac1c7c52d182177bba8200074baaad905dfb449",
-      "bytes": 3295
+      "sha256": "c2280b6cec5f9c684bc0b88c6fe94ce917b7424317de114a57c6739b9199c247",
+      "bytes": 3294
     },
     {
       "path": "开发信_逐家/M03.txt",
@@ -206,8 +206,8 @@
     },
     {
       "path": "开发信_逐家/M04.md",
-      "sha256": "af1a8ad5beda44fbd9eee0502397c73a4c476d72991ca2d24ba7d91862ffceb2",
-      "bytes": 3027
+      "sha256": "80969fe7e826afe6015cb06d06091f6de52bca7a6cfea8487dff9377dd2cedd1",
+      "bytes": 3026
     },
     {
       "path": "开发信_逐家/M04.txt",
@@ -216,8 +216,8 @@
     },
     {
       "path": "开发信_逐家/M05.md",
-      "sha256": "2032920b9af74fe4ecf9d6e935ee8d8bae5f5ea2184fe44eb33d2af16594cf9a",
-      "bytes": 3101
+      "sha256": "af490dc8329f04aec23bfbfb5add78be6a3da6e9bf0512b7bfd8b354d405022e",
+      "bytes": 3100
     },
     {
       "path": "开发信_逐家/M05.txt",
@@ -226,8 +226,8 @@
     },
     {
       "path": "开发信_逐家/M06.md",
-      "sha256": "bb68d65313de50a4a57f779bceb76bd7a97d02618c08d692f43709d28765f15f",
-      "bytes": 3100
+      "sha256": "2c460338a55e35a9cfcda2be7b51b0bca507aa2c649607026e5dc1d5d2f1a6e7",
+      "bytes": 3099
     },
     {
       "path": "开发信_逐家/M06.txt",
@@ -236,8 +236,8 @@
     },
     {
       "path": "开发信_逐家/U01.md",
-      "sha256": "abd2814c3431ae5e9d63689f8a5f4e1eeda35913b93d7fac91ac7d5629bba26a",
-      "bytes": 3113
+      "sha256": "d70edd1dc018c5dc9a4ad237f4ecae0a349603915939d06655ee784c9b5e9494",
+      "bytes": 3112
     },
     {
       "path": "开发信_逐家/U01.txt",
@@ -246,8 +246,8 @@
     },
     {
       "path": "开发信_逐家/U02.md",
-      "sha256": "a30baaa6be34bf2de5bf8fa8d000bab96b04622dbee09dbb893f15b6f8b0c96d",
-      "bytes": 3171
+      "sha256": "3c973639c7fbf26d49115d291557a77bc1bfe49851988ecb7a649498e81c89bd",
+      "bytes": 3170
     },
     {
       "path": "开发信_逐家/U02.txt",
@@ -256,8 +256,8 @@
     },
     {
       "path": "开发信_逐家/U03.md",
-      "sha256": "ea0c799ae428f9a5bf1242b3672623fc413cfd5001503f253757ab58cd072d32",
-      "bytes": 3374
+      "sha256": "cf3aa2f7b6bc4774e778dbf590108b857bcecec9f647d436fdf9b23c9b4b4dd8",
+      "bytes": 3373
     },
     {
       "path": "开发信_逐家/U03.txt",
@@ -266,8 +266,8 @@
     },
     {
       "path": "开发信_逐家/U04.md",
-      "sha256": "3b94a205be54c12c1569ad1941b77ba431ab270ab42abdf11a53ae3fd3352d2a",
-      "bytes": 2889
+      "sha256": "f736c5e9bf35087b31a045d2398ff468df32c3acfaf1009ecbc478732736d6a4",
+      "bytes": 2888
     },
     {
       "path": "开发信_逐家/U04.txt",
@@ -276,8 +276,8 @@
     },
     {
       "path": "开发信_逐家/U05.md",
-      "sha256": "33c0939641f66d79738870bccaca2164af913a2179d84a4b3d23e0e0a3556bbe",
-      "bytes": 3124
+      "sha256": "7ad923906c08246f43f20308dd123d8a47d4af2102b773e01e61c49061509ef8",
+      "bytes": 3123
     },
     {
       "path": "开发信_逐家/U05.txt",
@@ -286,8 +286,8 @@
     },
     {
       "path": "开发信_逐家/U06.md",
-      "sha256": "01ddcbff64c47a6d00c16b1f4d382159f7743a13b58b0873fb4db2ecc24e07bc",
-      "bytes": 3308
+      "sha256": "112e8969d4fa46566d90fb37458a6f00afe12d44012cd4a6ee96ebab692a4406",
+      "bytes": 3307
     },
     {
       "path": "开发信_逐家/U06.txt",
@@ -296,8 +296,8 @@
     },
     {
       "path": "开发信_逐家/U07.md",
-      "sha256": "23251a9f2fa30b5b8fd5bc8f655ec4719012df3fb70dd1bd1bbdd63d14bb382b",
-      "bytes": 2975
+      "sha256": "67eed5bfaf3e5cac916d5a56c68cea85c4b59749e75cc114768e068c648d28fb",
+      "bytes": 2974
     },
     {
       "path": "开发信_逐家/U07.txt",
@@ -306,8 +306,8 @@
     },
     {
       "path": "开发信_逐家/V01.md",
-      "sha256": "b65a2e65a53708f9717122bd0500489cf8835ab73cb5a472ed1234dc285dcd60",
-      "bytes": 4069
+      "sha256": "5ef7c7710e7db2666c0efb086736ff80d09227bdc4e4b2ce7d09865c8e12eb3f",
+      "bytes": 4068
     },
     {
       "path": "开发信_逐家/V01.txt",
@@ -316,8 +316,8 @@
     },
     {
       "path": "开发信_逐家/V02.md",
-      "sha256": "acea6e373e69fceaa458ca52dd7cd3084c11e2f28da4d7590aedddbe17dcbced",
-      "bytes": 3960
+      "sha256": "cebf3927274d3dcb778558f32f0f7aed6fba9f820755f480b72200b429e905c2",
+      "bytes": 3959
     },
     {
       "path": "开发信_逐家/V02.txt",
@@ -326,8 +326,8 @@
     },
     {
       "path": "开发信_逐家/V03.md",
-      "sha256": "03b69275bdd15c214bcaefafc55d59be7e0208d742896fe7d2b66834a9194099",
-      "bytes": 4355
+      "sha256": "8a9323e3a62604f81aacfb2d3f19fecde38c39c3a1fd5d4bcded3e59839e0408",
+      "bytes": 4354
     },
     {
       "path": "开发信_逐家/V03.txt",
@@ -336,8 +336,8 @@
     },
     {
       "path": "开发信_逐家/V04.md",
-      "sha256": "b1e43b7f47cb42e4b4c3b6ed7554c7c71688069fb934eb1ca75b42a8e97b1c4e",
-      "bytes": 3635
+      "sha256": "7ed37961e38fddf2a1422d3f35c6729c3014daea1d4238228c850e42b532c57c",
+      "bytes": 3634
     },
     {
       "path": "开发信_逐家/V04.txt",
@@ -346,8 +346,8 @@
     },
     {
       "path": "开发信_逐家/V05.md",
-      "sha256": "bfa105c9a909b96a15333e895a9682b9807baa84b00cb348ab76e8adc2be69b9",
-      "bytes": 4281
+      "sha256": "8c8b5bfe0271dcbb805dbf6c4998903ab9c32a95a70dfdc3c5e11b6fc0a8179e",
+      "bytes": 4280
     },
     {
       "path": "开发信_逐家/V05.txt",
@@ -356,8 +356,8 @@
     },
     {
       "path": "开发信_逐家/V06.md",
-      "sha256": "c722e48a1a2e3dd405c68831e9e198ad45b1fb00663c265ac68bf0bbba0d52ca",
-      "bytes": 3997
+      "sha256": "d24c68a1d15b82c79eeea8266749f0da3769b3e56cb5e068df87013c5a4e46f4",
+      "bytes": 3996
     },
     {
       "path": "开发信_逐家/V06.txt",
@@ -366,8 +366,8 @@
     },
     {
       "path": "开发信_逐家/V07.md",
-      "sha256": "4b4fb45b36529d862abb8122923248f5b6b832cb5a456c6ab3f9e447dcc61f9e",
-      "bytes": 4092
+      "sha256": "f628c16d53a38d52ce89397235a16290aa4da44eb94bc72d075d7a880e927fd7",
+      "bytes": 4091
     },
     {
       "path": "开发信_逐家/V07.txt",
