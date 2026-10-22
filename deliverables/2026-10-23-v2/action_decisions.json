@@ -1,0 +1,302 @@
+{
+  "V01": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "V02": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "V03": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "V04": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "V05": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "V06": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "V07": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "M01": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "M02": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "M03": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "M04": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "M05": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "M06": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "U01": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "U02": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "U03": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "U04": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "U05": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "U06": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  },
+  "U07": {
+    "ready": false,
+    "missing": [
+      "exact_specification",
+      "quantity_timing",
+      "buyer_authority",
+      "destination_consignee",
+      "incoterm",
+      "payment_terms",
+      "compliance_path",
+      "packing_freight",
+      "authorized_cost",
+      "approval_and_validity"
+    ]
+  }
+}

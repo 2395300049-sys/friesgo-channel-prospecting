@@ -47,10 +47,29 @@
       "https://tuanhungphat.vn/van-can-bang-tinh/",
       "https://tuanhungphat.vn/lien-he/"
     ],
-    "next_action": "先联系kinhdoanh@tuanhungphat.vn并请求转相关采购/产品岗位；先回答是否接受新增中国来源的静态平衡阀，再选一个常用DN核对。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P1 小批验证；先回答是否接受新增中国来源的静态平衡阀，再选一个常用DN核对；进入下一步：允许新增中国来源且有法兰手动阀需求；停止：指定FAF且无开放需求时暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Tuấn Hưng Phát"
+    "display_name": "Tuấn Hưng Phát",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P1 小批验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45",
+      "reason": "进口渠道与静态阀品类明确；先确认新增来源政策",
+      "unlock": "允许新增中国来源且有法兰手动阀需求",
+      "stop": "指定FAF且无开放需求时暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "先回答是否接受新增中国来源的静态平衡阀，再选一个常用DN核对。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "V02",
@@ -100,10 +119,29 @@
       "https://dohaco.com/nganh/24890/van-can-bang-balancing-valves.html",
       "https://dohaco.com/lienhe"
     ],
-    "next_action": "先联系kinhdoanh@dohaco.com并请求转相关采购/产品岗位；请指出客户最常询价但现有目录未覆盖的一种法兰口径。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P1 小批验证；请指出客户最常询价但现有目录未覆盖的一种法兰口径；进入下一步：给出允许其他品牌的一个规格或确认可评估；停止：所有客户均只接受原品牌时暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "DOHACO"
+    "display_name": "DOHACO",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P1 小批验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45",
+      "reason": "多款平衡阀目录可核；验证是否有未覆盖需求",
+      "unlock": "给出允许其他品牌的一个规格或确认可评估",
+      "stop": "所有客户均只接受原品牌时暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "请指出客户最常询价但现有目录未覆盖的一种法兰口径。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "V03",
@@ -154,10 +192,29 @@
       "https://eriko.com.vn/7-lien-he",
       "https://eriko.com.vn/chi-tiet/4098-du-an-royal-tower.html"
     ],
-    "next_action": "先联系erikovn.sg@gmail.com并请求转相关采购/产品岗位；选择“手动调试”或“支路压差控制”中更常见的一类需求。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；选择“手动调试”或“支路压差控制”中更常见的一类需求；进入下一步：确认水力平衡品类负责人及常用功能；停止：只经营消防仪表或无相关选品权则退出。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Eriko"
+    "display_name": "Eriko",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45或ZTY47，先由买方确认功能",
+      "reason": "进口分销角色可核；项目仅作楼宇渠道背景",
+      "unlock": "确认水力平衡品类负责人及常用功能",
+      "stop": "只经营消防仪表或无相关选品权则退出",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "选择“手动调试”或“支路压差控制”中更常见的一类需求。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "V04",
@@ -178,7 +235,7 @@
     "contact_url": "https://vimi.com.vn/lien-he",
     "product_url": "https://vimi.com.vn/van-samyang",
     "angle": "从三地仓配而非某单一品牌切入，建议按实际询价频次决定首批审查SKU。",
-    "ask": "请给出最常被询价的两种法兰平衡阀口径，先判断是否值得比较。",
+    "ask": "确认负责新增来源评估的团队，之后再核常用规格。",
     "risk": "不假设三地独立采购，也不承诺现货、MOQ、交期；只计一家。",
     "components": [
       25,
@@ -196,21 +253,40 @@
     "authority": "低：公开销售/通用入口，采购权限未核实",
     "stage": "2：公司与渠道相关性已核；未确认当前采购需求",
     "evidence_grade": "B：公司自述/产品页；采购需求未核实",
-    "subject": "Which balancing-valve sizes deserve a VIMI stock review?",
-    "english": "Hello VIMI purchasing team,\n\nVIMI's northern, central and southern distribution coverage caught my attention. For a stocked product, the useful starting point is the size mix your customers actually request.\n\nCould you share the two flanged manual balancing-valve sizes most often included in your enquiries?\n\nFriesGo Global's SPF45 range may be worth a technical comparison for those sizes. We would first check the connection, installed length and required documentation. A stocking or order proposal would follow only if that comparison makes sense for your channel. There is no need to review all three of our valve families at this stage.\n\nFriesGo Global",
-    "chinese": "VIMI采购团队您好：\n\n贵司覆盖越南北部、中部和南部的分销网络值得关注。对于库存产品，最有用的起点是客户实际询价的口径组合。\n\n可以告知询价中最常出现的两种法兰手动平衡阀口径吗？\n\nFriesGo Global的SPF45系列可能值得对这两个口径作一次技术比较。我们会先核对连接、安装长度和所需文件，只有比较结果适合贵司渠道，才进一步讨论备货或订单。这一阶段无须审阅我们的全部三类阀门。\n\nFriesGo Global",
-    "local_subject": "Kích cỡ van cân bằng nào phù hợp để VIMI xem xét?",
-    "local": "Kính gửi bộ phận mua hàng VIMI,\n\nChúng tôi quan tâm đến mạng lưới phân phối miền Bắc, miền Trung và miền Nam của VIMI. Với mặt hàng lưu kho, điểm khởi đầu hữu ích là các kích cỡ khách thực sự thường hỏi.\n\nQuý công ty có thể cho biết hai kích cỡ van cân bằng tay nối bích xuất hiện nhiều nhất trong yêu cầu báo giá không?\n\nDòng SPF45 của FriesGo Global có thể được đối chiếu cho hai kích cỡ đó, trước hết về kết nối, chiều dài lắp đặt và hồ sơ cần thiết. Chỉ khi kết quả phù hợp với kênh của VIMI, hai bên mới bàn phương án hàng tồn hoặc đơn hàng. Giai đoạn này chưa cần xem cả ba dòng van của chúng tôi.\n\nFriesGo Global",
+    "subject": "VIMI flanged balancing valve sourcing",
+    "english": "Hello VIMI team,\n\nYour site lists Samyang valves and distribution locations in northern, central and southern Vietnam. For SPF45, our flanged manual balancing family, I would first like to establish the sourcing route.\n\nWhich team reviews new sources of flanged manual balancing valves for VIMI?\n\nFriesGo Global is an industrial supplier. If the responsible team accepts new sources, we can start with one commonly requested size and check the connection, installed length and available technical documents before discussing an order.\n\nFriesGo Global",
+    "chinese": "您好，VIMI团队：\n\n贵司网站展示Samyang阀门及越南北、中、南部的分销地点。对于SPF45法兰手动平衡阀，我们想先了解供货来源审核由谁负责。\n\nVIMI由哪个团队评估法兰手动平衡阀的新供应来源？\n\nFriesGo Global是工业品供应商。若负责团队接受新来源，我们可从一个常被询问的口径开始，先核对连接、安装长度及现有技术资料，再讨论订单。\n\nFriesGo Global",
+    "local_subject": "Bộ phận đánh giá nguồn van cân bằng nối bích tại VIMI",
+    "local": "Kính gửi đội ngũ VIMI,\n\nWebsite của quý công ty giới thiệu van Samyang và các địa điểm phân phối ở miền Bắc, miền Trung và miền Nam Việt Nam. Với dòng van cân bằng tay nối bích SPF45, chúng tôi muốn xác định trước bộ phận phụ trách nguồn hàng.\n\nBộ phận nào của VIMI đánh giá nguồn cung mới cho van cân bằng tay nối bích?\n\nFriesGo Global là đơn vị cung ứng sản phẩm công nghiệp. Nếu bộ phận phụ trách có xem xét nguồn mới, hai bên có thể bắt đầu bằng một kích cỡ thường được hỏi, kiểm tra kết nối, chiều dài lắp đặt và hồ sơ kỹ thuật hiện có trước khi bàn đơn hàng.\n\nFriesGo Global",
     "language": "越南语",
     "verification": "公司公开渠道已核；邮箱未做投递/采购权限测试",
     "sources": [
       "https://vimi.com.vn/van-samyang",
       "https://vimi.com.vn/lien-he"
     ],
-    "next_action": "先联系sales.vimijsc@gmail.com并请求转相关采购/产品岗位；请给出最常被询价的两种法兰平衡阀口径，先判断是否值得比较。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P1 小批验证；确认负责新增来源评估的团队，之后再核常用规格；进入下一步：确认采购选品部门并允许比较一个法兰规格；停止：仅代询指定品牌、总部不开放来源则暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "VIMI"
+    "display_name": "VIMI",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P1 小批验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45",
+      "reason": "跨区域分销和中国来源品类可核；不预设库存缺口",
+      "unlock": "确认采购选品部门并允许比较一个法兰规格",
+      "stop": "仅代询指定品牌、总部不开放来源则暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认负责新增来源评估的团队，之后再核常用规格。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "V05",
@@ -261,10 +337,29 @@
       "https://wili.com.vn/",
       "https://wili.com.vn/project-list/"
     ],
-    "next_action": "先联系info@wili.com.vn并请求转相关采购/产品岗位；确认其酒店水系统清单是否也包含独立的机械平衡阀。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；确认其酒店水系统清单是否也包含独立的机械平衡阀；进入下一步：确认机械平衡阀属于采购范围；停止：仅做执行器温控阀或指定品牌则退出该需求。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Wili"
+    "display_name": "Wili",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "直接相关",
+      "entry_product": "先确认独立机械平衡位置",
+      "reason": "酒店Control Valve经历与平衡阀目录分别存在",
+      "unlock": "确认机械平衡阀属于采购范围",
+      "stop": "仅做执行器温控阀或指定品牌则退出该需求",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认其酒店水系统清单是否也包含独立的机械平衡阀。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "V06",
@@ -285,7 +380,7 @@
     "contact_url": "https://combitek.com/lien-he/",
     "product_url": "https://combitek.com/san-pham/van-can-bang-chenh-ap-noi-bich/",
     "angle": "从压差阀具体选型切入，先比较受控回路与连接，不谈普通减压阀替代。",
-    "ask": "取得一个回路的设计流量和压差设定值，判断是否具备技术比较基础。",
+    "ask": "确认此品类是否接受新增供应来源，之后再核回路和资料。",
     "risk": "进口欧洲产品定位可能限制新来源；饮用水热平衡阀与ZTY不可混用；无当前RFQ。",
     "components": [
       25,
@@ -303,11 +398,11 @@
     "authority": "低：公开销售/通用入口，采购权限未核实",
     "stage": "2：公司与渠道相关性已核；未确认当前采购需求",
     "evidence_grade": "B：公司自述/产品页；采购需求未核实",
-    "subject": "A circuit-duty check for Combitek’s differential-pressure range",
-    "english": "Hello Combitek technical team,\n\nI am contacting you about your flanged differential-pressure balancing-valve page.\n\nBefore discussing brands or price, we would like to understand one circuit duty: the design flow and the differential-pressure setpoint to be maintained. These values would tell us whether our ZTY47 self-acting controller is worth reviewing at all.\n\nFriesGo Global is an industrial supplier seeking a distribution relationship for hydronic valves. Could you share those two values for a representative water circuit? We would then check the operating arrangement and connection requirements, without assuming equivalence to the products Combitek currently supplies.\n\nFriesGo Global",
-    "chinese": "Combitek技术团队您好：\n\n此次联系针对贵司官网的法兰压差平衡阀产品。\n\n在讨论品牌或价格之前，我们希望先了解一个回路的设计流量和需要维持的压差设定值。这两个数值可以先判断我们的ZTY47自力式压差控制阀是否值得进入评审。\n\nFriesGo Global是工业品供应商，希望建立水力控制阀的分销合作。可否提供一个代表性水回路的这两项参数？之后再核对控制布置及连接要求，不预先认定与Combitek现售产品等同。\n\nFriesGo Global",
-    "local_subject": "Đối chiếu thông số mạch nước cho van điều khiển chênh áp",
-    "local": "Kính gửi bộ phận kỹ thuật Combitek,\n\nChúng tôi liên hệ về sản phẩm van cân bằng chênh áp nối bích trên website của quý công ty.\n\nTrước khi trao đổi thương hiệu hoặc giá, chúng tôi muốn hiểu một điều kiện mạch nước: lưu lượng thiết kế và giá trị chênh áp cần duy trì. Hai thông số này giúp xác định liệu van điều khiển chênh áp tự lực ZTY47 của chúng tôi có phù hợp để xem xét hay không.\n\nFriesGo Global là đơn vị cung ứng sản phẩm công nghiệp, mong tìm đối tác phân phối van thủy lực HVAC. Quý công ty có thể cung cấp hai thông số trên cho một mạch nước tiêu biểu không? Sau đó mới đối chiếu sơ đồ điều khiển và kết nối, không mặc định tương đương sản phẩm hiện có.\n\nFriesGo Global",
+    "subject": "Combitek differential pressure valve source review",
+    "english": "Hello Combitek technical team,\n\nYour flanged differential-pressure balancing-valve page is relevant to our ZTY47 self-acting differential-pressure controller. A circuit comparison would only make sense if your sourcing policy allows another source.\n\nDoes Combitek review additional suppliers for this valve category?\n\nFriesGo Global is an industrial supplier. If your team is open to a review, our next step would be to check your document requirements and a representative circuit arrangement. We would distinguish the controlled circuit differential pressure from the pressure drop available across the valve, rather than assume equivalence to your current products.\n\nFriesGo Global",
+    "chinese": "您好，Combitek技术团队：\n\n贵司法兰压差平衡阀页面与我们的ZTY47自力式压差控制阀功能相关。只有贵司采购政策允许其他来源时，回路比较才有意义。\n\nCombitek会评估这一阀门品类的新增供应商吗？\n\nFriesGo Global是工业品供应商。若贵司接受评估，下一步可核对所需文件及一个典型回路布置。我们会区分受控回路压差与阀本身可用压差，不默认与贵司现有产品等同。\n\nFriesGo Global",
+    "local_subject": "Đánh giá nguồn cung van chênh áp tại Combitek",
+    "local": "Kính gửi bộ phận kỹ thuật Combitek,\n\nTrang van cân bằng chênh áp nối bích của quý công ty có chức năng liên quan đến dòng van điều khiển chênh áp tự lực ZTY47 của chúng tôi. Việc so sánh mạch nước chỉ có ý nghĩa khi chính sách mua hàng cho phép xem xét nguồn khác.\n\nCombitek có đánh giá thêm nhà cung cấp cho nhóm van này không?\n\nFriesGo Global là đơn vị cung ứng sản phẩm công nghiệp. Nếu quý công ty sẵn sàng đánh giá, bước tiếp theo là đối chiếu hồ sơ yêu cầu và sơ đồ một mạch nước tiêu biểu. Chúng tôi sẽ phân biệt chênh áp cần duy trì của mạch với chênh áp khả dụng qua van, không mặc định tương đương sản phẩm hiện có.\n\nFriesGo Global",
     "language": "越南语",
     "verification": "公司公开渠道已核；邮箱未做投递/采购权限测试",
     "sources": [
@@ -315,10 +410,29 @@
       "https://combitek.com/lien-he/",
       "https://combitek.com/du-an/"
     ],
-    "next_action": "先联系info@combitek.com并请求转相关采购/产品岗位；取得一个回路的设计流量和压差设定值，判断是否具备技术比较基础。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；确认此品类是否接受新增供应来源，之后再核回路和资料；进入下一步：先确认允许新来源，再取得受控回路示意和设定值；停止：不接受新品牌或要求无法提供的性能证据则暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Combitek"
+    "display_name": "Combitek",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "直接相关",
+      "entry_product": "ZTY47",
+      "reason": "有法兰压差阀页面；控制回路与审核资料缺失",
+      "unlock": "先确认允许新来源，再取得受控回路示意和设定值",
+      "stop": "不接受新品牌或要求无法提供的性能证据则暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认此品类是否接受新增供应来源，之后再核回路和资料。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "V07",
@@ -368,10 +482,29 @@
       "https://pgtech.com.vn/Upload/file/profile-pgtech-2025-vne.pdf",
       "https://pgtech.com.vn/"
     ],
-    "next_action": "先联系sales@pgtech.com.vn并请求转相关采购/产品岗位；先取得其审核新平衡阀品牌所需的资料清单。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；先取得其审核新平衡阀品牌所需的资料清单；进入下一步：取得新来源审核清单并确认允许评估；停止：只接受指定品牌或必需认证无法取得则暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "PGTECH"
+    "display_name": "PGTECH",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45先做资料预审",
+      "reason": "技术服务与品牌组合意味着审核成本较高",
+      "unlock": "取得新来源审核清单并确认允许评估",
+      "stop": "只接受指定品牌或必需认证无法取得则暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "先取得其审核新平衡阀品牌所需的资料清单。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "M01",
@@ -392,7 +525,7 @@
     "contact_url": "https://www.optimusdistributor.com.my/contact",
     "product_url": "https://www.optimusdistributor.com.my/showproducts/productid/4588118/cid/479227/art-6535dn-balancing-valve/",
     "angle": "借其公开的完整询价字段习惯，以一个真实BOM行开展同口径技术比较。",
-    "ask": "取得一个允许替代品牌的法兰手动平衡阀BOM行。",
+    "ask": "确认允许其他品牌的项目是否评估新增法兰手动阀来源。",
     "risk": "其现有PICV不能用ZL等同替代；品牌授权不证明愿意新增品牌；不以网店价格作批发价。",
     "components": [
       25,
@@ -410,21 +543,40 @@
     "authority": "低：公开销售/通用入口，采购权限未核实",
     "stage": "2：公司与渠道相关性已核；未确认当前采购需求",
     "evidence_grade": "B：公司自述/产品页；采购需求未核实",
-    "subject": "One BOQ line for Optimus to assess a flanged balancing valve",
-    "english": "Hello Optimus team,\n\nYour range covers both hydronic balancing and valve kits, and your enquiry guidance asks for the information needed to evaluate an item properly. We can use that approach for a small supplier comparison.\n\nCould your product team share one flanged manual balancing-valve BOQ line where an alternative brand is permitted?\n\nFriesGo Global would check our SPF45 against the stated duty, installed length, flange requirements and document list. Your existing PICV range serves a different control function; this enquiry concerns the manual balancing position only. One clear line would be enough to decide whether a fuller supplier review is worthwhile.\n\nFriesGo Global",
-    "chinese": "Optimus团队您好：\n\n贵司产品覆盖水力平衡和阀门组件，询价指南也强调完整的选型信息。我们希望按同样方式开展一次小范围供应商比较。\n\n产品团队能否提供一条允许使用其他品牌的法兰手动平衡阀BOM/工程清单？\n\nFriesGo Global将核对SPF45与该工况、安装长度、法兰要求和文件清单是否匹配。贵司现有PICV承担不同控制功能，本次只讨论手动平衡位置。一条明确的清单就足以判断是否值得开展更完整的供应商审核。\n\nFriesGo Global",
-    "local_subject": "One BOQ line for Optimus to assess a flanged balancing valve",
-    "local": "Hello Optimus team,\n\nYour range covers both hydronic balancing and valve kits, and your enquiry guidance asks for the information needed to evaluate an item properly. We can use that approach for a small supplier comparison.\n\nCould your product team share one flanged manual balancing-valve BOQ line where an alternative brand is permitted?\n\nFriesGo Global would check our SPF45 against the stated duty, installed length, flange requirements and document list. Your existing PICV range serves a different control function; this enquiry concerns the manual balancing position only. One clear line would be enough to decide whether a fuller supplier review is worthwhile.\n\nFriesGo Global",
+    "subject": "Optimus alternative source review for flanged balancing",
+    "english": "Hello Optimus team,\n\nYour Art. 6535DN listing covers flanged balancing valves from DN65 to DN200. This is a more relevant starting point for our SPF45 manual balancing family than your PICV products.\n\nDoes Optimus evaluate additional sources for flanged manual balancing valves on jobs that permit alternative brands?\n\nFriesGo Global is an industrial supplier. If that route is available, we could compare one agreed size against your duty, connection dimensions and document checklist. We would establish those requirements before requesting a BOQ or discussing stock.\n\nFriesGo Global",
+    "chinese": "您好，Optimus团队：\n\n贵司Art.6535DN页面列出DN65至DN200法兰平衡阀。相较于PICV，这更适合作为我们SPF45手动平衡系列的初步讨论位置。\n\n对于允许其他品牌的项目，Optimus会评估法兰手动平衡阀的新增来源吗？\n\nFriesGo Global是工业品供应商。若有这一采购路线，我们可以选定一个口径，对照工况、连接尺寸及文件清单，先明确要求，再索取BOQ或讨论备货。\n\nFriesGo Global",
+    "local_subject": "Optimus alternative source review for flanged balancing",
+    "local": "Hello Optimus team,\n\nYour Art. 6535DN listing covers flanged balancing valves from DN65 to DN200. This is a more relevant starting point for our SPF45 manual balancing family than your PICV products.\n\nDoes Optimus evaluate additional sources for flanged manual balancing valves on jobs that permit alternative brands?\n\nFriesGo Global is an industrial supplier. If that route is available, we could compare one agreed size against your duty, connection dimensions and document checklist. We would establish those requirements before requesting a BOQ or discussing stock.\n\nFriesGo Global",
     "language": "英语",
     "verification": "公司公开渠道已核；邮箱未做投递/采购权限测试",
     "sources": [
       "https://www.optimusdistributor.com.my/showproducts/productid/4588118/cid/479227/art-6535dn-balancing-valve/",
       "https://www.optimusdistributor.com.my/contact"
     ],
-    "next_action": "先联系enquiry@optimusdistributor.com并请求转相关采购/产品岗位；取得一个允许替代品牌的法兰手动平衡阀BOM行。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P1 小批验证；确认允许其他品牌的项目是否评估新增法兰手动阀来源；进入下一步：先确认非指定品牌采购路线；后取一个BOQ行；停止：只有固定品牌授权项目且不接受其他来源则暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Optimus"
+    "display_name": "Optimus",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P1 小批验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45",
+      "reason": "6535DN法兰DN65—200与目标功能直接相邻",
+      "unlock": "先确认非指定品牌采购路线；后取一个BOQ行",
+      "stop": "只有固定品牌授权项目且不接受其他来源则暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认允许其他品牌的项目是否评估新增法兰手动阀来源。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "M02",
@@ -445,7 +597,7 @@
     "contact_url": "https://www.culmi.com.my/index.php?ws=contactus",
     "product_url": "https://www.culmi.com.my/index.php?products_id=2780082&ws=showproducts",
     "angle": "从替换安装尺寸和调试接口切入，先审尺寸，避免空泛“低价替代”。",
-    "ask": "取得一个原阀铭牌或尺寸要求，用于判断是否值得继续技术比对。",
+    "ask": "确认更换场景是否允许其他品牌，之后再核安装与调试要求。",
     "risk": "经第三方商户页跳转官网复核产品与联系；不保证Honeywell互换；该历史SKU当前供货需确认。",
     "components": [
       25,
@@ -463,21 +615,40 @@
     "authority": "低：公开销售/通用入口，采购权限未核实",
     "stage": "2：公司与渠道相关性已核；未确认当前采购需求",
     "evidence_grade": "B：公司自述/产品页；采购需求未核实",
-    "subject": "Culmi valve replacement: check the installed dimensions first",
-    "english": "Hello Culmi sales team,\n\nThe V4-Kombi-F listing associated with Culmi describes presetting, pressure-test points and a locking function. For replacement work, those functions still need to fit the existing installation.\n\nWe would start with dimensions rather than a price list. If a customer permits another brand, could you share one valve nameplate or dimensional requirement from a manual balancing-valve enquiry?\n\nFriesGo Global would compare the relevant SPF45 catalogue dimensions and highlight anything needing factory confirmation. That gives your team an early fit check before spending time on a proposed replacement. No direct interchangeability with Honeywell is assumed.\n\nFriesGo Global",
-    "chinese": "Culmi销售团队您好：\n\n与贵司关联的V4-Kombi-F产品页介绍了预设、测压点和锁定功能。对于维修更换，这些功能之外，还必须适合原有安装空间。\n\n我们希望从尺寸核对开始。如果客户允许其他品牌，能否提供一次手动平衡阀询价中的铭牌或尺寸要求？\n\nFriesGo Global会对照相应SPF45目录尺寸，并列出需要工厂补充确认的项目，帮助贵司在投入替换方案前先判断是否可能适配，不预设可以与Honeywell直接互换。\n\nFriesGo Global",
-    "local_subject": "Culmi valve replacement: check the installed dimensions first",
-    "local": "Hello Culmi sales team,\n\nThe V4-Kombi-F listing associated with Culmi describes presetting, pressure-test points and a locking function. For replacement work, those functions still need to fit the existing installation.\n\nWe would start with dimensions rather than a price list. If a customer permits another brand, could you share one valve nameplate or dimensional requirement from a manual balancing-valve enquiry?\n\nFriesGo Global would compare the relevant SPF45 catalogue dimensions and highlight anything needing factory confirmation. That gives your team an early fit check before spending time on a proposed replacement. No direct interchangeability with Honeywell is assumed.\n\nFriesGo Global",
+    "subject": "Culmi balancing valve replacement review",
+    "english": "Hello Culmi sales team,\n\nYour V4-Kombi-F listing includes presetting, pressure-test points and a locking function. For a replacement enquiry, the first issue is whether the specified brand can be changed.\n\nDo your customers ever allow another brand of flanged manual balancing valve for replacement work?\n\nFriesGo Global supplies the SPF45 manual balancing family. If alternatives are considered, we can first check one valve's installed length, flange and commissioning requirements. We would not describe SPF45 as a drop-in replacement or claim matching measurement performance without supporting data.\n\nFriesGo Global",
+    "chinese": "您好，Culmi销售团队：\n\n贵司V4-Kombi-F页面列有预设、测压点及锁定功能。对于更换需求，首先要确认原指定品牌是否允许调整。\n\n贵司客户在更换法兰手动平衡阀时，是否有接受其他品牌的情况？\n\nFriesGo Global供应SPF45手动平衡系列。若接受其他品牌，可先核对一只阀门的安装长度、法兰和调试要求。没有支持数据时，我们不会声称可原位直接替换，或测量性能相同。\n\nFriesGo Global",
+    "local_subject": "Culmi balancing valve replacement review",
+    "local": "Hello Culmi sales team,\n\nYour V4-Kombi-F listing includes presetting, pressure-test points and a locking function. For a replacement enquiry, the first issue is whether the specified brand can be changed.\n\nDo your customers ever allow another brand of flanged manual balancing valve for replacement work?\n\nFriesGo Global supplies the SPF45 manual balancing family. If alternatives are considered, we can first check one valve's installed length, flange and commissioning requirements. We would not describe SPF45 as a drop-in replacement or claim matching measurement performance without supporting data.\n\nFriesGo Global",
     "language": "英语",
     "verification": "公司公开渠道已核；邮箱未做投递/采购权限测试",
     "sources": [
       "https://www.culmi.com.my/index.php?products_id=2780082&ws=showproducts",
       "https://www.culmi.com.my/index.php?ws=contactus"
     ],
-    "next_action": "先联系adminsales01@culmi.com.my并请求转相关采购/产品岗位；取得一个原阀铭牌或尺寸要求，用于判断是否值得继续技术比对。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P1 小批验证；确认更换场景是否允许其他品牌，之后再核安装与调试要求；进入下一步：确认允许对比其他品牌，再取得安装长度及法兰要求；停止：必须无条件原位互换但尺寸资料无法满足则退出。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Culmi"
+    "display_name": "Culmi",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P1 小批验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45",
+      "reason": "V4-Kombi-F具有相关功能；改造尺寸需逐项核对",
+      "unlock": "确认允许对比其他品牌，再取得安装长度及法兰要求",
+      "stop": "必须无条件原位互换但尺寸资料无法满足则退出",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认更换场景是否允许其他品牌，之后再核安装与调试要求。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "M03",
@@ -528,10 +699,29 @@
       "https://sengchoon.com/contact-us.php",
       "https://sengchoon.com.my/project-reference/"
     ],
-    "next_action": "先联系scgroup@sengchoon.com并请求转相关采购/产品岗位；让预制团队确认组件由内部选阀还是按指定品牌BOM组装。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；让预制团队确认组件由内部选阀还是按指定品牌BOM组装；进入下一步：确认另有DN32及以上法兰平衡阀采购；停止：只采购小口径螺纹FCU组件则退出SPF45路线。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Seng Choon"
+    "display_name": "Seng Choon",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "相邻且规格未定",
+      "entry_product": "SPF45仅限单独法兰位置",
+      "reason": "FCU装配业务可核；未证明其口径与SPF45相符",
+      "unlock": "确认另有DN32及以上法兰平衡阀采购",
+      "stop": "只采购小口径螺纹FCU组件则退出SPF45路线",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "让预制团队确认组件由内部选阀还是按指定品牌BOM组装。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "M04",
@@ -581,10 +771,29 @@
       "https://sca.com.my/product/balancing-valves/",
       "https://sca.com.my/contact/"
     ],
-    "next_action": "先联系sales@sca.com.my并请求转相关采购/产品岗位；确认是否经营大口径主管/支路法兰平衡阀。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；确认是否经营大口径主管/支路法兰平衡阀；进入下一步：确认另有法兰手动平衡阀选品需求；停止：只做原有螺纹系列则退出该路线。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Source Code Asia"
+    "display_name": "Source Code Asia",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "相邻且规格未定",
+      "entry_product": "SPF45仅讨论独立法兰扩展",
+      "reason": "已核BV75为DN15—50螺纹；不是法兰替换证据",
+      "unlock": "确认另有法兰手动平衡阀选品需求",
+      "stop": "只做原有螺纹系列则退出该路线",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认是否经营大口径主管/支路法兰平衡阀。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "M05",
@@ -634,10 +843,29 @@
       "https://www.envalco.com.my/",
       "https://www.envalco.com.my/contact-us/"
     ],
-    "next_action": "先联系enquiry@envalco.com.my并请求转相关采购/产品岗位；先确认代理安排是否允许新增供应商，再进入型号资料。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P3 暂缓；先确认代理安排是否允许新增供应商，再进入型号资料；进入下一步：确认当前业务入口及独家范围外可评估的需求；停止：无开放品类或联系入口失效则维持暂缓。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Envalco"
+    "display_name": "Envalco",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P3 暂缓",
+      "fit": "直接相关但品牌与入口待核",
+      "entry_product": "不先推型号",
+      "reason": "独家Fivalco/FlowMate关系与访问不稳定叠加",
+      "unlock": "确认当前业务入口及独家范围外可评估的需求",
+      "stop": "无开放品类或联系入口失效则维持暂缓",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "先确认代理安排是否允许新增供应商，再进入型号资料。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "M06",
@@ -687,10 +915,29 @@
       "https://www.nyk.com.my/ourproducts/cid/587735/cat/pibcv-picv-dynamic-balancing-valve/",
       "https://www.nyk.com.my/contactus/"
     ],
-    "next_action": "先联系irinkang@nyk.com.my并请求转相关采购/产品岗位；确认其项目方案中是否存在独立机械压差阀这一采购位置。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P3 暂缓；确认其项目方案中是否存在独立机械压差阀这一采购位置；进入下一步：有负责人确认另购独立机械平衡/压差阀；停止：只有PICV需求则退出三类产品开发池。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "NYKK"
+    "display_name": "NYKK",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P3 暂缓",
+      "fit": "仅相邻PICV",
+      "entry_product": "不以ZL替代PICV",
+      "reason": "当前主要证据为Pettinaroli电动PICV",
+      "unlock": "有负责人确认另购独立机械平衡/压差阀",
+      "stop": "只有PICV需求则退出三类产品开发池",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认其项目方案中是否存在独立机械压差阀这一采购位置。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "U01",
@@ -741,10 +988,29 @@
       "https://fct-me.com/",
       "https://fct-me.com/Projects"
     ],
-    "next_action": "先联系info@fct-me.com并请求转相关采购/产品岗位；先了解既有建筑项目中最常触发新阀评审的原因。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P1 小批验证；先了解既有建筑项目中最常触发新阀评审的原因；进入下一步：确认新供应商受理部门和一项最先审核的文件；停止：品牌指定不可变或审核缺口无法关闭则暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "FCT"
+    "display_name": "FCT",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P1 小批验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45",
+      "reason": "相关阀类与工程分销路线可核；需要先过产品审核",
+      "unlock": "确认新供应商受理部门和一项最先审核的文件",
+      "stop": "品牌指定不可变或审核缺口无法关闭则暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "先了解既有建筑项目中最常触发新阀评审的原因。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "U02",
@@ -795,10 +1061,29 @@
       "https://junaidworld.com/plumbing-sanitary-ware-products-contact/",
       "https://junaidworld.com/junaid-sanitary-project-portfolio/"
     ],
-    "next_action": "先联系sales@junaid.ae并请求转相关采购/产品岗位；确认阀门新增品牌的实际评审部门。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；确认阀门新增品牌的实际评审部门；进入下一步：取得总部品类负责人且允许新增来源；停止：只有门店询价入口且无选品转介则暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Junaid Group"
+    "display_name": "Junaid Group",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45",
+      "reason": "Pegler批发渠道可核；分店与总部采购权未明",
+      "unlock": "取得总部品类负责人且允许新增来源",
+      "stop": "只有门店询价入口且无选品转介则暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认阀门新增品牌的实际评审部门。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "U03",
@@ -849,10 +1134,29 @@
       "https://anbisolutions.com/en/contact",
       "https://anbisolutions.com/sell"
     ],
-    "next_action": "先联系info@anbisolutions.com并请求转相关采购/产品岗位；确认是否直接评估海外供货，或只接受阿联酋持牌供应商。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P3 暂缓；确认是否直接评估海外供货，或只接受阿联酋持牌供应商；进入下一步：ANBI书面确认可由其进口采购或提供合法当地路线；停止：仅接受本地持牌入驻而无当地方案则暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "ANBI"
+    "display_name": "ANBI",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P3 暂缓",
+      "fit": "直接相关但进入路线未成立",
+      "entry_product": "不提交入驻或备货",
+      "reason": "平台对本地持牌主体有要求；不等于海外直供已获准",
+      "unlock": "ANBI书面确认可由其进口采购或提供合法当地路线",
+      "stop": "仅接受本地持牌入驻而无当地方案则暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认是否直接评估海外供货，或只接受阿联酋持牌供应商。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "U04",
@@ -902,10 +1206,29 @@
       "https://lustre.ae/chilled-water-valves/",
       "https://lustre.ae/contact/"
     ],
-    "next_action": "先联系support@lustre.ae并请求转相关采购/产品岗位；确认冷冻水DRV是按清单采购，还是全部固定来源。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；确认冷冻水DRV是按清单采购，还是全部固定来源；进入下一步：确认冷冻水阀由外部采购且可评估新增来源；停止：该类阀全部自产或无外采权则退出。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Lustre"
+    "display_name": "Lustre",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "品类可核但外采未明",
+      "entry_product": "SPF45，先核外购转售",
+      "reason": "产品体系包含冷冻水阀；兼制造角色需澄清",
+      "unlock": "确认冷冻水阀由外部采购且可评估新增来源",
+      "stop": "该类阀全部自产或无外采权则退出",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认冷冻水DRV是按清单采购，还是全部固定来源。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "U05",
@@ -955,10 +1278,29 @@
       "https://www.dutcotennant.com/images/DT-Product-Brochure-2025.pdf",
       "https://www.dutcotennant.com/connect-us"
     ],
-    "next_action": "先联系info@dutcotennant.com并请求转相关采购/产品岗位；请提供MEP阀门供应商预审清单/负责团队。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；请提供MEP阀门供应商预审清单/负责团队；进入下一步：获新来源初审清单及技术审查窗口；停止：必需资料不可补齐或完全指定品牌则暂停。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Dutco Tennant"
+    "display_name": "Dutco Tennant",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "直接相关",
+      "entry_product": "SPF45先核预审",
+      "reason": "技术型分销与项目要求可能形成资料门槛",
+      "unlock": "获新来源初审清单及技术审查窗口",
+      "stop": "必需资料不可补齐或完全指定品牌则暂停",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "请提供MEP阀门供应商预审清单/负责团队。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "U06",
@@ -1009,10 +1351,29 @@
       "https://maunselltrading.com/contact-us/",
       "https://maunselltrading.com/our-projects/"
     ],
-    "next_action": "先联系sales@maunselltrading.com并请求转相关采购/产品岗位；确认是否存在Maplef范围之外、可评估新增机械阀来源的采购位置。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P3 暂缓；确认是否存在Maplef范围之外、可评估新增机械阀来源的采购位置；进入下一步：确认独家范围外的独立机械阀采购位置；停止：仅Maplef指定体系或无外采缺口则退出。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Maunsell"
+    "display_name": "Maunsell",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P3 暂缓",
+      "fit": "相邻且品牌绑定",
+      "entry_product": "不以ZL替代PICV",
+      "reason": "Maplef独家与冷冻水/PICV业务明确；本品缺口未证实",
+      "unlock": "确认独家范围外的独立机械阀采购位置",
+      "stop": "仅Maplef指定体系或无外采缺口则退出",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "确认是否存在Maplef范围之外、可评估新增机械阀来源的采购位置。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   },
   {
     "id": "U07",
@@ -1062,9 +1423,28 @@
       "https://astic-dubai.com/product/belven-valves",
       "https://astic-dubai.com/"
     ],
-    "next_action": "先联系info@astic-dubai.com并请求转相关采购/产品岗位；若没有代理范围外的需求，明确结束本轮推介。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。",
+    "next_action": "P2 条件验证；若没有代理范围外的需求，明确结束本轮推介；进入下一步：负责人确认代理范围外可审核的新来源；停止：现有独家安排排除新增来源则退出。采购权限及当前需求未确认；不同时多渠道触达。",
     "owner": "FriesGo（待分配）",
     "followup_date": "",
-    "display_name": "Astic"
+    "display_name": "Astic",
+    "review": {
+      "reviewed_on": "2026-10-23",
+      "queue": "P2 条件验证",
+      "fit": "直接相关但品牌绑定",
+      "entry_product": "SPF45仅讨论代理范围外需求",
+      "reason": "Belven平衡阀与独家安排均可核",
+      "unlock": "负责人确认代理范围外可审核的新来源",
+      "stop": "现有独家安排排除新增来源则退出",
+      "authority_verified": false,
+      "demand_confirmed": false,
+      "source_open": null,
+      "quote_gates": {},
+      "owner": "",
+      "stage": "S2 公开相关性已核",
+      "outreach_status": "未发送",
+      "first_channel": "公开业务邮箱；发送前复核入口",
+      "next_commitment": "若没有代理范围外的需求，明确结束本轮推介。"
+    },
+    "legacy_score_note": "2026-10-23 v1研究匹配分；v2不据此决定报价或购买意愿"
   }
 ]

@@ -1,0 +1,378 @@
+{
+  "version": "2.0.0",
+  "date": "2026-10-23",
+  "visual_review": "passed",
+  "word_pages": 53,
+  "files": [
+    {
+      "path": "00_先读这里.txt",
+      "sha256": "01f51d2964e19e66425761d13452d620f509d575dc4cbac1cb698364b9dd24ee",
+      "bytes": 426
+    },
+    {
+      "path": "01_项目审核与优化.md",
+      "sha256": "83b2fda36c7e9f3fefd0969d16df54ebd8172906cb950c2ff242af9f51de3128",
+      "bytes": 12060
+    },
+    {
+      "path": "02_业务员推进手册.md",
+      "sha256": "abbe1c905c35ec742c6665efe25394fe042c9badaeeec2cf765760cf116eb951",
+      "bytes": 6527
+    },
+    {
+      "path": "03_原市场研究_保留原日期.md",
+      "sha256": "f5dcbb7dbcdf2016d77d008de34aaf4e3f1eb1194ff5b6683b1c4c3655dab6f7",
+      "bytes": 21982
+    },
+    {
+      "path": "04_20家客户与开发信.md",
+      "sha256": "e1ec6ec129e14b45ccd7c705aeebd6fbe91e4084e9712da41e7ca8644ccff680",
+      "bytes": 68996
+    },
+    {
+      "path": "05_客户来源与行动.csv",
+      "sha256": "f23e7545022d84da31cc2d722dca5088bf0c253755da5454e8cb5f255ab00a44",
+      "bytes": 7138
+    },
+    {
+      "path": "06_业务员操作记录_一页横版.pdf",
+      "sha256": "58035edc0281f3bc78daf1724bdbf4925eb6232a8fed21f00d2a00a032bc555d",
+      "bytes": 89796
+    },
+    {
+      "path": "06_业务员操作记录_一页横版.xlsx",
+      "sha256": "43929b5f499ae0c21737405c69c9b327202fb882e2e5d5bdd71c3743219b2588",
+      "bytes": 5394
+    },
+    {
+      "path": "07_20家客户与推进工作簿.xlsx",
+      "sha256": "f23405f3af7f91cd9cc1e7a7d0805d0cf63f3fb8e5054aa0a6792e95f1335527",
+      "bytes": 48145
+    },
+    {
+      "path": "08_产品资料卡.md",
+      "sha256": "6240c359aa0337b7c3642d041c1ee095c1ee10a11eb956736dcd9206553350f6",
+      "bytes": 4058
+    },
+    {
+      "path": "FriesGo_审核优化与20家客户开发手册_v2.docx",
+      "sha256": "c1a3e722553db6fcb6e3b2626444f8e512cf7f30209edafe9c8351a03a63bff5",
+      "bytes": 78511
+    },
+    {
+      "path": "action_decisions.json",
+      "sha256": "575958209852b82abb7454468506eebb5c084295173e5fac38bbfd31d7b650b0",
+      "bytes": 6303
+    },
+    {
+      "path": "build-validation.json",
+      "sha256": "0c9e880955b302751573f75aac9601b7d7ec8893bd90d1e0fd89a6d4d305fa51",
+      "bytes": 625
+    },
+    {
+      "path": "canonical_accounts.json",
+      "sha256": "47982553045a532602b1b7ab6eee8f043d5c362208dc911d172bc38a83be8f9e",
+      "bytes": 112269
+    },
+    {
+      "path": "evidence/audit-primary-sources.json",
+      "sha256": "277d955cd22d93deb1b33a8993ba9e171c980574ab91a14d7ed9b2110cdc5c29",
+      "bytes": 3510
+    },
+    {
+      "path": "evidence/source-audit-2026-10-23.json",
+      "sha256": "0a57ea09384d673d60f010bb0b9e436cd1a6fb240f29c8295d3121a4da963955",
+      "bytes": 21774
+    },
+    {
+      "path": "evidence/trade/china_export_2023.json",
+      "sha256": "536cf8676f94481cd9d5e4de66dce5e2cd815a0627dfa46ebf00ea394e07c0ce",
+      "bytes": 11550
+    },
+    {
+      "path": "evidence/trade/china_export_2024.json",
+      "sha256": "9db7d95002c4a2806af2ef4b9c8557daff61a80fee8a1642e0abf369024f5333",
+      "bytes": 11551
+    },
+    {
+      "path": "evidence/trade/china_export_2025.json",
+      "sha256": "c62b6bd92907b11ac3252974b75ffca49bc439bf85b14c61f8ac871ad1a6b735",
+      "bytes": 11552
+    },
+    {
+      "path": "evidence/trade/china_export_202606.json",
+      "sha256": "83b570b2066d52031e1d744bf32601722e7d730d62602d806ee6bc798ffc0f18",
+      "bytes": 355
+    },
+    {
+      "path": "evidence/trade/china_export_202607.json",
+      "sha256": "8d878eeb605e0f5ba695fd882eb4756a95f11e6a6d70a35a2ebec35d25dc9d0a",
+      "bytes": 355
+    },
+    {
+      "path": "evidence/trade/china_export_202608.json",
+      "sha256": "13a9bf279c2faab223db59b7dd16442863005251f7603cb743a6ccf0c79cdb58",
+      "bytes": 355
+    },
+    {
+      "path": "evidence/trade/china_export_202609.json",
+      "sha256": "ac37c454f15a0e4829fe0069cddaad97d9d2cb3002fdba9bec34e9c7cbd2fd15",
+      "bytes": 355
+    },
+    {
+      "path": "evidence/trade/comtrade_2023.json",
+      "sha256": "83c62c3459fc4fd3bdfb1de83fee856d156da29d84551fd939b29682f4c3c626",
+      "bytes": 359
+    },
+    {
+      "path": "evidence/trade/comtrade_2023_retry.json",
+      "sha256": "52add1d983cf06aa7e57bebf34d30fff632257e4fd77655e4919f4e2c1da6eef",
+      "bytes": 11530
+    },
+    {
+      "path": "evidence/trade/comtrade_2024.json",
+      "sha256": "dedfebe5b416a2c752c66594d152d0f30e9cc0a2740b68c3d3c9b8a204d50119",
+      "bytes": 359
+    },
+    {
+      "path": "evidence/trade/comtrade_2024_retry.json",
+      "sha256": "2e2f968cb8be31ec47015a3eabc8ef321de97cf01203fa86c2196017570f64f4",
+      "bytes": 8746
+    },
+    {
+      "path": "evidence/trade/comtrade_2025.json",
+      "sha256": "088c3703d70eac69575e1e495d8cd85edb2e50b8dfa36b4477d002d904bee9e7",
+      "bytes": 7369
+    },
+    {
+      "path": "evidence/trade/comtrade_probe.json",
+      "sha256": "b57ced83d31454a2aee3129d02e6dd279c5cb21ab983a050226a4ab8c377a2d1",
+      "bytes": 294
+    },
+    {
+      "path": "evidence/trade/comtrade_screen.json",
+      "sha256": "3f408f5edcf1926fab57136b0a635e0a2cbed8eacc45643c3c86fb2a2c4bcf86",
+      "bytes": 364
+    },
+    {
+      "path": "letter-review-v2.json",
+      "sha256": "cf0e97450592d3f5d74ccd70b1cb0b750a723890562dd964a83b3e686a007f41",
+      "bytes": 979
+    },
+    {
+      "path": "operating_model.json",
+      "sha256": "fcb83ee4a9e40fc3a80b7623465256b111be29ccd6d523326ec78f41179cf1d8",
+      "bytes": 4203
+    },
+    {
+      "path": "output-checks.json",
+      "sha256": "bdd831810f9ad365a7c031ab5b50d82c9bf1d67deb62e52eff059fde0c8fc266",
+      "bytes": 189
+    },
+    {
+      "path": "visual-review.json",
+      "sha256": "0f768bd78324dd697530d8bb761daee2ec3758edf93a19f2cbd6230a409ae755",
+      "bytes": 6229
+    },
+    {
+      "path": "开发信_逐家/M01.md",
+      "sha256": "ffeab439738763cfde826f08505177fcfb4d2130ba688e75173bd290f7adbb0c",
+      "bytes": 2927
+    },
+    {
+      "path": "开发信_逐家/M01.txt",
+      "sha256": "7f741866e098a46336d35245049fef8955986523ca84f9447387f54c1d39f13f",
+      "bytes": 730
+    },
+    {
+      "path": "开发信_逐家/M02.md",
+      "sha256": "17d4513539fb6a4d26cece0c6a9d2764a32c8e138ab4e44eda8ac5176c99a378",
+      "bytes": 3075
+    },
+    {
+      "path": "开发信_逐家/M02.txt",
+      "sha256": "42400f2b3196546de8d2166e6378cf261ab4bf5595c2c1153412245154ad6293",
+      "bytes": 745
+    },
+    {
+      "path": "开发信_逐家/M03.md",
+      "sha256": "974bf80913db677d788eebaf3ac1c7c52d182177bba8200074baaad905dfb449",
+      "bytes": 3295
+    },
+    {
+      "path": "开发信_逐家/M03.txt",
+      "sha256": "d79a91fdd6af5425fbc3d715433da63a00ffa448c82aae1eccebb302866e547c",
+      "bytes": 842
+    },
+    {
+      "path": "开发信_逐家/M04.md",
+      "sha256": "af1a8ad5beda44fbd9eee0502397c73a4c476d72991ca2d24ba7d91862ffceb2",
+      "bytes": 3027
+    },
+    {
+      "path": "开发信_逐家/M04.txt",
+      "sha256": "7aad4504c65ec987c173e2b24165d33f11042b49740c18f58d97f953678f6606",
+      "bytes": 796
+    },
+    {
+      "path": "开发信_逐家/M05.md",
+      "sha256": "2032920b9af74fe4ecf9d6e935ee8d8bae5f5ea2184fe44eb33d2af16594cf9a",
+      "bytes": 3101
+    },
+    {
+      "path": "开发信_逐家/M05.txt",
+      "sha256": "83e69f8d07acf2c17457d521a5f1ed9bc804b775a8434ac16f2eaf4b7c8429f9",
+      "bytes": 848
+    },
+    {
+      "path": "开发信_逐家/M06.md",
+      "sha256": "bb68d65313de50a4a57f779bceb76bd7a97d02618c08d692f43709d28765f15f",
+      "bytes": 3100
+    },
+    {
+      "path": "开发信_逐家/M06.txt",
+      "sha256": "fa63cc7afa034e261c3bb68e992371b4629ac3e307e8319f53ac191aac8aea26",
+      "bytes": 832
+    },
+    {
+      "path": "开发信_逐家/U01.md",
+      "sha256": "abd2814c3431ae5e9d63689f8a5f4e1eeda35913b93d7fac91ac7d5629bba26a",
+      "bytes": 3113
+    },
+    {
+      "path": "开发信_逐家/U01.txt",
+      "sha256": "e715fa1510ecc7e336f328f251798e3cdd9b73cebb57974e5b346a09bfd1bc09",
+      "bytes": 834
+    },
+    {
+      "path": "开发信_逐家/U02.md",
+      "sha256": "a30baaa6be34bf2de5bf8fa8d000bab96b04622dbee09dbb893f15b6f8b0c96d",
+      "bytes": 3171
+    },
+    {
+      "path": "开发信_逐家/U02.txt",
+      "sha256": "577a8d13b2d79efd06925a66ca58f100356d27edbbbe14570f95f54a8d85180e",
+      "bytes": 772
+    },
+    {
+      "path": "开发信_逐家/U03.md",
+      "sha256": "ea0c799ae428f9a5bf1242b3672623fc413cfd5001503f253757ab58cd072d32",
+      "bytes": 3374
+    },
+    {
+      "path": "开发信_逐家/U03.txt",
+      "sha256": "8d08bee911ef136da63ea3078c73359ef0944275ebb3af290f741077d50f5419",
+      "bytes": 856
+    },
+    {
+      "path": "开发信_逐家/U04.md",
+      "sha256": "3b94a205be54c12c1569ad1941b77ba431ab270ab42abdf11a53ae3fd3352d2a",
+      "bytes": 2889
+    },
+    {
+      "path": "开发信_逐家/U04.txt",
+      "sha256": "f98599e0372efdb824e4e1022c99c6e7bb9ef2eab0b460143dc99513cb830a4b",
+      "bytes": 798
+    },
+    {
+      "path": "开发信_逐家/U05.md",
+      "sha256": "33c0939641f66d79738870bccaca2164af913a2179d84a4b3d23e0e0a3556bbe",
+      "bytes": 3124
+    },
+    {
+      "path": "开发信_逐家/U05.txt",
+      "sha256": "1097197b50c92177936307cff4f0990769edcfff42b8da53b3f9b1a679db5bbd",
+      "bytes": 841
+    },
+    {
+      "path": "开发信_逐家/U06.md",
+      "sha256": "01ddcbff64c47a6d00c16b1f4d382159f7743a13b58b0873fb4db2ecc24e07bc",
+      "bytes": 3308
+    },
+    {
+      "path": "开发信_逐家/U06.txt",
+      "sha256": "c0f9b1c78943b97d59ce0b09c77c2cb6e17c4e8fcb933b34fc06d63d5fbff163",
+      "bytes": 852
+    },
+    {
+      "path": "开发信_逐家/U07.md",
+      "sha256": "23251a9f2fa30b5b8fd5bc8f655ec4719012df3fb70dd1bd1bbdd63d14bb382b",
+      "bytes": 2975
+    },
+    {
+      "path": "开发信_逐家/U07.txt",
+      "sha256": "36edc3324b6295d5a004ec75321fd6238e432ea5fd84905157cfc84de8874de9",
+      "bytes": 796
+    },
+    {
+      "path": "开发信_逐家/V01.md",
+      "sha256": "b65a2e65a53708f9717122bd0500489cf8835ab73cb5a472ed1234dc285dcd60",
+      "bytes": 4069
+    },
+    {
+      "path": "开发信_逐家/V01.txt",
+      "sha256": "92b3427b1c4e0015442bf87afb25f2ed0568281ff8f288519c52d3161f052dd5",
+      "bytes": 1004
+    },
+    {
+      "path": "开发信_逐家/V02.md",
+      "sha256": "acea6e373e69fceaa458ca52dd7cd3084c11e2f28da4d7590aedddbe17dcbced",
+      "bytes": 3960
+    },
+    {
+      "path": "开发信_逐家/V02.txt",
+      "sha256": "e2a7afd3c1d116146d9be0f8bb34f2cd228ab2db8804be70494a05c8fb693428",
+      "bytes": 930
+    },
+    {
+      "path": "开发信_逐家/V03.md",
+      "sha256": "03b69275bdd15c214bcaefafc55d59be7e0208d742896fe7d2b66834a9194099",
+      "bytes": 4355
+    },
+    {
+      "path": "开发信_逐家/V03.txt",
+      "sha256": "b1a38f548f0f86983b90b348159daf19bbb506fc638e7f809c924e4cae9a0674",
+      "bytes": 995
+    },
+    {
+      "path": "开发信_逐家/V04.md",
+      "sha256": "b1e43b7f47cb42e4b4c3b6ed7554c7c71688069fb934eb1ca75b42a8e97b1c4e",
+      "bytes": 3635
+    },
+    {
+      "path": "开发信_逐家/V04.txt",
+      "sha256": "7c44c7ae992242c6ec136e605b9ed35141fee35e5c437342941b168b8f5539c9",
+      "bytes": 908
+    },
+    {
+      "path": "开发信_逐家/V05.md",
+      "sha256": "bfa105c9a909b96a15333e895a9682b9807baa84b00cb348ab76e8adc2be69b9",
+      "bytes": 4281
+    },
+    {
+      "path": "开发信_逐家/V05.txt",
+      "sha256": "a946d4a214c067b3a8695448764d33fbf3d222f87598041f234e8b528b6e2ccd",
+      "bytes": 1007
+    },
+    {
+      "path": "开发信_逐家/V06.md",
+      "sha256": "c722e48a1a2e3dd405c68831e9e198ad45b1fb00663c265ac68bf0bbba0d52ca",
+      "bytes": 3997
+    },
+    {
+      "path": "开发信_逐家/V06.txt",
+      "sha256": "122e907ccf25daed3f338a60dc9f6dc4e9d208c6aa705a5141523dc37d8f9fb0",
+      "bytes": 949
+    },
+    {
+      "path": "开发信_逐家/V07.md",
+      "sha256": "4b4fb45b36529d862abb8122923248f5b6b832cb5a456c6ab3f9e447dcc61f9e",
+      "bytes": 4092
+    },
+    {
+      "path": "开发信_逐家/V07.txt",
+      "sha256": "3eca24f910878e4e3e21bb1e29d4e12dafa3eb520b6d47e8d593a973ec0df6b2",
+      "bytes": 978
+    }
+  ]
+}

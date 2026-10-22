@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-23",
+  "english_words": {
+    "V01": 98,
+    "V02": 98,
+    "V03": 100,
+    "V04": 82,
+    "V05": 96,
+    "V06": 95,
+    "V07": 102,
+    "M01": 87,
+    "M02": 88,
+    "M03": 105,
+    "M04": 102,
+    "M05": 101,
+    "M06": 97,
+    "U01": 101,
+    "U02": 98,
+    "U03": 99,
+    "U04": 98,
+    "U05": 92,
+    "U06": 98,
+    "U07": 97
+  },
+  "distinct_english_letters": 20,
+  "revised_ids": [
+    "V04",
+    "V06",
+    "M01",
+    "M02"
+  ],
+  "top_similarity_pairs": [
+    [
+      0.19532908704883228,
+      "V05",
+      "U05"
+    ],
+    [
+      0.18143160878809356,
+      "V05",
+      "U06"
+    ],
+    [
+      0.1677327647476901,
+      "V05",
+      "M03"
+    ],
+    [
+      0.1664145234493192,
+      "M02",
+      "M03"
+    ],
+    [
+      0.1659634317862166,
+      "V07",
+      "U05"
+    ]
+  ],
+  "manual_review": "All 20 reviewed for fact, distinct commercial question, claim scope and current queue; similarity alone is not acceptance",
+  "sent_messages": 0
+}

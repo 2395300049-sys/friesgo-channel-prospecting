@@ -16,7 +16,7 @@ class ReproductionTests(unittest.TestCase):
     def test_reproduction_preserves_reviewed_bytes_and_source(self):
         before=hashlib.sha256((ROOT/'data/canonical_accounts.json').read_bytes()).hexdigest()
         with tempfile.TemporaryDirectory(dir=self._output_root()) as d:
-            output=reproduce(Path(d))
+            output=reproduce(Path(d),version='v1')
             manifest=json.loads((SNAPSHOT/'manifest.json').read_text())
             for rec in manifest['files']:
                 self.assertEqual(hashlib.sha256((output/rec['path']).read_bytes()).hexdigest(),rec['sha256'])
@@ -25,7 +25,7 @@ class ReproductionTests(unittest.TestCase):
         self.assertEqual(before,after)
 
     def test_source_destination_rejected(self):
-        with self.assertRaises(AssertionError):reproduce(SNAPSHOT)
+        with self.assertRaises(AssertionError):reproduce(SNAPSHOT,version='v1')
 
     def _output_root(self):
         out=ROOT/'outputs';out.mkdir(exist_ok=True);return out

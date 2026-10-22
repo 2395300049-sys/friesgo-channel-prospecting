@@ -15,51 +15,39 @@ def dependency_paths():
     if not Path(soffice).exists():soffice=shutil.which('soffice')
     return py,node,modules,soffice
 
-def reproduce(destination, rebuild=False, rebuild_word=False):
-    validate_snapshot()
+def reproduce(destination, rebuild=False, rebuild_word=False, version='v2'):
+    if rebuild or rebuild_word:
+        # Never copy old reports/letters into a current rebuild. One data batch
+        # owns all formats, including TXT/MD/CSV, before atomic publication.
+        from build_current import build_current
+        if rebuild_word:
+            print('--rebuild-word now rebuilds the complete current pack to preserve consistency.',file=sys.stderr)
+        return build_current(destination)
+    if version=='v1':
+        validate_snapshot();snapshot=SNAPSHOT
+    else:
+        from validate_release import V2, validate_release
+        validate_release();snapshot=V2
     destination=Path(destination).resolve()
     # Do not allow the immutable snapshot or repository source to be overwritten.
     assert destination==ROOT/'outputs/latest' or ROOT/'outputs' in destination.parents, 'Output must be under outputs/'
-    destination.mkdir(parents=True,exist_ok=True)
-    for src in SNAPSHOT.iterdir():
-        if src.name=='manifest.json':continue
-        dst=destination/src.name
-        if src.is_dir():shutil.copytree(src,dst,dirs_exist_ok=True)
-        else:shutil.copy2(src,dst)
-    if rebuild or rebuild_word:
-        py,node,modules,soffice=dependency_paths()
-        env=dict(os.environ,FRIESGO_OUTPUT_DIR=str(destination))
-        shutil.copy2(ROOT/'data/canonical_accounts.json',destination/'canonical_accounts.json')
-        shutil.copy2(ROOT/'data/market_model.json',destination/'market_model.json')
-        shutil.copy2(ROOT/'docs/market-research-2026-10-23.md',destination/'01_市场调研与渠道选择依据.md')
-        subprocess.run([py,str(ROOT/'scripts/build_word.py')],check=True,env=env)
-        if rebuild:
-            if not node or not (modules/'@oai/artifact-tool').exists():
-                raise RuntimeError('Rebuild requires the documented Codex @oai/artifact-tool runtime. Snapshot mode needs no such dependency.')
-            target=ROOT/'node_modules'
-            if not target.exists():target.symlink_to(modules,target_is_directory=True)
-            for name in ['build_workbook.mjs','build_print_tracker.mjs']:
-                subprocess.run([node,str(ROOT/'scripts'/name)],check=True,env=env)
-            subprocess.run([py,str(ROOT/'scripts/set_tracker_print.py')],check=True,env=env)
-            pdf=destination/'06_业务员操作记录_一页横版.pdf'
-            pdf.unlink(missing_ok=True)
-            if soffice:
-                if not env.get('FONTCONFIG_FILE'):
-                    from prepare_fonts import configure
-                    dep=Path.home()/'.cache/codex-runtimes/codex-primary-runtime/dependencies'
-                    env['FONTCONFIG_FILE']=configure(ROOT,dep)
-                subprocess.run([soffice,'--headless','--convert-to','pdf','--outdir',str(destination),
-                                str(destination/'06_业务员操作记录_一页横版.xlsx')],check=True,env=env,timeout=120)
-                if not pdf.exists():raise RuntimeError('LibreOffice did not create the new print PDF')
-            else:print('No LibreOffice: new print PDF not created. Print the new XLSX or install LibreOffice.',file=sys.stderr)
-        (destination/'重建说明.txt').write_text('本目录按已有数据重新排版，不代表重新联网核验。重排后的Word须逐页检查，打印PDF须重新确认一页横版。\n')
+    import tempfile
+    from build_current import publish_staging
+    destination.parent.mkdir(parents=True,exist_ok=True)
+    staging=Path(tempfile.mkdtemp(prefix='.reproduce-',dir=destination.parent))
+    try:
+        shutil.copytree(snapshot,staging,dirs_exist_ok=True)
+        publish_staging(staging,destination)
+    except BaseException:
+        if staging.exists():shutil.rmtree(staging)
+        raise
     package=destination/'FriesGo_完整复用包.zip'
     with zipfile.ZipFile(package,'w',zipfile.ZIP_DEFLATED) as z:
         for src in sorted(destination.rglob('*')):
             if src.is_file() and src!=package and not any(s in str(src) for s in ['.inspect.ndjson','previews/','print_tracking_qa/']):
                 z.write(src,str(src.relative_to(destination)))
     print(destination)
-    print('Reproduced historical files; source verification date remains 2026-10-23.')
+    print(f'Reproduced {version} reviewed snapshot; original source dates preserved.')
     return destination
 
 if __name__=='__main__':
@@ -67,5 +55,6 @@ if __name__=='__main__':
     parser.add_argument('--output',type=Path,default=ROOT/'outputs/latest')
     parser.add_argument('--rebuild',action='store_true')
     parser.add_argument('--rebuild-word',action='store_true')
+    parser.add_argument('--version',choices=['v1','v2'],default='v2')
     args=parser.parse_args()
-    reproduce(args.output,args.rebuild,args.rebuild_word)
+    reproduce(args.output,args.rebuild,args.rebuild_word,args.version)

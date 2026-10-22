@@ -1,0 +1,24 @@
+{
+  "schema": {
+    "accounts": 20,
+    "pilot": 6,
+    "all_sources_reverified": false,
+    "formal_quote_ready": 0
+  },
+  "text_only": false,
+  "visual_review": "passed; see visual-review.json for exact file hashes",
+  "input_hashes": {
+    "canonical_accounts.json": "47982553045a532602b1b7ab6eee8f043d5c362208dc911d172bc38a83be8f9e",
+    "operating_model.json": "fcb83ee4a9e40fc3a80b7623465256b111be29ccd6d523326ec78f41179cf1d8"
+  },
+  "queues": {
+    "P1 小批验证": 6,
+    "P2 条件验证": 10,
+    "P3 暂缓": 4
+  },
+  "source_dates": [
+    "2026-10-23"
+  ],
+  "report_date": "2026-10-23",
+  "version": "2.0.0"
+}

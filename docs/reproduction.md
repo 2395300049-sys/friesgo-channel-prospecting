@@ -1,6 +1,6 @@
 # 生成与验收
 
-## 取回本次已验收文件
+## 取回已验收文件
 
 ```bash
 git clone https://github.com/2395300049-sys/friesgo-channel-prospecting.git
@@ -8,43 +8,41 @@ cd friesgo-channel-prospecting
 python3 scripts/reproduce.py
 ```
 
-仅需Python 3.10及以上，标准库即可。输出到 `outputs/latest/`，附完整ZIP。命令先检查公开快照哈希，保留2026年10月23日核验日期；不会联网，不会发送，也不会伪造重新核验。
+Python 3.10及以上，仅用标准库。默认取优化后的v2快照到outputs/latest，附ZIP；不联网、不改核验日期。取原版用 `python3 scripts/reproduce.py --version v1`。两版均保存冻结输入，当前主数据变化不影响历史复现。
 
-仅校验仓库：`python3 scripts/validate.py`。
-
-## 从当前主数据重新排版
-
-在Codex桌面环境中通过依赖工具获取Python、Node、包目录。重建还需要 `python-docx` 和 `lxml`。脚本优先使用显式环境变量，其次发现Codex缓存运行时，最后检查PATH。
+## 从当前数据生成
 
 ```bash
-python3 scripts/reproduce.py --rebuild
+python3 scripts/build_current.py
 ```
 
-该模式先建立临时输出目录，复制已验收材料，读取 `data/` 中的客户/市场主表和报告，重新生成Word、客户Excel、一页打印Excel。源JSON与历史快照均不被覆盖。`@oai/artifact-tool` 不是公开仓库自带依赖；脚本不假装普通npm安装即可取得它。未发现正确运行时时明确报错，普通快照复现仍可用。
+输出到outputs/current。读取canonical_accounts、operating_model及所指审核、市场、推进、产品资料文本，统一生成档案、逐家TXT、Markdown、CSV、Word、客户Excel与一页打印Excel/PDF。先在临时目录构建并交叉检查，再整体替换目标；失败保留之前完整输出。
 
-必要时设置：
+完整生成需要Codex依赖工具提供的Python、Node、@oai/artifact-tool、python-docx、lxml、pypdf和LibreOffice。表格运行时不是本仓库自带npm包，不能假装普通npm安装即可取得。字体首次按官方固定提交下载并校验，缓存于忽略的outputs/.fontcache。普通快照模式没有这些依赖。
+
+可设置FRIESGO_PYTHON、FRIESGO_NODE、FRIESGO_NODE_MODULES、FRIESGO_SOFFICE指定运行时。`python3 scripts/reproduce.py --rebuild` 也进入完整构建链。旧 `--rebuild-word` 改为完整构建，避免只更新一种格式造成矛盾。
+
+只检查和导出文字：`python3 scripts/build_current.py --text-only`。该模式不生成Office/PDF，不能作为完整交付。
+
+## 新研究与排版的区别
+
+生成器不查客户、不更新事实日期、不编写市场结论。新研究需按SKILL重新核实，更新主数据、经营模型及相应叙述。旧报告随包保留时须标明历史属性。不能仅换名字或报告日期就称为新研究。
+
+旧build_word.py与build_workbook.mjs保留为v1制作记录，当前入口不再调用。当前构建器为build_current、build_current_word、build_current_workbook。打印构建器继续遵守20行、一页横版和160个空记录格。
+
+## 检查命令
 
 ```bash
-FRIESGO_PYTHON=/path/to/python3 FRIESGO_NODE=/path/to/node FRIESGO_NODE_MODULES=/path/to/node_modules python3 scripts/reproduce.py --rebuild
+python3 scripts/validate.py
+python3 scripts/current_model.py
+python3 scripts/validate_release.py
+python3 -m unittest discover -s tests -v
 ```
 
-只重建Word可用 `--rebuild-word`，需要python-docx/lxml但不需要Node。普通Python环境先 `python3 -m pip install -r requirements.txt`。
+依次检查v1冻结字节及隐私路径、当前数据与经营条件、v2冻结包、变更传播及失败回滚等行为。完整构建后，使用同一环境运行 `python3 scripts/validate_current_outputs.py outputs/current` 核对Word、Excel、逐家草稿和打印结果。
 
-如果发现LibreOffice，重建打印Excel后会另导出PDF；可以通过 `FRIESGO_SOFFICE` 指定可执行文件。依赖不全时不把旧PDF当新PDF。重建文件的排版仍须重新视觉检查，原53页Word及1页PDF的验收结果不能自动转移给不同平台的重排版本。
+## 视觉验收及发布
 
-首次需要无界面PDF排版且未指定 `FONTCONFIG_FILE` 时，会从Noto官方仓库固定提交下载两份CJK字体并校验SHA256，缓存于忽略的 `outputs/.fontcache/`；普通快照复现不下载字体。字体不作为仓库附件发布。
+新build-validation默认记录visual_review为pending。结构检查不批准版式。新Word必须渲染并逐页查看；表格检查主要内容、长文字和公式；打印PDF确认1页、约297乘210mm、20行无截断及操作格空白。视觉通过后另记当次文件哈希、页数与检查范围，不能复制旧证明。
 
-当前脚本是2026年10月23日案例构建器，含案例日期、国家分配与说明。新调研不是批量换名：按 `SKILL.md` 重新研究并同步报告、主数据、生成文字，再导出和验证。
-
-## 验收要点
-
-- 20个唯一账户，与名单、表格、Word、信件和来源的ID一致。
-- 所有已选业务邮箱、电话、地址、事实、障碍和信件原文不丢失。
-- 开发信20个独立商业问题；英文少于150词；本轮7份越南语、20份英文及20份中文。
-- Word逐页渲染，检查中文、越南语、表格、来源链接、分页、孤行和空白页；不以文本提取代替视觉验收。
-- 打印Excel的区域为A1:I25，A4横向、宽高均1页。导出PDF核实页面数1、尺寸约297×210mm、20家公司全在本页。渠道操作格必须为空。
-- 复制/修改后检查文本与Office内部链接无私人路径或凭据。公开目录不放以后填写的实际客户跟进结果。
-
-## 公共仓库与本地技能
-
-仓库根目录就是一个技能入口，`SKILL.md` 采用标准技能结构，参考文件相对引用。用技能安装器将该仓库安装为 `friesgo-channel-prospecting`，或将本地检出目录链接到技能目录，即可用 `$friesgo-channel-prospecting` 调用。其他助手无需安装，也可从README的一句话及仓库链接开始。
+经核验的输出另存新日期或版本目录，再生成manifest，保留原快照。公共包只收最终文件、冻结输入与核验记录，不收预览图、第三方网页全文、私人路径、买方回复和真实业务日志。重新生成不等于联网更新，也不自动发送或发布。

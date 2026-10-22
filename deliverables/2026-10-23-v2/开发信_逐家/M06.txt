@@ -1,0 +1,13 @@
+To: irinkang@nyk.com.my
+状态: 草稿 未发送；P3 暂缓
+Subject: A separate branch-control duty alongside NYKK’s PICV solutions
+
+Hello NYKK team,
+
+Your Pettinaroli offering includes actuated PICVs for terminal control. Our three mechanical valve families do not provide that same function.
+
+The possible connection is elsewhere in a hydronic design: an independently controlled branch differential pressure. FriesGo Global supplies the self-acting ZTY47 family for evaluation against that duty.
+
+Do your project packages ever specify a separate mechanical differential-pressure controller alongside the terminal controls? If they do, we could discuss one circuit arrangement with the relevant engineer. If NYKK's scope is limited to nominated-brand actuated PICVs, this would not be a useful supply proposal.
+
+FriesGo Global

@@ -31,7 +31,8 @@ def validate_snapshot():
         file=SNAPSHOT/rec['path']
         assert file.is_file(),file
         assert hashlib.sha256(file.read_bytes()).hexdigest()==rec['sha256'],file
-    accounts=json.loads((ROOT/'data/canonical_accounts.json').read_text())
+    # Historical bytes are compared with historical inputs, never live research.
+    accounts=json.loads((ROOT/'data/archive/accounts-2026-10-23-v1.json').read_text())
     assert len(accounts)==20
     assert len({a['id'] for a in accounts})==20
     assert len({a['email'].lower() for a in accounts})==20

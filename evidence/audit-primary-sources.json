@@ -1,0 +1,84 @@
+{
+  "review_date": "2026-10-23",
+  "method": "official page content read through browser/search tools; short paraphrases, no page republication",
+  "sources": [
+    {
+      "company": "Optimus",
+      "url": "https://www.optimusdistributor.com.my/showproducts/productid/4588118/cid/479227/art-6535dn-balancing-valve/",
+      "observation": "法兰手动平衡DN65—200；不能据此认定允许新增来源",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "Source Code Asia",
+      "url": "https://sca.com.my/product/balancing-valves/",
+      "observation": "BV75为DN15—50螺纹；不证明SPF45法兰替换需求",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "NYKK",
+      "url": "https://www.nyk.com.my/ourproducts/cid/587735/cat/pibcv-picv-dynamic-balancing-valve/",
+      "observation": "Pettinaroli PICV/PIBCV；未证明独立机械阀采购",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "Envalco",
+      "url": "https://www.envalco.com.my/about-us/",
+      "observation": "官网列Fivalco/FlowMate独家；检索工具可读，直连失败不等于企业失效",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "Maunsell",
+      "url": "https://maunselltrading.com/our-products/",
+      "observation": "Maplef独家，包含冷冻水/PICV/FCU品类；新来源缺口未知",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "Astic",
+      "url": "https://astic-dubai.com/product/belven-valves",
+      "observation": "有Belven平衡阀及独家安排；网页工具可读，HTTP直连失败",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "ANBI",
+      "url": "https://www.anbisolutions.com/public/sell",
+      "observation": "平台要求当地注册持牌主体；不外推为全集团不能直接进口",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "Seng Choon",
+      "url": "https://sengchoon.com.my/services/",
+      "observation": "官网列FCU Balancing Valve Assembly Kits；口径与采购权限未知",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "Caleffi",
+      "url": "https://www.caleffi.com/sites/default/files/media/external-file/03191_EN_CIRCUIT%20BALANCING%20DEVICES_1.pdf",
+      "observation": "调试计算涉及型号/口径/开度Kv与实测压差；不移植为FriesGo性能",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "Danfoss",
+      "url": "https://designcenter.danfoss.com/products/climate-solutions-for-heating/hydronic-balancing-and-control/differential-pressure-control/differential-pressure-controllers/asv-pv/asv-pv-3-gen/p/003Z0639",
+      "observation": "官方DN100产品分别列支路压差设定、阀上最大压差、Kvs、取压管与安装位置",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "Tuấn Hưng Phát",
+      "url": "https://tuanhungphat.vn/van-can-bang-tinh/",
+      "observation": "静态阀文章及2026-07-25日期可核；企业自述不是购买承诺",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "DOHACO",
+      "url": "https://dohaco.com/nganh/24890/van-can-bang-balancing-valves.html",
+      "observation": "平衡阀品类及公开业务邮箱可核",
+      "purchasing_evidence": false
+    },
+    {
+      "company": "VIMI",
+      "url": "https://vimi.com.vn/van-samyang",
+      "observation": "Samyang与阀门分销内容可核；负责新增来源团队未知",
+      "purchasing_evidence": false
+    }
+  ]
+}

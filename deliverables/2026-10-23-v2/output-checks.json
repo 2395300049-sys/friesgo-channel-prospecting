@@ -1,0 +1,9 @@
+{
+  "accounts": 20,
+  "blank_print_cells": 160,
+  "blank_event_cells": 180,
+  "a4_landscape_pages": 1,
+  "word_and_xlsx_consistent": true,
+  "visual_review": "passed",
+  "word_pages": 53
+}
