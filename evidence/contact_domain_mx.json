@@ -1,0 +1,97 @@
+[
+  {
+    "domain": "anbisolutions.com",
+    "mx": "0 anbisolutions-com.mail.protection.outlook.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "astic-dubai.com",
+    "mx": "0 asticdubai-com01c.mail.protection.outlook.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "combitek.com",
+    "mx": "0 combitek-com.mail.protection.outlook.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "culmi.com.my",
+    "mx": "0 culmi.com.my.",
+    "status": "MX found"
+  },
+  {
+    "domain": "dohaco.com",
+    "mx": "5 mail24480.maychuemail.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "dutcotennant.com",
+    "mx": "0 eu-smtp-inbound-1.mimecast.com.\n0 eu-smtp-inbound-2.mimecast.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "envalco.com.my",
+    "mx": "0 envalco-com-my.mail.protection.outlook.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "fct-me.com",
+    "mx": "0 fctme-com0i.mail.protection.outlook.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "gmail.com",
+    "mx": "10 alt1.gmail-smtp-in.l.google.com.\n20 alt2.gmail-smtp-in.l.google.com.\n5 gmail-smtp-in.l.google.com.\n30 alt3.gmail-smtp-in.l.google.com.\n40 alt4.gmail-smtp-in.l.google.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "junaid.ae",
+    "mx": "5 hostmx01.emailapps.net.\n10 hostmx02.emailapps.net.",
+    "status": "MX found"
+  },
+  {
+    "domain": "lustre.ae",
+    "mx": "10 mx2.hostinger.in.\n5 mx1.hostinger.in.",
+    "status": "MX found"
+  },
+  {
+    "domain": "maunselltrading.com",
+    "mx": "0 maunselltrading-com.mail.protection.outlook.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "nyk.com.my",
+    "mx": "0 mx2.mailchannels.net.\n0 mx1.mailchannels.net.",
+    "status": "MX found"
+  },
+  {
+    "domain": "optimusdistributor.com",
+    "mx": "13 mx3.zoho.com.\n10 mx.zoho.com.\n11 mx2.zoho.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "pgtech.com.vn",
+    "mx": "0 pgtech-com-vn.mail.protection.outlook.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "sca.com.my",
+    "mx": "30 lastmx.spamexperts.net.\n20 fallbackmx.spamexperts.eu.\n10 mx.spamexperts.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "sengchoon.com",
+    "mx": "0 sengchoon-com.mail.protection.outlook.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "tuanhungphat.vn",
+    "mx": "5 alt2.aspmx.l.google.com.\n10 alt4.aspmx.l.google.com.\n1 aspmx.l.google.com.\n10 alt3.aspmx.l.google.com.\n5 alt1.aspmx.l.google.com.",
+    "status": "MX found"
+  },
+  {
+    "domain": "wili.com.vn",
+    "mx": "0 pro63.emailserver.vn.",
+    "status": "MX found"
+  }
+]

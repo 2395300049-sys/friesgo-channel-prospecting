@@ -1,0 +1,1871 @@
+[
+  {
+    "local_evidence_id": "ANBI_153a4d812e.json",
+    "sha256_of_original_local_capture": "7db089c96369617377402c6ec3a8be954239791e136dfb38999968a4bd73cb84",
+    "bytes_of_local_capture": 13321,
+    "checked_on": "2026-10-23",
+    "url": "https://anbisolutions.com/sell",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "ANBI_73fb69a6be.json",
+    "sha256_of_original_local_capture": "aab4f94e01af6ecb4d47d03c30920d28b872747b13fc87db3375e69c1c568158",
+    "bytes_of_local_capture": 54367,
+    "checked_on": "2026-10-23",
+    "url": "https://anbisolutions.com/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "ANBI_a3eca777de.json",
+    "sha256_of_original_local_capture": "b85541dbc77379fd433331108784c0573c59e07f0e4ba5983d5ea4c31af24a29",
+    "bytes_of_local_capture": 11487,
+    "checked_on": "2026-10-23",
+    "url": "https://anbisolutions.com/en/contact",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "ANBI_bceb0540ef.json",
+    "sha256_of_original_local_capture": "dfd25caaf85e6e8690de5c216f6aa02b104365ea9d053fb2c92fad1426936da1",
+    "bytes_of_local_capture": 14607,
+    "checked_on": "2026-10-23",
+    "url": "https://anbisolutions.com/en/product/oventrop-double-regulating-hydrocontrol-vfc-valve-pn16-3256",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Astic_33c06b5c67.json",
+    "sha256_of_original_local_capture": "cdde9c5f7de93b5875875d0a294b99cd2127e394a3affaacaff2c95389dda1a5",
+    "bytes_of_local_capture": 168,
+    "checked_on": "2026-10-23",
+    "url": "https://astic-dubai.com/",
+    "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Astic_6e4228f251.json",
+    "sha256_of_original_local_capture": "276660677e2310b0ceedce00a6ed71cfbde694435477e0f5c5962b1e64054c76",
+    "bytes_of_local_capture": 189,
+    "checked_on": "2026-10-23",
+    "url": "https://astic-dubai.com/product/belven-valves",
+    "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Combitek_0a20631a72.json",
+    "sha256_of_original_local_capture": "a2df5eff2e92cba519c63419fafdff46a1d97fb232f4965dad9512c047c837df",
+    "bytes_of_local_capture": 18450,
+    "checked_on": "2026-10-23",
+    "url": "https://combitek.com/san-pham/van-can-bang-chenh-ap-noi-bich/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Combitek_5353dc43d9.json",
+    "sha256_of_original_local_capture": "a1f805d9361f47c62913cb4ee7d8609d5d886a08c0003b3746f149af6e0493d5",
+    "bytes_of_local_capture": 7716,
+    "checked_on": "2026-10-23",
+    "url": "https://combitek.com/lien-he/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Combitek_da3778174c.json",
+    "sha256_of_original_local_capture": "9af448b60bf1e166d85d57196cbcee0622c3fd4b92258b13bc020d62ea195e8e",
+    "bytes_of_local_capture": 19697,
+    "checked_on": "2026-10-23",
+    "url": "https://combitek.com/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Combitek_ead43e8f55.json",
+    "sha256_of_original_local_capture": "cb4b8089978a868d0209dafbc7fdebd1a0133c26cf4f934e54419a096e79b8d8",
+    "bytes_of_local_capture": 39386,
+    "checked_on": "2026-10-23",
+    "url": "https://combitek.com/du-an/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Culmi_1c96d47f1e.json",
+    "sha256_of_original_local_capture": "75613eb31c1e5f8986602d3fa711786e22f4c2792f1b3b4f4d52a74845c5db8e",
+    "bytes_of_local_capture": 307801,
+    "checked_on": "2026-10-23",
+    "url": "https://www.culmi.com.my/index.php?products_id=2780082&ws=showproducts",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Culmi_320f7de0af.json",
+    "sha256_of_original_local_capture": "9188d10b6ef50a0378660e321adf7f8b159b2fa40463848894ca029c593e8314",
+    "bytes_of_local_capture": 157804,
+    "checked_on": "2026-10-23",
+    "url": "https://www.culmi.com.my/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Culmi_5aa8c6a115.json",
+    "sha256_of_original_local_capture": "178fc1df9998562c747159cb3c3a1fc72bd02663fc45b494f729fe2096558be2",
+    "bytes_of_local_capture": 305586,
+    "checked_on": "2026-10-23",
+    "url": "https://www.culmi.com.my/index.php?ws=ourproducts&cid=226083&cat=Project-and-Customer-Reference&subcat=Equipment-Repairing-Servicing#openproducts",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Culmi_9c9da03be2.json",
+    "sha256_of_original_local_capture": "809cf8c2a4b0c5c3d087a52b6fc699f545c20706e98ef7b5336274d8f19168dc",
+    "bytes_of_local_capture": 305324,
+    "checked_on": "2026-10-23",
+    "url": "https://www.culmi.com.my/index.php?ws=ourproducts&cid=175386&cat=Project-and-Customer-Reference&subcat=Hypermarket#openproducts",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Culmi_be3a414450.json",
+    "sha256_of_original_local_capture": "0ca373fe14477b6037579b34b7ff88f891c288188e85705078bc16ac5db8c5d6",
+    "bytes_of_local_capture": 305302,
+    "checked_on": "2026-10-23",
+    "url": "https://www.culmi.com.my/index.php?ws=ourproducts&cid=175528&cat=Project-and-Customer-Reference&subcat=Condominium#openproducts",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Culmi_c065d81880.json",
+    "sha256_of_original_local_capture": "c952450b9a4020bb29e21b11a6a785d65a2cf57d60a45f55a8e26ffa5b921b49",
+    "bytes_of_local_capture": 305897,
+    "checked_on": "2026-10-23",
+    "url": "https://www.culmi.com.my/index.php?ws=contactus",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "DOHACO_629fff4fdd.json",
+    "sha256_of_original_local_capture": "c08b9d8bdf4010e0bde337612bab1b4074c9f4ff71442155e23c75454bbdef96",
+    "bytes_of_local_capture": 63158,
+    "checked_on": "2026-10-23",
+    "url": "https://dohaco.com/nganh/24890/van-can-bang-balancing-valves.html",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "DOHACO_a19f056a32.json",
+    "sha256_of_original_local_capture": "336b4d0ca38a2496894c976db52eee67a79ac38d8660fdcde72e3d4dc762a9de",
+    "bytes_of_local_capture": 57778,
+    "checked_on": "2026-10-23",
+    "url": "https://dohaco.com/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "DOHACO_b3449f7b4f.json",
+    "sha256_of_original_local_capture": "5235402a1cea5e6e2123fe8c64d6840fbc2d36e6181251bd0cd2f458585bbe95",
+    "bytes_of_local_capture": 11866,
+    "checked_on": "2026-10-23",
+    "url": "https://dohaco.com/lienhe",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Dutco_14f853a269.json",
+    "sha256_of_original_local_capture": "9ca3cd6feaf0a8f7182ff7f6502cd0bfc3c0e51fd393f1344abc70ccadf0d07e",
+    "bytes_of_local_capture": 75706,
+    "checked_on": "2026-10-23",
+    "url": "https://www.dutcotennant.com/connect-us",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Dutco_333e92b04e.json",
+    "sha256_of_original_local_capture": "d7119d49ae149c013f2f80854351d007cdb37973b4b9890df7e21302f9832c55",
+    "bytes_of_local_capture": 171,
+    "checked_on": "2026-10-23",
+    "url": "https://www.dutcotennant.com/category/mep-supplies/hvac-products",
+    "error": "HTTP Error 403: Forbidden",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Dutco_a07af6c6f9.json",
+    "sha256_of_original_local_capture": "f335606d9ef6607c1752bfed6e191a11ae3bc30198dd246c9c5cf393bad0d3ed",
+    "bytes_of_local_capture": 82421,
+    "checked_on": "2026-10-23",
+    "url": "https://www.dutcotennant.com/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Dutco_bb382855cb.json",
+    "sha256_of_original_local_capture": "a15eedb248521c8222df4a913cf917c6530c2682cfd6c1247bf1c84df68869df",
+    "bytes_of_local_capture": 76174,
+    "checked_on": "2026-10-23",
+    "url": "https://www.dutcotennant.com/category/instrumentation-automation-and-network-monitoring/process-instrumentation/contact-level-measurement",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Dutco_dc552d5d4e.json",
+    "sha256_of_original_local_capture": "cdb414d6498056123fc346747291a41ba28817e66cae067ce47cbfc8a7fb45b7",
+    "bytes_of_local_capture": 146,
+    "checked_on": "2026-10-23",
+    "url": "https://www.dutcotennant.com/portfolios",
+    "error": "HTTP Error 403: Forbidden",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Envalco_178dfefc34.json",
+    "sha256_of_original_local_capture": "77ac4e729a3f2013e02b3e4548674aa07a2722f815ab47acced11681699f8378",
+    "bytes_of_local_capture": 157,
+    "checked_on": "2026-10-23",
+    "url": "https://www.envalco.com.my/contact-us/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Envalco_29baa20cbd.json",
+    "sha256_of_original_local_capture": "d19fb5d30b7d7480911206c186558929c97fa411dc941c712be19872221ae7fe",
+    "bytes_of_local_capture": 153,
+    "checked_on": "2026-10-23",
+    "url": "https://envalco.com.my/contact-us/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Envalco_56d2a4739f.json",
+    "sha256_of_original_local_capture": "16cc118a2178d8e6ead287bc50ba6eb93087cb591dbba6195ef78c2445f2266b",
+    "bytes_of_local_capture": 142,
+    "checked_on": "2026-10-23",
+    "url": "https://envalco.com.my/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Envalco_6a853eb65a.json",
+    "sha256_of_original_local_capture": "9165b1a96ce066df2e0ce5f9e3b79e65e23b9fc8339284af93aba17b5f6147b2",
+    "bytes_of_local_capture": 146,
+    "checked_on": "2026-10-23",
+    "url": "https://www.envalco.com.my/",
+    "error": "HTTP Error 503: Service Unavailable",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Eriko_0896794874.json",
+    "sha256_of_original_local_capture": "fe4eb36328229ae2694e2f66468c629cfddb04360df8ca0ad61dc4720d2a4224",
+    "bytes_of_local_capture": 137350,
+    "checked_on": "2026-10-23",
+    "url": "https://eriko.com.vn/7-lien-he",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Eriko_319773b326.json",
+    "sha256_of_original_local_capture": "cd6a2e6a51dce6e6cd0fe8553113c54f7351c8af1b3158428f430e9052fdb102",
+    "bytes_of_local_capture": 188524,
+    "checked_on": "2026-10-23",
+    "url": "https://eriko.com.vn/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Eriko_844d3e5c80.json",
+    "sha256_of_original_local_capture": "58632cacf3f6acc218c6cc9acb8095af96a7ec3d455b15c604b1213b477737f8",
+    "bytes_of_local_capture": 148717,
+    "checked_on": "2026-10-23",
+    "url": "https://eriko.com.vn/13-du-an-eriko",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Eriko_bb914d2fc5.json",
+    "sha256_of_original_local_capture": "1a4cde9e892d35238f8656133952d918739a21ddc7f99b14a58f472b57131b60",
+    "bytes_of_local_capture": 141796,
+    "checked_on": "2026-10-23",
+    "url": "https://eriko.com.vn/chi-tiet/4098-du-an-royal-tower.html",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Eriko_c1b192d0e9.json",
+    "sha256_of_original_local_capture": "28be58b88c4c72578f9e4765770f46ab1fa58ccbc73e27ae5ad0fc197fdad145",
+    "bytes_of_local_capture": 151281,
+    "checked_on": "2026-10-23",
+    "url": "https://eriko.com.vn/284-van-can-bang-van-can-bangd25",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Eriko_ef05d04403.json",
+    "sha256_of_original_local_capture": "1cc329c09ac599baf169e6a7f3f641d02270dad15e8e1329952e5b958a5850aa",
+    "bytes_of_local_capture": 148171,
+    "checked_on": "2026-10-23",
+    "url": "https://eriko.com.vn/15-du-an-tong-hop",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "FCT_15855d9ae4.json",
+    "sha256_of_original_local_capture": "377dca3b15d9d5718fbad75eaf879a70a47b803a5481710e5db3d2597fc2442d",
+    "bytes_of_local_capture": 10771,
+    "checked_on": "2026-10-23",
+    "url": "https://fct-me.com/products/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "FCT_7b394485f6.json",
+    "sha256_of_original_local_capture": "8bd72fce53c21b4f76891b3c3514a51f484a75cca6f5aa801318e18e7458417f",
+    "bytes_of_local_capture": 10326,
+    "checked_on": "2026-10-23",
+    "url": "https://fct-me.com/Projects",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "FCT_bee9e4ad20.json",
+    "sha256_of_original_local_capture": "2468dc25e597a7976e0011a72df6759f859361b776b2edaca3b5b05334e4e7f7",
+    "bytes_of_local_capture": 5159,
+    "checked_on": "2026-10-23",
+    "url": "https://fct-me.com/Contact",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "FCT_d4e8729ed2.json",
+    "sha256_of_original_local_capture": "a5f72f355b0ec5b15f560b74040598d2b96a3896f33b44d6bfeae35fba23802e",
+    "bytes_of_local_capture": 11040,
+    "checked_on": "2026-10-23",
+    "url": "https://fct-me.com/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Junaid_024d17c391.json",
+    "sha256_of_original_local_capture": "5eb56385263f5635c61bf26835893156b5f4b6208b77e49d7e97ebe20bbfaa20",
+    "bytes_of_local_capture": 48107,
+    "checked_on": "2026-10-23",
+    "url": "https://junaidworld.com/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Junaid_4f4ec46561.json",
+    "sha256_of_original_local_capture": "f5e97be0591469210352cd2b7622e6ae8067fb52d8b6fff26be6b20c79abced6",
+    "bytes_of_local_capture": 43860,
+    "checked_on": "2026-10-23",
+    "url": "https://junaidworld.com/plumbing-sanitary-ware-products-contact/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Junaid_7dd211d561.json",
+    "sha256_of_original_local_capture": "6b10d8796bcfcf5e3ff8276cd5d93d15cd64fc954fa7fa5f3e933a1f42cbdb6e",
+    "bytes_of_local_capture": 46986,
+    "checked_on": "2026-10-23",
+    "url": "https://junaidworld.com/junaid-sanitary-project-portfolio/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Junaid_9aa02dae78.json",
+    "sha256_of_original_local_capture": "e5697fb43782fbf0e3a152edf79c035cee66d7c925d51f7d20555fca3693b3fe",
+    "bytes_of_local_capture": 55999,
+    "checked_on": "2026-10-23",
+    "url": "https://junaidworld.com/pegler-valves-wholesale-supplier/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Klep_60826e6c86.json",
+    "sha256_of_original_local_capture": "e378e87ba76769e99215b8a9374c1e8bdc87366ffe4b05aaa17a396967e21a6c",
+    "bytes_of_local_capture": 147,
+    "checked_on": "2026-10-23",
+    "url": "https://kleptechnic.com.my/about-us/",
+    "error": "HTTP Error 406: Not Acceptable",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Klep_772fa4d95e.json",
+    "sha256_of_original_local_capture": "773d33789b31a4631b7abbd7f107bdcfbc2b8617c5766e4c35f4f30ea1d16be8",
+    "bytes_of_local_capture": 138,
+    "checked_on": "2026-10-23",
+    "url": "https://kleptechnic.com.my/",
+    "error": "HTTP Error 406: Not Acceptable",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Klep_8d0f2f9e23.json",
+    "sha256_of_original_local_capture": "75b8edb933fa5b418a70faf49ba26faf54d18a037ee729bed674bf06fd5ba167",
+    "bytes_of_local_capture": 162,
+    "checked_on": "2026-10-23",
+    "url": "https://kleptechnic.com.my/product/balancing-valve/",
+    "error": "HTTP Error 406: Not Acceptable",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Lustre_bc39f15c5f.json",
+    "sha256_of_original_local_capture": "310e441ed818186a435f873a23d6e8952f0ef229ad8a84f69ff45723f20b989f",
+    "bytes_of_local_capture": 26769,
+    "checked_on": "2026-10-23",
+    "url": "https://lustre.ae/contact/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Lustre_cc9afce06b.json",
+    "sha256_of_original_local_capture": "b3df3e9557ceadf319c1610e7a14b7f807a65310fcaffde0de639c6753d28adb",
+    "bytes_of_local_capture": 26122,
+    "checked_on": "2026-10-23",
+    "url": "https://lustre.ae/major-projects/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Lustre_f0de5ad772.json",
+    "sha256_of_original_local_capture": "51483c124444e04f7c8b5d1fb14753cc9a89ab83713ea87e26f930265f67aa09",
+    "bytes_of_local_capture": 29426,
+    "checked_on": "2026-10-23",
+    "url": "https://lustre.ae/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Lustre_f496ec3f6a.json",
+    "sha256_of_original_local_capture": "8f94034fe83aca3b2f72c18abe60899f12d4f12f2ca621e4bd20945ca0d3e348",
+    "bytes_of_local_capture": 26993,
+    "checked_on": "2026-10-23",
+    "url": "https://lustre.ae/chilled-water-valves/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Maunsell_050620aa7a.json",
+    "sha256_of_original_local_capture": "0b3f2fac43e8945a1d2553cadf191ba114e904e34a0f55726e6078482eb575d1",
+    "bytes_of_local_capture": 3924,
+    "checked_on": "2026-10-23",
+    "url": "https://maunselltrading.com/our-products/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Maunsell_34d42448ef.json",
+    "sha256_of_original_local_capture": "1aca87dde194722be9d528b0c12865930f3ef3b45e8003b8e2acb59b8f9e93d5",
+    "bytes_of_local_capture": 3823,
+    "checked_on": "2026-10-23",
+    "url": "https://maunselltrading.com/contact-us/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Maunsell_78dad239f5.json",
+    "sha256_of_original_local_capture": "a6b5c79c768d81bfac400d247c93597a74fcc8a70224588b2307bb5366f5e6bf",
+    "bytes_of_local_capture": 3594,
+    "checked_on": "2026-10-23",
+    "url": "https://maunselltrading.com/our-projects/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Maunsell_b993efc388.json",
+    "sha256_of_original_local_capture": "7b3129de580311bd077904b7bb13b13f0e1adf40c85c4debbed6bc1de5c3719a",
+    "bytes_of_local_capture": 197,
+    "checked_on": "2026-10-23",
+    "url": "https://maunselltrading.com/contact us/",
+    "error": "URL can't contain control characters. '/contact us/' (found at least ' ')",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Maunsell_e95917a3c1.json",
+    "sha256_of_original_local_capture": "db663d144f1be357cf4820a9c2ed84478efa34429b0731cf8f6032422d2cc84a",
+    "bytes_of_local_capture": 4412,
+    "checked_on": "2026-10-23",
+    "url": "https://maunselltrading.com/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "MechFlow_4779766f08.json",
+    "sha256_of_original_local_capture": "920b78e83b754e34ca8aab9a8e664e64a94b8ded28868128bc127ceb441a6e60",
+    "bytes_of_local_capture": 3960,
+    "checked_on": "2026-10-23",
+    "url": "https://www.mechflow-my.com/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Messen_0f1ddb98fb.json",
+    "sha256_of_original_local_capture": "af97b6e51b80613b6d6558512c2026ad15f4b6942e86590f64a6c4b404598232",
+    "bytes_of_local_capture": 5979,
+    "checked_on": "2026-10-23",
+    "url": "https://www.messencontrols.com/services-technical.php",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Messen_390b92e951.json",
+    "sha256_of_original_local_capture": "194eb5e82d2f38c0e9fc184c36761cba8b3199bf2a00f0e49ed2f2a91e48d17c",
+    "bytes_of_local_capture": 5585,
+    "checked_on": "2026-10-23",
+    "url": "https://www.messencontrols.com/contact.php",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Messen_e8066416bf.json",
+    "sha256_of_original_local_capture": "e1cedc89d4bdd5d1f19e9372a21b81848387b765f6456e74f80ece3ac441ffb3",
+    "bytes_of_local_capture": 12718,
+    "checked_on": "2026-10-23",
+    "url": "https://www.messencontrols.com/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "NYKK_165f98827a.json",
+    "sha256_of_original_local_capture": "d0edd4e781227c0907adb3120d5aa00099a158ae483da990261524515d30f28f",
+    "bytes_of_local_capture": 14840,
+    "checked_on": "2026-10-23",
+    "url": "https://www.nyk.com.my/ourproducts/cid/587735/cat/pibcv-picv-dynamic-balancing-valve/#contact",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "NYKK_30e3be9bd3.json",
+    "sha256_of_original_local_capture": "509673ee420889db53413e8c4873192d096482c16c5df67c2a8627cc8ee438f7",
+    "bytes_of_local_capture": 14824,
+    "checked_on": "2026-10-23",
+    "url": "https://www.nyk.com.my/ourproducts/cid/587735/cat/pibcv-picv-dynamic-balancing-valve/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "NYKK_6d979fd088.json",
+    "sha256_of_original_local_capture": "977f79a07dd169bc80309fc191a0a84282960b0d51e44e5642a98cb13f068017",
+    "bytes_of_local_capture": 11643,
+    "checked_on": "2026-10-23",
+    "url": "https://www.nyk.com.my/gallery/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "NYKK_92ad3bb194.json",
+    "sha256_of_original_local_capture": "702eef66b25cc956adf87e4fcf8cb578fae89a9213c2472a860cd13712b3650c",
+    "bytes_of_local_capture": 14312,
+    "checked_on": "2026-10-23",
+    "url": "https://www.nyk.com.my/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "NYKK_a777eac411.json",
+    "sha256_of_original_local_capture": "4d8f8d6a742f8176a9d94e3150886a2b4c3c6a1b71f80f3ed5279df7de31547f",
+    "bytes_of_local_capture": 14328,
+    "checked_on": "2026-10-23",
+    "url": "https://www.nyk.com.my/#contact",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "NYKK_fa643990bc.json",
+    "sha256_of_original_local_capture": "f5b11d35118d32cea2c74c8f26ee0a13b3fc73c37e7697051c6d547c9791deac",
+    "bytes_of_local_capture": 9193,
+    "checked_on": "2026-10-23",
+    "url": "https://www.nyk.com.my/contactus/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Optimus_3ac5251f24.json",
+    "sha256_of_original_local_capture": "509cb05c944e13d24b959a2c3ad2633f5e4ae8490619322809ae644775727267",
+    "bytes_of_local_capture": 21016,
+    "checked_on": "2026-10-23",
+    "url": "https://www.optimusdistributor.com.my/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Optimus_638c188afb.json",
+    "sha256_of_original_local_capture": "d9419654bf54c332843fd6571b4f2b9024a0e5398e6773225de34cbafd685aa1",
+    "bytes_of_local_capture": 14019,
+    "checked_on": "2026-10-23",
+    "url": "https://www.optimusdistributor.com.my/contact",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Optimus_a16fc17d89.json",
+    "sha256_of_original_local_capture": "d60638011fcdbd861e64c103053c53283eb6da7e1ed55a2cda3270c132f457da",
+    "bytes_of_local_capture": 20384,
+    "checked_on": "2026-10-23",
+    "url": "https://www.optimusdistributor.com.my/pettinaroli-hydronic-balancing-and-picv",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Optimus_f451f2d885.json",
+    "sha256_of_original_local_capture": "3c377c325172764c16aaa1f82937583ffa06aa1df33efcff60678d2f312e0b80",
+    "bytes_of_local_capture": 21255,
+    "checked_on": "2026-10-23",
+    "url": "https://www.optimusdistributor.com.my/faq",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "PGTech_4d1c751ea1.json",
+    "sha256_of_original_local_capture": "c7e100f4b820a582b184cccf14b33a61782328cfe31fd1b8b87880d141d18eaa",
+    "bytes_of_local_capture": 26496,
+    "checked_on": "2026-10-23",
+    "url": "https://pgtech.com.vn/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "PGTech_c49b2caff3.json",
+    "sha256_of_original_local_capture": "e9d97feba40ac79c0e9994e3ba63ac6af9c285e408a82e8481549e3ac2f5cf32",
+    "bytes_of_local_capture": 137,
+    "checked_on": "2026-10-23",
+    "url": "https://pgtech.com.vn/lien-he",
+    "error": "HTTP Error 404: Not Found",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "SCA_78bc3eae25.json",
+    "sha256_of_original_local_capture": "9b96ec9a5732bcf13aeb62d7e16bc4db0a4935eed6997a85eab76d0680609fd7",
+    "bytes_of_local_capture": 40969,
+    "checked_on": "2026-10-23",
+    "url": "https://sca.com.my/shop/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "SCA_80cc4f4001.json",
+    "sha256_of_original_local_capture": "0220f3d16e3f0e73ee11d8543da3998fbd44a9d8a8bb870364f95684df55a67b",
+    "bytes_of_local_capture": 22551,
+    "checked_on": "2026-10-23",
+    "url": "https://sca.com.my/contact/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "SCA_c713b61907.json",
+    "sha256_of_original_local_capture": "72340a1ca4818e5c55e18ba2296e66ad40467dd1288a8fd820f0634c89daa840",
+    "bytes_of_local_capture": 27086,
+    "checked_on": "2026-10-23",
+    "url": "https://sca.com.my/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "SCA_contact_decoded.json",
+    "sha256_of_original_local_capture": "740ebca4d935bc6da390169543f1ad162a10a78099c0b99b85103425831242a8",
+    "bytes_of_local_capture": 172,
+    "checked_on": "2026-10-23",
+    "url": "https://sca.com.my/contact/",
+    "date": "2026-10-23",
+    "fields_in_original_capture": [
+      "url",
+      "date",
+      "emails",
+      "method"
+    ]
+  },
+  {
+    "local_evidence_id": "SengChoon_176a1ff820.json",
+    "sha256_of_original_local_capture": "69d91d6e677f721f701fafaa41e8d5ad3d0340f2d3236b83bd90867e1435628f",
+    "bytes_of_local_capture": 22268,
+    "checked_on": "2026-10-23",
+    "url": "https://sengchoon.com/projects.php",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "SengChoon_5018b025fb.json",
+    "sha256_of_original_local_capture": "8cfb92c61cfe0031c8330a1dc0e017f2630ac81965d8329bad0bfad495c5c5ba",
+    "bytes_of_local_capture": 45363,
+    "checked_on": "2026-10-23",
+    "url": "https://sengchoon.com.my/contact-us/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "SengChoon_6678442705.json",
+    "sha256_of_original_local_capture": "245495a3c5a4a6be3c0dc81c99fc5d1b588fc59b6c3f9b12ace1a9160a77cb56",
+    "bytes_of_local_capture": 5569,
+    "checked_on": "2026-10-23",
+    "url": "https://sengchoon.com/contact-us.php",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "SengChoon_770737e26e.json",
+    "sha256_of_original_local_capture": "14310a38d8bfa1f4fe96ab4be2d257f225fdd06d97d12d71d37d718544dbc8ab",
+    "bytes_of_local_capture": 45200,
+    "checked_on": "2026-10-23",
+    "url": "https://sengchoon.com.my/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "SengChoon_7c2a2fe69b.json",
+    "sha256_of_original_local_capture": "73a6f543b706a55df74dcca5da96e0acdb9f1d1601f26025b87db51dba346605",
+    "bytes_of_local_capture": 48575,
+    "checked_on": "2026-10-23",
+    "url": "https://sengchoon.com.my/services/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "SengChoon_7ed7ceceba.json",
+    "sha256_of_original_local_capture": "4ce0e0268ef35e713a12d0d14803b22a58e5bebba5799b3028ae4825d0a1a6c6",
+    "bytes_of_local_capture": 69726,
+    "checked_on": "2026-10-23",
+    "url": "https://sengchoon.com.my/project-reference/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "SengChoon_9998ce3bba.json",
+    "sha256_of_original_local_capture": "9e35383cb08cd37f68e889f6984aa5915048f1860ae7ea49a79376ea788c1ba3",
+    "bytes_of_local_capture": 7394,
+    "checked_on": "2026-10-23",
+    "url": "https://sengchoon.com/products.php",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "THP_072def334b.json",
+    "sha256_of_original_local_capture": "7c05b4d54512430c11dc4b26bb1aa30dd124047eab2526ff79e7bd9b9574ce02",
+    "bytes_of_local_capture": 20892,
+    "checked_on": "2026-10-23",
+    "url": "https://tuanhungphat.vn/lien-he/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "THP_6cc929171a.json",
+    "sha256_of_original_local_capture": "00aa4412881dfb29c0a6acf63d01819e8421dd12f85aa2c8276a927bf63f9c17",
+    "bytes_of_local_capture": 42161,
+    "checked_on": "2026-10-23",
+    "url": "https://tuanhungphat.vn/van-can-bang-tinh/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "THP_bbe2600e3d.json",
+    "sha256_of_original_local_capture": "349078faa0df5f189a6736d8737831da9c2eebc4a54d9746ee1354354d380164",
+    "bytes_of_local_capture": 33812,
+    "checked_on": "2026-10-23",
+    "url": "https://tuanhungphat.vn/van-can-bang/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "TuanNghi_90b93d0b66.json",
+    "sha256_of_original_local_capture": "d806ca1db275d187fa50a6173c15aa1449af46eebc36a3b93b61d9ee6e046488",
+    "bytes_of_local_capture": 176,
+    "checked_on": "2026-10-23",
+    "url": "https://tuannghi.com.vn/",
+    "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "error"
+    ]
+  },
+  {
+    "local_evidence_id": "Vimi_73e23e1cdc.json",
+    "sha256_of_original_local_capture": "ebde28dc676841ee712374770b3e50750a57d568ab63110821161b9df5a072c7",
+    "bytes_of_local_capture": 94495,
+    "checked_on": "2026-10-23",
+    "url": "https://vimi.com.vn/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Vimi_feb35a2159.json",
+    "sha256_of_original_local_capture": "e7812f28ae003660ebe5faf4702cc04abeaafed481f1580388e2805554f29923",
+    "bytes_of_local_capture": 65310,
+    "checked_on": "2026-10-23",
+    "url": "https://vimi.com.vn/lien-he",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Wili_14e7fc0d54.json",
+    "sha256_of_original_local_capture": "f5ab90c8e28e3a83aa54739323a58c403376367efa15ea67fdd2947088015ea3",
+    "bytes_of_local_capture": 32658,
+    "checked_on": "2026-10-23",
+    "url": "https://wili.info/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Wili_548a415a1a.json",
+    "sha256_of_original_local_capture": "2c810527b61deeb1749521691cc6a737ca8a80684d8bae69dd4c0f2344606251",
+    "bytes_of_local_capture": 18046,
+    "checked_on": "2026-10-23",
+    "url": "https://wili.com.vn/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Wili_7b5f007291.json",
+    "sha256_of_original_local_capture": "ab0495d866239dc8d7613bfeedae2ac3cb62757291fc677c92cfda6b34d10eb3",
+    "bytes_of_local_capture": 18711,
+    "checked_on": "2026-10-23",
+    "url": "https://wili.com.vn/project-list/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Wili_7d44c63d31.json",
+    "sha256_of_original_local_capture": "04e2235b18b7a30a11f5c87a903484a06e17487a37eb9ab1dd162d8c81def496",
+    "bytes_of_local_capture": 17168,
+    "checked_on": "2026-10-23",
+    "url": "https://wili.com.vn/balancing-valve/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "Wili_df14c3a781.json",
+    "sha256_of_original_local_capture": "7452e37bdfb4a05b54a0fdf8fdfa5769d215145d692dc3a8455e4a039048812f",
+    "bytes_of_local_capture": 21236,
+    "checked_on": "2026-10-23",
+    "url": "https://daytrichmau.com/cimberio/",
+    "status": 200,
+    "fields_in_original_capture": [
+      "company",
+      "url",
+      "checked_on",
+      "status",
+      "final_url",
+      "links",
+      "title",
+      "text",
+      "emails"
+    ]
+  },
+  {
+    "local_evidence_id": "china_export_2023.json",
+    "sha256_of_original_local_capture": "536cf8676f94481cd9d5e4de66dce5e2cd815a0627dfa46ebf00ea394e07c0ce",
+    "bytes_of_local_capture": 11550,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2023&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "china_export_2024.json",
+    "sha256_of_original_local_capture": "9db7d95002c4a2806af2ef4b9c8557daff61a80fee8a1642e0abf369024f5333",
+    "bytes_of_local_capture": 11551,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2024&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "china_export_2025.json",
+    "sha256_of_original_local_capture": "c62b6bd92907b11ac3252974b75ffca49bc439bf85b14c61f8ac871ad1a6b735",
+    "bytes_of_local_capture": 11552,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2025&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "china_export_202606.json",
+    "sha256_of_original_local_capture": "83b570b2066d52031e1d744bf32601722e7d730d62602d806ee6bc798ffc0f18",
+    "bytes_of_local_capture": 355,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?period=202606&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "china_export_202607.json",
+    "sha256_of_original_local_capture": "8d878eeb605e0f5ba695fd882eb4756a95f11e6a6d70a35a2ebec35d25dc9d0a",
+    "bytes_of_local_capture": 355,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?period=202607&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "china_export_202608.json",
+    "sha256_of_original_local_capture": "13a9bf279c2faab223db59b7dd16442863005251f7603cb743a6ccf0c79cdb58",
+    "bytes_of_local_capture": 355,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?period=202608&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "china_export_202609.json",
+    "sha256_of_original_local_capture": "ac37c454f15a0e4829fe0069cddaad97d9d2cb3002fdba9bec34e9c7cbd2fd15",
+    "bytes_of_local_capture": 355,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/M/HS?period=202609&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "comtrade_2023.json",
+    "sha256_of_original_local_capture": "83c62c3459fc4fd3bdfb1de83fee856d156da29d84551fd939b29682f4c3c626",
+    "bytes_of_local_capture": 359,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2023&reporterCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&cmdCode=848180&flowCode=M&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 429,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "comtrade_2023_retry.json",
+    "sha256_of_original_local_capture": "52add1d983cf06aa7e57bebf34d30fff632257e4fd77655e4919f4e2c1da6eef",
+    "bytes_of_local_capture": 11530,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2023&reporterCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&cmdCode=848180&flowCode=M&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "comtrade_2024.json",
+    "sha256_of_original_local_capture": "dedfebe5b416a2c752c66594d152d0f30e9cc0a2740b68c3d3c9b8a204d50119",
+    "bytes_of_local_capture": 359,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2024&reporterCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&cmdCode=848180&flowCode=M&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 429,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "comtrade_2024_retry.json",
+    "sha256_of_original_local_capture": "2e2f968cb8be31ec47015a3eabc8ef321de97cf01203fa86c2196017570f64f4",
+    "bytes_of_local_capture": 8746,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2024&reporterCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&cmdCode=848180&flowCode=M&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "comtrade_2025.json",
+    "sha256_of_original_local_capture": "088c3703d70eac69575e1e495d8cd85edb2e50b8dfa36b4477d002d904bee9e7",
+    "bytes_of_local_capture": 7369,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2025&reporterCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&cmdCode=848180&flowCode=M&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "comtrade_probe.json",
+    "sha256_of_original_local_capture": "b57ced83d31454a2aee3129d02e6dd279c5cb21ab983a050226a4ab8c377a2d1",
+    "bytes_of_local_capture": 294,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2025&reporterCode=784&cmdCode=848180&flowCode=M&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=5",
+    "status": 200,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "comtrade_screen.json",
+    "sha256_of_original_local_capture": "3f408f5edcf1926fab57136b0a635e0a2cbed8eacc45643c3c86fb2a2c4bcf86",
+    "bytes_of_local_capture": 364,
+    "checked_on": "2026-10-23",
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2023%2C2024%2C2025&reporterCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&cmdCode=848180&flowCode=M&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+    "status": 400,
+    "fields_in_original_capture": [
+      "url",
+      "status",
+      "response"
+    ]
+  },
+  {
+    "local_evidence_id": "contact_domain_mx.json",
+    "sha256_of_original_local_capture": "ad842e5eeb1c216d09879ec4f07c1ae9c5241c671f6054b397c04b504f71a170",
+    "bytes_of_local_capture": 2586,
+    "checked_on": "2026-10-23",
+    "record_count": 19
+  },
+  {
+    "local_evidence_id": "contact_provenance_check.json",
+    "sha256_of_original_local_capture": "50da9d6b8c8ab6d6740681a4e0d0430833c7bb5bd66f372cb97789c8c95ee056",
+    "bytes_of_local_capture": 7673,
+    "checked_on": "2026-10-23",
+    "record_count": 20
+  }
+]

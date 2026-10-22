@@ -1,0 +1,1516 @@
+# 20家渠道客户：联系方式、项目/应用依据与独立开发信
+
+核验日：2026-10-23。7家越南、6家马来西亚、7家阿联酋；11家A、9家B。A/B为研究联系顺序，不是需求或成交确认。所有邮箱均为公开业务渠道，未验证投递及采购权限。只提供草稿，未发送。
+
+每家先看“合作障碍”和“首封目标”。有公开项目则列明历史供货边界；其余使用具体产品/应用场景，不虚构在建项目。越南客户优先正文为越南语，保留英文母稿和中文译文；其他客户正文为英语并附中文译文。英文母稿不超过150词，首次不附通用公司宣传附件。
+
+## 快速索引
+
+|ID|国家|公司|组别/分数|首选邮箱|本次切入点|
+|---|---|---|---|---|---|
+|V01|越南|Công Ty TNHH Thương Mại Tuấn Hưng Phát|A / 83|kinhdoanh@tuanhungphat.vn|工程客户可比较品牌时的法兰静态平衡阀备选|
+|V02|越南|Công Ty TNHH Thương Mại Dịch Vụ DOHACO|A / 86|kinhdoanh@dohaco.com|向其现有多品牌水系统阀门品类补充法兰手动平衡阀|
+|V03|越南|Công Ty TNHH Cơ Điện Lạnh Eriko|A / 84|erikovn.sg@gmail.com|Royal Tower（2022）反映其楼宇设备渠道；延伸到类似楼宇的空调水支路配套|
+|V04|越南|Công Ty Cổ Phần Kỹ Thuật VIMI|A / 83|sales.vimijsc@gmail.com|跨地区仓配网络的空调水系统阀门选品|
+|V05|越南|Công Ty TNHH Wili / Wili Co., Ltd.|A / 88|info@wili.com.vn|Sheraton Hotel Nha Trang（2025）及类似酒店空调水控制配套|
+|V06|越南|Công Ty Cổ Phần Công Nghệ Combitek Việt Nam|B / 79|info@combitek.com|空调水回路的法兰压差控制；Cocobay仅作历史业务场景参考|
+|V07|越南|PGTECH / PGTECH GROUP LIMITED（官网名称）|B / 79|sales@pgtech.com.vn|楼宇冷冻水回路的阀门资料与调试方案评审|
+|M01|马来西亚|Optimus Distributor (M) Sdn Bhd|A / 83|enquiry@optimusdistributor.com|HVAC及数据中心配套中的法兰手动平衡阀比较|
+|M02|马来西亚|Culmi Air-Cond & Refrigeration Parts Supply Sdn Bhd|A / 83|adminsales01@culmi.com.my|空调水系统维修更换时的安装长度/法兰连接预审|
+|M03|马来西亚|Seng Choon Hardware (M) Sdn Bhd|A / 83|scgroup@sengchoon.com|FCU平衡阀组件预制；官网另列Putrajaya Cooling Plant及多项数据中心参考|
+|M04|马来西亚|Source Code Asia Sdn Bhd — HVAC & Metering Division|B / 76|sales@sca.com.my|末端小口径平衡阀之外的大口径支路选品|
+|M05|马来西亚|Envalco Sdn Bhd|B / 76|enquiry@envalco.com.my|有固定设计流量要求的水系统选型比较|
+|M06|马来西亚|NYKK Engineering Group Sdn Bhd|B / 74|irinkang@nyk.com.my|带PICV的方案中是否还需独立支路压差控制|
+|U01|阿联酋|Fluid Control Trading LLC (FCT)|A / 83|info@fct-me.com|Reem Hospital（官网历史项目）及类似楼宇水系统改造配套|
+|U02|阿联酋|Junaid Sanitary and Electrical Material Trading LLC / Junaid Group|A / 83|sales@junaid.ae|Khalifa University（历史综合材料供货）反映工程渠道；本次测试批发选品|
+|U03|阿联酋|ANBI General Trading LLC|B / 77|info@anbisolutions.com|实体库存分销与平台供应商准入的两种合作方式|
+|U04|阿联酋|Lustre Middle East Electro Mechanical Services L.L.C.|A / 81|support@lustre.ae|冷冻水泵—管道—DRV组合配套|
+|U05|阿联酋|Dutco Tennant LLC|B / 79|info@dutcotennant.com|进入MEP业务单元的供应商技术预审|
+|U06|阿联酋|Maunsell Building Materials Trading LLC|B / 72|sales@maunselltrading.com|Tabreed Seaworld区域供冷（历史参考）；类似项目非指定品牌的机械阀配套|
+|U07|阿联酋|Astic General Trading L.L.C.|B / 77|info@astic-dubai.com|现有Belven代理以外的规格/应用覆盖评估|
+
+## V01　Công Ty TNHH Thương Mại Tuấn Hưng Phát
+
+**越南 · A组 · 83/100 · 进口商/分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://tuanhungphat.vn/](https://tuanhungphat.vn/)|
+|首选业务邮箱|kinhdoanh@tuanhungphat.vn|
+|电话/已核即时渠道|+84 915 891 666；销售 +84 961 694 858|
+|地址|注册地址：184 Hoàng Văn Thái, Hà Nội；代表处：LK37/11 KĐT Phú Lương, Phường Kiến Hưng, Hà Nội|
+|联系人/应转岗位|销售部→请转进口采购/产品经理；未确认采购个人|
+|备用渠道|管理电话 +84 963 189 833（不等于已核采购负责人）；官网联系表|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网2026-07-25更新的静态平衡阀文章明确称直接进口FAF，并面向不同尺寸、材料、连接及产地供货。
+
+匹配产品：SPF45手动平衡阀。
+
+对应项目/应用：工程客户可比较品牌时的法兰静态平衡阀备选。
+
+证据状态：**应用场景；未取得具名项目与平衡阀对应证据**。
+
+开发判断（推断）：从其直接进口FAF的选品模式切入，询问能否评估中国新增品牌，而非要求替换指定品牌。
+
+合作障碍：FAF关系及客户指定品牌可能限制新增来源；没有当前采购订单证据。
+
+首封目标：先回答是否接受新增中国来源的静态平衡阀，再选一个常用DN核对。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://tuanhungphat.vn/van-can-bang-tinh/)
+- [联系与身份依据](https://tuanhungphat.vn/lien-he/)
+
+### 首封开发信（越南语）
+
+**Subject / Tiêu đề：Tuấn Hưng Phát có xem xét thêm nguồn van cân bằng không?**
+
+Kính gửi đội ngũ Tuấn Hưng Phát,
+
+Bài viết tháng 7 của quý công ty giới thiệu việc nhập khẩu trực tiếp van cân bằng tĩnh FAF. Vì vậy, chúng tôi muốn trao đổi với bộ phận lựa chọn sản phẩm về nguồn cung.
+
+FriesGo Global là đơn vị cung ứng sản phẩm công nghiệp, có dòng van cân bằng tay với chỉ thị độ mở cơ khí và khóa vị trí, dùng cho hệ thống nước nóng và nước lạnh.
+
+Với đơn hàng cho phép lựa chọn thương hiệu khác, quý công ty có xem xét thêm một nguồn hàng từ Trung Quốc không? Nếu phù hợp chính sách mua hàng, hai bên có thể bắt đầu bằng một kích cỡ nối bích thường được hỏi và đối chiếu yêu cầu kỹ thuật trước khi bàn báo giá.
+
+FriesGo Global
+
+### 英文母稿
+
+**Subject：Would Tuấn Hưng Phát review an additional balancing-valve source?**
+
+Hello Tuấn Hưng Phát team,
+
+Your July article says you import FAF static balancing valves directly. That makes your product-selection team a relevant contact for a sourcing question.
+
+FriesGo Global is an industrial supplier offering manual balancing valves with mechanical opening indication and a position lock. We are exploring distribution opportunities for water-based heating and cooling applications.
+
+Would your team consider an additional Chinese source when a customer's specification permits another brand? If that fits your sourcing policy, we could start with one commonly requested flanged size and compare the technical requirements before discussing a quotation.
+
+FriesGo Global
+
+### 中文译文
+
+Tuấn Hưng Phát团队您好：
+
+贵司7月的文章介绍了直接进口FAF静态平衡阀的业务，因此想向负责选品的同事了解一个采购问题。
+
+FriesGo Global是工业品供应商，可提供带机械开度显示和位置锁定的手动平衡阀，目前希望寻找供热及空调水系统的分销合作。
+
+对于客户规格允许使用其他品牌的订单，贵司是否愿意评估一个新增的中国货源？如符合贵司选品政策，可以先选一个常用法兰口径，核对技术要求后再讨论报价。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系kinhdoanh@tuanhungphat.vn并请求转相关采购/产品岗位；先回答是否接受新增中国来源的静态平衡阀，再选一个常用DN核对。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## V02　Công Ty TNHH Thương Mại Dịch Vụ DOHACO
+
+**越南 · A组 · 86/100 · 阀门分销商/贸易商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://dohaco.com/](https://dohaco.com/)|
+|首选业务邮箱|kinhdoanh@dohaco.com|
+|电话/已核即时渠道|+84 28 3971 3956；Tài +84 908 596 970|
+|地址|1A/20 Lý Thường Kiệt, Phường 7, Quận Tân Bình, TP. Hồ Chí Minh（保留官网原地址）|
+|联系人/应转岗位|Mr. Tài（官网销售）；请转选品/采购，采购权限未确认|
+|备用渠道|Mr. Hùng（销售）+84 906 622 058；Ms. Thủy（销售）+84 986 747 682；官网Zalo入口|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网单列balancing valves品类，含41-05、45-01、R206B；说明服务代理商、工厂及建筑企业。
+
+匹配产品：SPF45手动平衡阀。
+
+对应项目/应用：向其现有多品牌水系统阀门品类补充法兰手动平衡阀。
+
+证据状态：**应用场景；未取得具名项目证据**。
+
+开发判断（推断）：从已有三种平衡阀SKU切入，测试是否有法兰式产品的补充空间。
+
+合作障碍：目录在售不代表有缺货；不声称现有41-05等型号可直接替换。
+
+首封目标：请指出客户最常询价但现有目录未覆盖的一种法兰口径。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://dohaco.com/nganh/24890/van-can-bang-balancing-valves.html)
+- [联系与身份依据](https://dohaco.com/lienhe)
+
+### 首封开发信（越南语）
+
+**Subject / Tiêu đề：Bổ sung van cân bằng nối bích cho danh mục DOHACO**
+
+Kính gửi anh Tài,
+
+Danh mục van cân bằng của DOHACO có các dòng 41-05, 45-01 và R206B. Thay vì gửi catalogue chung, chúng tôi muốn tìm hiểu nhu cầu nào của khách hàng nằm ngoài danh mục này.
+
+Dòng SPF45 của chúng tôi là van cân bằng tay nối bích, có chỉ thị độ mở cơ khí và chức năng khóa vị trí. FriesGo Global là đơn vị cung ứng sản phẩm công nghiệp đang tìm cơ hội phân phối tại Việt Nam.
+
+Có kích cỡ van cân bằng nối bích nào khách thường hỏi nhưng danh mục hiện tại chưa thuận tiện đáp ứng không? Chúng tôi có thể kiểm tra riêng yêu cầu đó, kể cả kích thước kết nối, trước khi đánh giá khả năng cung ứng.
+
+FriesGo Global
+
+### 英文母稿
+
+**Subject：A flanged balancing-valve addition to DOHACO’s range**
+
+Hello Mr. Tài,
+
+DOHACO's balancing-valve category includes the 41-05, 45-01 and R206B. Rather than send a general catalogue, I would like to understand where customers ask for something outside that selection.
+
+Our SPF45 family is a flanged manual balancing valve with mechanical opening indication and a locking function. FriesGo Global supplies industrial products and is looking for a distribution fit in Vietnam.
+
+Is there one flanged balancing-valve size that customers request but your present range does not conveniently cover? We could check that specific requirement first, including connection dimensions, without assuming interchangeability with your existing brands.
+
+FriesGo Global
+
+### 中文译文
+
+Tài先生您好：
+
+DOHACO的平衡阀品类中列有41-05、45-01和R206B。与其发送通用目录，我更想先了解：客户是否会提出这些产品之外的要求。
+
+我们的SPF45系列是带机械开度显示和锁定功能的法兰手动平衡阀。FriesGo Global作为工业品供应商，希望找到适合越南分销渠道的切入点。
+
+是否有一种法兰平衡阀口径，客户经常询问但贵司目前的产品组合不便覆盖？我们可以先核对这一项，包括连接尺寸，不预先认定与现有品牌可以互换。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系kinhdoanh@dohaco.com并请求转相关采购/产品岗位；请指出客户最常询价但现有目录未覆盖的一种法兰口径。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## V03　Công Ty TNHH Cơ Điện Lạnh Eriko
+
+**越南 · A组 · 84/100 · 暖通进口分销商（兼其他设备业务）**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://eriko.com.vn/](https://eriko.com.vn/)|
+|首选业务邮箱|erikovn.sg@gmail.com|
+|电话/已核即时渠道|+84 984 666 480（官网Hotline/Zalo）；+84 965 535 848|
+|地址|Hà Nội办公室：Số 37–BT4, KĐT Mới Cầu Bươu, Thanh Trì, Hà Nội（官网行政区写法不一）|
+|联系人/应转岗位|Ms Hà（联系页）；销售/管理共用热线→请转进口采购|
+|备用渠道|官网Zalo/热线 +84 984 666 480；胡志明办公室地址各页面不同，预约前核实|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网明确进口并向门店、代理和伙伴供给平衡阀，另有Honeywell品类；Royal Tower案例列供货为消防流量开关、压力表。
+
+匹配产品：SPF45；ZTY47。
+
+对应项目/应用：Royal Tower（2022）反映其楼宇设备渠道；延伸到类似楼宇的空调水支路配套。
+
+证据状态：**历史项目；该案例未披露供平衡阀，不是正在采购的项目**。
+
+开发判断（推断）：以其楼宇仪表供货经验和代理渠道为依据，提出平衡阀与测压资料配套的品类评审。
+
+合作障碍：Royal Tower供货不是平衡阀业绩；不能据此声称该项目有新订单；官网历史手机号及地址有差异。
+
+首封目标：选择“手动调试”或“支路压差控制”中更常见的一类需求。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://eriko.com.vn/284-van-can-bang-van-can-bangd25)
+- [联系与身份依据](https://eriko.com.vn/7-lien-he)
+- [项目/合作条件依据](https://eriko.com.vn/chi-tiet/4098-du-an-royal-tower.html)
+
+### 首封开发信（越南语）
+
+**Subject / Tiêu đề：Một câu hỏi về van cân bằng cho kênh thiết bị tòa nhà của Eriko**
+
+Kính gửi đội ngũ Eriko,
+
+Hồ sơ Royal Tower của Eriko ghi hạng mục cung cấp là đồng hồ áp suất và công tắc dòng chảy PCCC. Bên cạnh kinh nghiệm cung ứng thiết bị tòa nhà đó, website còn giới thiệu van cân bằng nhập khẩu cho đại lý và khách hàng dự án.
+
+Với các yêu cầu tương tự, FriesGo Global mong tìm hiểu cơ hội cung ứng qua Eriko các sản phẩm cân bằng thủy lực cơ khí: van cân bằng tay hoặc van điều khiển chênh áp tự lực, tùy thiết kế mạch nước.
+
+Trong các yêu cầu của khách hàng, nhu cầu nào phổ biến hơn: cân bằng lưu lượng bằng tay hay duy trì chênh áp của nhánh? Chúng tôi sẽ dựa vào đó để chỉ gửi thông tin sản phẩm phù hợp.
+
+FriesGo Global
+
+### 英文母稿
+
+**Subject：Eriko’s building-supply work: a water-balancing question**
+
+Hello Eriko team,
+
+Your Royal Tower reference identifies pressure gauges and fire-system flow switches as supplied items. It shows a building-services route where accurate equipment selection matters. Separately, your site offers imported balancing valves to dealers and project customers.
+
+For similar building enquiries, FriesGo Global would like to explore supplying mechanical water-balancing products through Eriko: manual balancing or self-acting differential-pressure control, according to the circuit design.
+
+Which of these two duties appears more often in your customers' enquiries: manual flow balancing or maintaining a branch differential pressure? That answer would help us send only the relevant product information.
+
+FriesGo Global
+
+### 中文译文
+
+Eriko团队您好：
+
+贵司Royal Tower案例披露的供货是压力表和消防流量开关，反映了贵司的楼宇设备供应渠道。另外，官网也介绍了向代理和工程客户供应进口平衡阀的业务。
+
+针对类似楼宇询价，FriesGo Global希望探讨通过Eriko供应机械式水力平衡产品：根据回路设计选用手动平衡或自力式压差控制。
+
+贵司客户询价中，手动流量平衡与维持支路压差，哪一种需求出现得更多？我们据此只发送相关产品资料。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系erikovn.sg@gmail.com并请求转相关采购/产品岗位；选择“手动调试”或“支路压差控制”中更常见的一类需求。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## V04　Công Ty Cổ Phần Kỹ Thuật VIMI
+
+**越南 · A组 · 83/100 · 阀门及管道设备分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://vimi.com.vn/](https://vimi.com.vn/)|
+|首选业务邮箱|sales.vimijsc@gmail.com|
+|电话/已核即时渠道|+84 972 881 852（联系页）；+84 967 393 688（热线）|
+|地址|总部：Số 29 ngách 250/60/55 đường Phan Trọng Tuệ, phường Thanh Liệt, Hà Nội|
+|联系人/应转岗位|销售部→请转产品采购/供应商开发；未确认个人|
+|备用渠道|联系页另列销售邮箱 Vimijsc@gmail.com；官网联系表；勿用会计邮箱开发|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网有平衡阀、Samyang冷水机组阀门介绍，展示北/中/南办公室和仓库，另列中国产阀品类。
+
+匹配产品：SPF45手动平衡阀。
+
+对应项目/应用：跨地区仓配网络的空调水系统阀门选品。
+
+证据状态：**应用场景；没有核实具名工程采购**。
+
+开发判断（推断）：从三地仓配而非某单一品牌切入，建议按实际询价频次决定首批审查SKU。
+
+合作障碍：不假设三地独立采购，也不承诺现货、MOQ、交期；只计一家。
+
+首封目标：请给出最常被询价的两种法兰平衡阀口径，先判断是否值得比较。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://vimi.com.vn/van-samyang)
+- [联系与身份依据](https://vimi.com.vn/lien-he)
+
+### 首封开发信（越南语）
+
+**Subject / Tiêu đề：Kích cỡ van cân bằng nào phù hợp để VIMI xem xét?**
+
+Kính gửi bộ phận mua hàng VIMI,
+
+Chúng tôi quan tâm đến mạng lưới phân phối miền Bắc, miền Trung và miền Nam của VIMI. Với mặt hàng lưu kho, điểm khởi đầu hữu ích là các kích cỡ khách thực sự thường hỏi.
+
+Quý công ty có thể cho biết hai kích cỡ van cân bằng tay nối bích xuất hiện nhiều nhất trong yêu cầu báo giá không?
+
+Dòng SPF45 của FriesGo Global có thể được đối chiếu cho hai kích cỡ đó, trước hết về kết nối, chiều dài lắp đặt và hồ sơ cần thiết. Chỉ khi kết quả phù hợp với kênh của VIMI, hai bên mới bàn phương án hàng tồn hoặc đơn hàng. Giai đoạn này chưa cần xem cả ba dòng van của chúng tôi.
+
+FriesGo Global
+
+### 英文母稿
+
+**Subject：Which balancing-valve sizes deserve a VIMI stock review?**
+
+Hello VIMI purchasing team,
+
+VIMI's northern, central and southern distribution coverage caught my attention. For a stocked product, the useful starting point is the size mix your customers actually request.
+
+Could you share the two flanged manual balancing-valve sizes most often included in your enquiries?
+
+FriesGo Global's SPF45 range may be worth a technical comparison for those sizes. We would first check the connection, installed length and required documentation. A stocking or order proposal would follow only if that comparison makes sense for your channel. There is no need to review all three of our valve families at this stage.
+
+FriesGo Global
+
+### 中文译文
+
+VIMI采购团队您好：
+
+贵司覆盖越南北部、中部和南部的分销网络值得关注。对于库存产品，最有用的起点是客户实际询价的口径组合。
+
+可以告知询价中最常出现的两种法兰手动平衡阀口径吗？
+
+FriesGo Global的SPF45系列可能值得对这两个口径作一次技术比较。我们会先核对连接、安装长度和所需文件，只有比较结果适合贵司渠道，才进一步讨论备货或订单。这一阶段无须审阅我们的全部三类阀门。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系sales.vimijsc@gmail.com并请求转相关采购/产品岗位；请给出最常被询价的两种法兰平衡阀口径，先判断是否值得比较。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## V05　Công Ty TNHH Wili / Wili Co., Ltd.
+
+**越南 · A组 · 88/100 · 工业/暖通阀门供应分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://wili.com.vn/](https://wili.com.vn/)|
+|首选业务邮箱|info@wili.com.vn|
+|电话/已核即时渠道|Phil Nguyen +84 903 305 673；总机 +84 28 6681 2137|
+|地址|总部：53 Lê Sát, P. Phú Thọ Hoà, TP. HCM；业务处：75/1 Đường số 23, P. Hiệp Bình, TP. HCM|
+|联系人/应转岗位|Mr. Phil Nguyen（官网Director）；采购职责仍须确认|
+|备用渠道|Jan Trần：jan.tran@wili.com.vn / +84 931 827 417；Hưng Trần：hung.tran@wili.com.vn / +84 903 710 753；Ben Lee（Technical Manager）：technical@wili.com.vn / +84 979 880 878|
+|采购权限|中低：官网Director身份可核，具体采购职责未核|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：主站设9项平衡阀产品；2025项目表将Sheraton Hotel Nha Trang、Melia Hotel & Resort列为Control Valve供货项目。
+
+匹配产品：SPF45；ZTY47；ZL-4M（按工况选）。
+
+对应项目/应用：Sheraton Hotel Nha Trang（2025）及类似酒店空调水控制配套。
+
+证据状态：**历史项目；供货类别是Control Valve，未证实HBBV同类产品或当前需求**。
+
+开发判断（推断）：以酒店Control Valve业绩为钩子，讨论控制阀之外的机械支路平衡配套。
+
+合作障碍：不能把酒店Control Valve案例写成平衡阀案例；副站旧地址、旧Jan手机号已舍弃。
+
+首封目标：确认其酒店水系统清单是否也包含独立的机械平衡阀。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://wili.com.vn/balancing-valve/)
+- [联系与身份依据](https://wili.com.vn/)
+- [项目/合作条件依据](https://wili.com.vn/project-list/)
+
+### 首封开发信（越南语）
+
+**Subject / Tiêu đề：Van cân bằng cơ khí cho hệ nước khách sạn của Wili**
+
+Kính gửi ông Phil Nguyen,
+
+Danh sách dự án năm 2025 của Wili ghi nhận việc cung cấp control valve cho Sheraton Hotel Nha Trang. Website cũng có danh mục van cân bằng riêng, nên chúng tôi muốn tìm hiểu thêm về gói thiết bị hệ nước khách sạn.
+
+Ngoài van điều khiển, các gói này có bao gồm van cân bằng cơ khí độc lập không?
+
+FriesGo Global cung ứng các dòng van cân bằng tay, điều khiển chênh áp tự lực và điều khiển lưu lượng tự lực. Nếu thuộc phạm vi cung cấp của Wili, chúng tôi mong cùng bộ phận kỹ thuật đối chiếu một yêu cầu mạch nước thực tế. Việc lựa chọn phải theo chức năng, không xem van cơ khí là sản phẩm thay thế van điều khiển nhiệt độ có bộ truyền động.
+
+FriesGo Global
+
+### 英文母稿
+
+**Subject：For Wili’s hotel water systems: independent mechanical balancing**
+
+Hello Mr. Phil Nguyen,
+
+Wili's 2025 project list records control-valve supply for Sheraton Hotel Nha Trang. Your separate balancing-valve range suggests a useful question about hotel water-system packages.
+
+Do those packages also include independent mechanical balancing valves alongside the control valves?
+
+FriesGo Global supplies manual balancing, self-acting differential-pressure and constant-flow valve families. If mechanical balancing is part of Wili's scope, we would like to compare one actual circuit requirement with your technical team. The choice would depend on the duty; our mechanical valves would not be presented as substitutes for an actuated temperature-control valve.
+
+FriesGo Global
+
+### 中文译文
+
+Phil Nguyen先生您好：
+
+Wili的2025年项目表记录了向Sheraton Hotel Nha Trang供应Control Valve的业务，官网还单列平衡阀品类，因此想了解酒店水系统成套供应中的一个问题。
+
+这类清单在控制阀之外，是否也包含独立的机械平衡阀？
+
+FriesGo Global供应手动平衡、自力式压差及恒流阀系列。如机械平衡属于Wili的供货范围，希望与技术团队按一个实际回路要求作比较。产品选择取决于功能，我们不会把机械阀当成电动温控阀的替代品。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系info@wili.com.vn并请求转相关采购/产品岗位；确认其酒店水系统清单是否也包含独立的机械平衡阀。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## V06　Công Ty Cổ Phần Công Nghệ Combitek Việt Nam
+
+**越南 · B组 · 79/100 · 暖通水系统进口供应/方案商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://combitek.com/](https://combitek.com/)|
+|首选业务邮箱|info@combitek.com|
+|电话/已核即时渠道|+84 24 3212 7028；销售 +84 869 666 997|
+|地址|Tầng 6, tòa nhà số 59 phố Quang Trung, Phường Hai Bà Trưng, Hà Nội|
+|联系人/应转岗位|销售/技术部→请转水力平衡产品经理；未确认个人|
+|备用渠道|combitekvn@gmail.com；官网联系表|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网有法兰压差平衡阀产品页，项目页列Cocobay、Sun Sport Complex等；大量项目使用Kemper等品牌。
+
+匹配产品：ZTY47自力式压差控制阀。
+
+对应项目/应用：空调水回路的法兰压差控制；Cocobay仅作历史业务场景参考。
+
+证据状态：**历史项目名单未将所选压差阀绑定到Cocobay；开发信只引用产品页**。
+
+开发判断（推断）：从压差阀具体选型切入，先比较受控回路与连接，不谈普通减压阀替代。
+
+合作障碍：进口欧洲产品定位可能限制新来源；饮用水热平衡阀与ZTY不可混用；无当前RFQ。
+
+首封目标：取得一个回路的设计流量和压差设定值，判断是否具备技术比较基础。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://combitek.com/san-pham/van-can-bang-chenh-ap-noi-bich/)
+- [联系与身份依据](https://combitek.com/lien-he/)
+- [项目/合作条件依据](https://combitek.com/du-an/)
+
+### 首封开发信（越南语）
+
+**Subject / Tiêu đề：Đối chiếu thông số mạch nước cho van điều khiển chênh áp**
+
+Kính gửi bộ phận kỹ thuật Combitek,
+
+Chúng tôi liên hệ về sản phẩm van cân bằng chênh áp nối bích trên website của quý công ty.
+
+Trước khi trao đổi thương hiệu hoặc giá, chúng tôi muốn hiểu một điều kiện mạch nước: lưu lượng thiết kế và giá trị chênh áp cần duy trì. Hai thông số này giúp xác định liệu van điều khiển chênh áp tự lực ZTY47 của chúng tôi có phù hợp để xem xét hay không.
+
+FriesGo Global là đơn vị cung ứng sản phẩm công nghiệp, mong tìm đối tác phân phối van thủy lực HVAC. Quý công ty có thể cung cấp hai thông số trên cho một mạch nước tiêu biểu không? Sau đó mới đối chiếu sơ đồ điều khiển và kết nối, không mặc định tương đương sản phẩm hiện có.
+
+FriesGo Global
+
+### 英文母稿
+
+**Subject：A circuit-duty check for Combitek’s differential-pressure range**
+
+Hello Combitek technical team,
+
+I am contacting you about your flanged differential-pressure balancing-valve page.
+
+Before discussing brands or price, we would like to understand one circuit duty: the design flow and the differential-pressure setpoint to be maintained. These values would tell us whether our ZTY47 self-acting controller is worth reviewing at all.
+
+FriesGo Global is an industrial supplier seeking a distribution relationship for hydronic valves. Could you share those two values for a representative water circuit? We would then check the operating arrangement and connection requirements, without assuming equivalence to the products Combitek currently supplies.
+
+FriesGo Global
+
+### 中文译文
+
+Combitek技术团队您好：
+
+此次联系针对贵司官网的法兰压差平衡阀产品。
+
+在讨论品牌或价格之前，我们希望先了解一个回路的设计流量和需要维持的压差设定值。这两个数值可以先判断我们的ZTY47自力式压差控制阀是否值得进入评审。
+
+FriesGo Global是工业品供应商，希望建立水力控制阀的分销合作。可否提供一个代表性水回路的这两项参数？之后再核对控制布置及连接要求，不预先认定与Combitek现售产品等同。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系info@combitek.com并请求转相关采购/产品岗位；取得一个回路的设计流量和压差设定值，判断是否具备技术比较基础。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## V07　PGTECH / PGTECH GROUP LIMITED（官网名称）
+
+**越南 · B组 · 79/100 · 机电设备进口分销/方案商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://pgtech.com.vn/](https://pgtech.com.vn/)|
+|首选业务邮箱|sales@pgtech.com.vn|
+|电话/已核即时渠道|+84 24 7302 3588；+84 962 875 986；+84 962 160 126|
+|地址|Tầng 3, Toà Nhà Bắc Hà C14-CT1, phố Tố Hữu, phường Đại Mỗ, Hà Nội|
+|联系人/应转岗位|销售部→水力平衡产品经理/技术采购；未确认个人|
+|备用渠道|info@pgtech.com.vn；phuc.gt@pgtech.com.vn（官网销售邮箱，姓名/采购职权未证实）；technical@pgtech.com.vn|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网和2025公司介绍列静态/动态平衡阀及Flamco、Belimo等品牌，并经营调试校准及多类工程方案。
+
+匹配产品：SPF45；ZL-4M；ZTY47。
+
+对应项目/应用：楼宇冷冻水回路的阀门资料与调试方案评审。
+
+证据状态：**应用场景；不把首页工程标题视为平衡阀供货证明**。
+
+开发判断（推断）：以技术资料审核和适用性筛选切入，适合已有欧洲品牌方案体系的分销商。
+
+合作障碍：欧洲品牌组合/业主指定可能排除新品；现有资料不能宣称性能等同或准入已通过。
+
+首封目标：先取得其审核新平衡阀品牌所需的资料清单。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://pgtech.com.vn/Upload/file/profile-pgtech-2025-vne.pdf)
+- [联系与身份依据](https://pgtech.com.vn/)
+
+### 首封开发信（越南语）
+
+**Subject / Tiêu đề：PGTECH cần hồ sơ gì để đánh giá nguồn van cân bằng mới?**
+
+Kính gửi đội ngũ PGTECH,
+
+Hồ sơ công ty kết hợp van cân bằng, thiết bị hệ nước và dịch vụ kỹ thuật trong cùng giải pháp dự án. Do đó, nguồn van mới cần qua đánh giá kỹ thuật trước khi trao đổi thương mại.
+
+PGTECH yêu cầu những tài liệu nào để đánh giá ban đầu một nhà cung cấp van cân bằng cơ khí mới?
+
+FriesGo Global có thể cung cấp dữ liệu catalogue hiện có và nêu rõ phạm vi các báo cáo thử áp mẫu đã có. Chúng tôi muốn đối chiếu danh mục hồ sơ của quý công ty, xác định bằng chứng còn thiếu rồi cùng quyết định có nên đánh giá tiếp hay không, đồng thời tôn trọng yêu cầu thương hiệu chỉ định của từng dự án.
+
+FriesGo Global
+
+### 英文母稿
+
+**Subject：PGTECH’s review requirements for a new hydronic-valve supplier**
+
+Hello PGTECH team,
+
+Your profile brings balancing valves, hydronic equipment and technical services into one project offering. A new valve source would therefore need to pass your technical review before a commercial discussion becomes useful.
+
+What documents does PGTECH require for an initial review of a new mechanical balancing-valve supplier?
+
+FriesGo Global can present the available catalogue data and the scope of the existing sample pressure-test reports for our valve families. We would identify any missing evidence against your checklist first. This would let both teams decide whether further evaluation is justified, while respecting the specified-brand requirements of your projects.
+
+FriesGo Global
+
+### 中文译文
+
+PGTECH团队您好：
+
+贵司公司介绍将平衡阀、水系统设备和技术服务放在同一工程方案中。因此，新的阀门来源应当先通过技术审核，商业讨论才有意义。
+
+PGTECH初步评审一家新增机械平衡阀供应商，需要哪些文件？
+
+FriesGo Global可以提交现有目录数据，并说明已有样品压力检验报告覆盖的范围。我们希望先对照贵司清单识别缺失证据，再由双方判断是否值得进一步评估，同时尊重项目对指定品牌的要求。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系sales@pgtech.com.vn并请求转相关采购/产品岗位；先取得其审核新平衡阀品牌所需的资料清单。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## M01　Optimus Distributor (M) Sdn Bhd
+
+**马来西亚 · A组 · 83/100 · 多品牌阀门分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://www.optimusdistributor.com.my/](https://www.optimusdistributor.com.my/)|
+|首选业务邮箱|enquiry@optimusdistributor.com|
+|电话/已核即时渠道|+60 3 5892 1626；WhatsApp +60 19 750 3980|
+|地址|16, 16A & 18A, Jalan Tiara 3, Taman Perindustrian SIME UEP, 47600 Subang Jaya, Selangor|
+|联系人/应转岗位|销售及工程团队→请转产品/采购经理；未确认个人|
+|备用渠道|https://wa.me/60197503980；官网联系页|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网列Pettinaroli、Tiemme等品牌及平衡阀/水力组件；Newpages对应商户列法兰6535DN DN65–200。
+
+匹配产品：SPF45手动平衡阀。
+
+对应项目/应用：HVAC及数据中心配套中的法兰手动平衡阀比较。
+
+证据状态：**应用场景；未公开核实当前具名采购项目**。
+
+开发判断（推断）：借其公开的完整询价字段习惯，以一个真实BOM行开展同口径技术比较。
+
+合作障碍：其现有PICV不能用ZL等同替代；品牌授权不证明愿意新增品牌；不以网店价格作批发价。
+
+首封目标：取得一个允许替代品牌的法兰手动平衡阀BOM行。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://www.optimusdistributor.com.my/showproducts/productid/4588118/cid/479227/art-6535dn-balancing-valve/)
+- [联系与身份依据](https://www.optimusdistributor.com.my/contact)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：One BOQ line for Optimus to assess a flanged balancing valve**
+
+Hello Optimus team,
+
+Your range covers both hydronic balancing and valve kits, and your enquiry guidance asks for the information needed to evaluate an item properly. We can use that approach for a small supplier comparison.
+
+Could your product team share one flanged manual balancing-valve BOQ line where an alternative brand is permitted?
+
+FriesGo Global would check our SPF45 against the stated duty, installed length, flange requirements and document list. Your existing PICV range serves a different control function; this enquiry concerns the manual balancing position only. One clear line would be enough to decide whether a fuller supplier review is worthwhile.
+
+FriesGo Global
+
+### 中文译文
+
+Optimus团队您好：
+
+贵司产品覆盖水力平衡和阀门组件，询价指南也强调完整的选型信息。我们希望按同样方式开展一次小范围供应商比较。
+
+产品团队能否提供一条允许使用其他品牌的法兰手动平衡阀BOM/工程清单？
+
+FriesGo Global将核对SPF45与该工况、安装长度、法兰要求和文件清单是否匹配。贵司现有PICV承担不同控制功能，本次只讨论手动平衡位置。一条明确的清单就足以判断是否值得开展更完整的供应商审核。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系enquiry@optimusdistributor.com并请求转相关采购/产品岗位；取得一个允许替代品牌的法兰手动平衡阀BOM行。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## M02　Culmi Air-Cond & Refrigeration Parts Supply Sdn Bhd
+
+**马来西亚 · A组 · 83/100 · 暖通配件批发/供应商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://www.culmi.com.my/](https://www.culmi.com.my/)|
+|首选业务邮箱|adminsales01@culmi.com.my|
+|电话/已核即时渠道|+60 3 8024 7376；+60 3 8081 3378；WhatsApp +60 12 3111 367|
+|地址|24, Jalan Industri USJ 1/5, Taman Perindustrian USJ 1, 47600 Subang Jaya, Selangor|
+|联系人/应转岗位|销售部门；Beh（官网WhatsApp签名，完整姓名/采购职务未核实）|
+|备用渠道|beh@culmi.com.my；behkh@culmi.com.my；adminsales02@culmi.com.my；https://wa.me/60123111367|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：从Newpages商户页跳转官网确认Honeywell V4-Kombi-F法兰平衡截止阀，具有开度预设、测压点和锁定功能。
+
+匹配产品：SPF45手动平衡阀。
+
+对应项目/应用：空调水系统维修更换时的安装长度/法兰连接预审。
+
+证据状态：**应用场景；未绑定某个公寓或商场供货项目**。
+
+开发判断（推断）：从替换安装尺寸和调试接口切入，先审尺寸，避免空泛“低价替代”。
+
+合作障碍：经第三方商户页跳转官网复核产品与联系；不保证Honeywell互换；该历史SKU当前供货需确认。
+
+首封目标：取得一个原阀铭牌或尺寸要求，用于判断是否值得继续技术比对。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://www.culmi.com.my/index.php?products_id=2780082&ws=showproducts)
+- [联系与身份依据](https://www.culmi.com.my/index.php?ws=contactus)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：Culmi valve replacement: check the installed dimensions first**
+
+Hello Culmi sales team,
+
+The V4-Kombi-F listing associated with Culmi describes presetting, pressure-test points and a locking function. For replacement work, those functions still need to fit the existing installation.
+
+We would start with dimensions rather than a price list. If a customer permits another brand, could you share one valve nameplate or dimensional requirement from a manual balancing-valve enquiry?
+
+FriesGo Global would compare the relevant SPF45 catalogue dimensions and highlight anything needing factory confirmation. That gives your team an early fit check before spending time on a proposed replacement. No direct interchangeability with Honeywell is assumed.
+
+FriesGo Global
+
+### 中文译文
+
+Culmi销售团队您好：
+
+与贵司关联的V4-Kombi-F产品页介绍了预设、测压点和锁定功能。对于维修更换，这些功能之外，还必须适合原有安装空间。
+
+我们希望从尺寸核对开始。如果客户允许其他品牌，能否提供一次手动平衡阀询价中的铭牌或尺寸要求？
+
+FriesGo Global会对照相应SPF45目录尺寸，并列出需要工厂补充确认的项目，帮助贵司在投入替换方案前先判断是否可能适配，不预设可以与Honeywell直接互换。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系adminsales01@culmi.com.my并请求转相关采购/产品岗位；取得一个原阀铭牌或尺寸要求，用于判断是否值得继续技术比对。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## M03　Seng Choon Hardware (M) Sdn Bhd
+
+**马来西亚 · A组 · 83/100 · 管道及阀门库存分销商/预制配套商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://sengchoon.com.my/](https://sengchoon.com.my/)|
+|首选业务邮箱|scgroup@sengchoon.com|
+|电话/已核即时渠道|+60 3 5569 2111|
+|地址|10, Jalan Majistret U1/26, Seksyen U1, Hicom-Glenmarie Industrial Park, 40150 Shah Alam, Selangor|
+|联系人/应转岗位|马来西亚销售/通用咨询→请转阀门采购或预制组件团队|
+|备用渠道|仓库：Batu 6, Jalan Bukit Kemuning, Seksyen 34, 40470 Shah Alam；仅联系马来西亚主体，不把新加坡及其他分公司重复计数|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：马来西亚官网明确提供FCU Balancing Valve Assembly Kits；集团产品表列平衡阀用于HVAC，并提供当地公司联系方式。
+
+匹配产品：SPF45；ZL-4M（按组件设计）。
+
+对应项目/应用：FCU平衡阀组件预制；官网另列Putrajaya Cooling Plant及多项数据中心参考。
+
+证据状态：**历史参考名单；没有公开证据将所选阀门型号绑定到某数据中心**。
+
+开发判断（推断）：按预制组件BOM合作，先确定是否接受外采的独立机械平衡阀。
+
+合作障碍：小口径FCU组件可能超出SPF45法兰适用范围；必须先核实口径/长度；不声称现有组件缺料。
+
+首封目标：让预制团队确认组件由内部选阀还是按指定品牌BOM组装。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://sengchoon.com.my/services/)
+- [联系与身份依据](https://sengchoon.com/contact-us.php)
+- [项目/合作条件依据](https://sengchoon.com.my/project-reference/)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：Who selects the valve inside Seng Choon’s FCU assemblies?**
+
+Hello Seng Choon Malaysia team,
+
+Your fabrication service includes FCU balancing-valve assembly kits. That is a more specific potential fit for us than a general valve enquiry.
+
+Does your fabrication team select the balancing valve, or are the assemblies built entirely around a customer's nominated-brand BOM?
+
+FriesGo Global supplies mechanical balancing valves and would be interested in the first arrangement. The next step would be to check one assembly's required size, connection and space allowance against our available valve data. We would need that fit check before discussing supply into a kit, particularly where a compact terminal assembly requires a small threaded valve.
+
+FriesGo Global
+
+### 中文译文
+
+Seng Choon马来西亚团队您好：
+
+贵司预制服务包括FCU平衡阀组件，这比通用阀门询价更适合具体讨论合作。
+
+其中的平衡阀是由预制团队选型，还是完全按客户指定品牌的BOM组装？
+
+FriesGo Global供应机械平衡阀，对前一种合作方式有兴趣。下一步应按一个组件的口径、连接和空间要求，与现有阀门资料核对。只有先通过适配核查，才讨论组件供货，尤其是紧凑末端组件需要小口径螺纹阀的情况。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系scgroup@sengchoon.com并请求转相关采购/产品岗位；让预制团队确认组件由内部选阀还是按指定品牌BOM组装。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## M04　Source Code Asia Sdn Bhd — HVAC & Metering Division
+
+**马来西亚 · B组 · 76/100 · 楼宇暖通及计量产品分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://sca.com.my/](https://sca.com.my/)|
+|首选业务邮箱|sales@sca.com.my|
+|电话/已核即时渠道|+60 3 7710 0071|
+|地址|10, Jalan PJU 6A/3A, Kayu Ara Business Park, 47400 Petaling Jaya, Selangor|
+|联系人/应转岗位|HVAC & Metering销售团队→请转机械阀产品经理|
+|备用渠道|官网联系表；公司LinkedIn：https://www.linkedin.com/company/source-code-asia-sdn-bhd/（公司页，不是个人采购身份）|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网销售Belven BV75静态平衡阀，标示手轮数字开度和测量接头；同一业务有控制阀与计量产品。
+
+匹配产品：SPF45（大口径配套机会待确认）。
+
+对应项目/应用：末端小口径平衡阀之外的大口径支路选品。
+
+证据状态：**应用场景；未取得具名项目订单**。
+
+开发判断（推断）：围绕现有BV75小口径产品与主管法兰阀的配套边界询问，不说现有产品有缺陷。
+
+合作障碍：已核BV75页面写DN15–50；不能把它当成大口径现售证据；中国法兰新品兴趣未证实。
+
+首封目标：确认是否经营大口径主管/支路法兰平衡阀。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://sca.com.my/product/balancing-valves/)
+- [联系与身份依据](https://sca.com.my/contact/)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：Beyond BV75 terminal sizes: a question for SCA’s valve team**
+
+Hello SCA HVAC & Metering team,
+
+Your Belven BV75 page gives a clear picture of the small threaded balancing-valve position. I am interested in whether your mechanical-valve scope also extends to larger flanged branches.
+
+FriesGo Global's SPF45 family could be evaluated for that separate position, subject to the specified dimensions and operating duty. It would be a range-coverage discussion rather than a proposal to replace BV75 with a different valve geometry.
+
+Does SCA source larger flanged manual balancing valves for the same building customers? A yes or no would help us direct any further information to the right product category.
+
+FriesGo Global
+
+### 中文译文
+
+SCA暖通与计量团队您好：
+
+贵司Belven BV75页面清楚展示了小口径螺纹平衡阀的位置。我想了解机械阀业务是否还覆盖更大口径的法兰支路。
+
+FriesGo Global的SPF45可以针对这个独立位置评估，但需满足指定尺寸和运行工况。此次讨论的是品类覆盖，不是提出用不同结构的阀门替换BV75。
+
+SCA是否也向同一批楼宇客户采购供应较大口径的法兰手动平衡阀？简单确认有或没有，即可帮助我们把后续资料放在正确品类。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系sales@sca.com.my并请求转相关采购/产品岗位；确认是否经营大口径主管/支路法兰平衡阀。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## M05　Envalco Sdn Bhd
+
+**马来西亚 · B组 · 76/100 · Fivalco/FlowMate独家分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://www.envalco.com.my/](https://www.envalco.com.my/)|
+|首选业务邮箱|enquiry@envalco.com.my|
+|电话/已核即时渠道|+60 3 6150 0018；Office Mobile +60 12 893 0018|
+|地址|No. 6C, Jalan Teknologi 3/5, Pusat Teknologi Sunsuria, Kota Damansara, 47810 Petaling Jaya, Selangor|
+|联系人/应转岗位|公司咨询→请转恒流阀产品/采购经理；旧目录人名不采纳|
+|备用渠道|官网联系表；当前主页与联系页一致；旧PDF的30 Jalan PJU 3/46、03-7883 0018不作为当前首选|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|官网联系内容已读；后续直连波动；发送前复核|
+
+### 为什么选这家公司
+
+已核事实：官网列Constant Flow Valves及Dynamic Balancing Control Valves；About页明确Fivalco、FlowMate独家分销关系。
+
+匹配产品：ZL-4M自力式流量控制阀。
+
+对应项目/应用：有固定设计流量要求的水系统选型比较。
+
+证据状态：**应用场景；没有当前RFQ**。
+
+开发判断（推断）：先核独家代理边界，再讨论纯机械恒流阀允许评审的工况。
+
+合作障碍：独家品牌关系降低切入机会；官网首次可读，后续直连503/超时，需发送前复核。
+
+首封目标：先确认代理安排是否允许新增供应商，再进入型号资料。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://www.envalco.com.my/)
+- [联系与身份依据](https://www.envalco.com.my/contact-us/)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：A sourcing-boundary question for Envalco’s constant-flow range**
+
+Hello Envalco team,
+
+Your site lists constant-flow valves and explains your exclusive Fivalco and FlowMate relationships. I would like to clarify the sourcing boundary before sending any competing product material.
+
+Is there a constant-flow water-system application for which your team is allowed to evaluate an additional supplier?
+
+FriesGo Global offers a self-acting constant-flow valve family, ZL-4M. If your agreements and customer specifications leave an appropriate position, we could compare the required flow and available valve differential pressure. If the category is fully covered by the exclusive arrangements, a brief indication would be enough and we would close this enquiry.
+
+FriesGo Global
+
+### 中文译文
+
+Envalco团队您好：
+
+官网列有恒流阀，并说明了与Fivalco和FlowMate的独家分销关系。在发送任何可能竞争的产品资料前，我们希望先明确选品边界。
+
+是否存在一种恒流水系统应用，允许贵司评估新增供应商？
+
+FriesGo Global可提供ZL-4M自力式恒流阀。如果代理协议和客户规格允许适当的采购位置，双方可比较所需流量和阀门可用压差。如果整个品类都已由独家安排覆盖，简单告知即可，我们会结束此次询问。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系enquiry@envalco.com.my并请求转相关采购/产品岗位；先确认代理安排是否允许新增供应商，再进入型号资料。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## M06　NYKK Engineering Group Sdn Bhd
+
+**马来西亚 · B组 · 74/100 · 暖通节能设备授权分销/方案商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://www.nyk.com.my/](https://www.nyk.com.my/)|
+|首选业务邮箱|irinkang@nyk.com.my|
+|电话/已核即时渠道|+60 3 5635 6810；+60 3 5636 6810；WhatsApp +60 17 283 0913|
+|地址|No. 9 & 9A, Jalan Tiara 2, Tiara Square, Taman Perindustrian UEP, 47600 Subang Jaya, Selangor|
+|联系人/应转岗位|官网业务邮箱持有人；未由邮箱推定姓名、采购头衔|
+|备用渠道|https://wa.me/60172830913；官网WeChat同号；官网联系表|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网列Pettinaroli EvoPICV 94F和Dynasty 92；首页发布2026年ENGINEER & MARVEX活动，且提供WhatsApp。
+
+匹配产品：ZTY47（独立支路功能，间接匹配）。
+
+对应项目/应用：带PICV的方案中是否还需独立支路压差控制。
+
+证据状态：**应用场景；产品功能不等同现有电动PICV**。
+
+开发判断（推断）：明确三款产品不具有电动PICV功能，只询问独立机械支路控制的补充位置。
+
+合作障碍：间接匹配；若只做指定Pettinaroli电动PICV而无独立机械阀采购，退出名单。
+
+首封目标：确认其项目方案中是否存在独立机械压差阀这一采购位置。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://www.nyk.com.my/ourproducts/cid/587735/cat/pibcv-picv-dynamic-balancing-valve/)
+- [联系与身份依据](https://www.nyk.com.my/contactus/)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：A separate branch-control duty alongside NYKK’s PICV solutions**
+
+Hello NYKK team,
+
+Your Pettinaroli offering includes actuated PICVs for terminal control. Our three mechanical valve families do not provide that same function.
+
+The possible connection is elsewhere in a hydronic design: an independently controlled branch differential pressure. FriesGo Global supplies the self-acting ZTY47 family for evaluation against that duty.
+
+Do your project packages ever specify a separate mechanical differential-pressure controller alongside the terminal controls? If they do, we could discuss one circuit arrangement with the relevant engineer. If NYKK's scope is limited to nominated-brand actuated PICVs, this would not be a useful supply proposal.
+
+FriesGo Global
+
+### 中文译文
+
+NYKK团队您好：
+
+贵司Pettinaroli产品包括用于末端控制的电动PICV。我们的三类机械阀不具备相同功能。
+
+可能的结合点位于水系统设计中的另一个位置：独立的支路压差控制。FriesGo Global供应ZTY47自力式压差控制系列，可按这一功能要求评估。
+
+贵司工程清单是否会在末端控制之外，另行规定机械式压差控制阀？如果有，可与相应工程师讨论一个回路布置。如果NYKK仅经营指定品牌的电动PICV，这项供货建议就没有必要推进。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系irinkang@nyk.com.my并请求转相关采购/产品岗位；确认其项目方案中是否存在独立机械压差阀这一采购位置。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## U01　Fluid Control Trading LLC (FCT)
+
+**阿联酋 · A组 · 83/100 · HVAC/给排水阀门库存分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://fct-me.com/](https://fct-me.com/)|
+|首选业务邮箱|info@fct-me.com|
+|电话/已核即时渠道|+971 4 343 7779；+971 4 321 2668|
+|地址|Dubai总部：P.O. Box 116680；官网详细街道信息不完整，拜访前电话确认|
+|联系人/应转岗位|公司通用邮箱→请转平衡阀采购/产品负责人|
+|备用渠道|Abu Dhabi业务：fctauh@fct-me.com / +971 2 672 3787；官网联系表（只计FCT一家）|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网列Balancing Valves、Differential Pressure Controller和District Cooling ETS Valves；首页介绍流量核验及改造服务。
+
+匹配产品：SPF45；ZTY47。
+
+对应项目/应用：Reem Hospital（官网历史项目）及类似楼宇水系统改造配套。
+
+证据状态：**历史项目参考；未披露当前采购及该项目阀门型号**。
+
+开发判断（推断）：结合Reem Hospital历史渠道与现有改造服务，讨论已有回路的机械平衡评估。
+
+合作障碍：联系页出现reception@fctme.com.com异常邮箱，已排除；不能把历史项目写成在建订单。
+
+首封目标：先了解既有建筑项目中最常触发新阀评审的原因。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://fct-me.com/products/)
+- [联系与身份依据](https://fct-me.com/)
+- [项目/合作条件依据](https://fct-me.com/Projects)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：FCT retrofit enquiries: where does a new balancing valve enter?**
+
+Hello FCT team,
+
+Your site brings together flow verification, balancing and retrofit services, with Reem Hospital among the published project references. That combination is relevant to existing-building water systems.
+
+In a retrofit enquiry, what most often triggers your review of a new manual balancing valve: a changed flow requirement, an installation constraint, or the customer's supply specification?
+
+FriesGo Global would like to understand that entry point before proposing our SPF45 manual or ZTY47 differential-pressure family. We could then focus on the relevant duty and the evidence your team needs, rather than suggest a valve change without a circuit requirement.
+
+FriesGo Global
+
+### 中文译文
+
+FCT团队您好：
+
+官网同时介绍流量核验、平衡和改造服务，并将Reem Hospital列为项目参考。这一业务组合与既有建筑水系统有关。
+
+在改造询价中，通常是什么促使贵司审核新的手动平衡阀：设计流量变化、安装空间限制，还是客户对货源的要求？
+
+FriesGo Global希望先理解这个入口，再讨论SPF45手动平衡或ZTY47压差控制系列。之后才围绕相应功能及贵司需要的证据展开，不在缺少回路要求时建议换阀。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系info@fct-me.com并请求转相关采购/产品岗位；先了解既有建筑项目中最常触发新阀评审的原因。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## U02　Junaid Sanitary and Electrical Material Trading LLC / Junaid Group
+
+**阿联酋 · A组 · 83/100 · 多门店建材/阀门批发分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://junaidworld.com/](https://junaidworld.com/)|
+|首选业务邮箱|sales@junaid.ae|
+|电话/已核即时渠道|+971 50 253 6551（官网WhatsApp）；总部通用 +971 54 994 6952|
+|地址|总部/展厅：Dubai Investments Park 2, Plot 597-266, 22 Service Rd, Dubai|
+|联系人/应转岗位|总部销售→请转Valve Category / Procurement负责人；无已核个人|
+|备用渠道|Deira门店：salesdeira@junaid.ae / +971 4 221 6046；Al Qusais：quasisshop@junaidgroup.ae / +971 4 297 4561；https://wa.me/971502536551|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网明确批发Pegler手动/自动平衡阀，披露Deira、Al Qusais等门店及工程供货组合。
+
+匹配产品：SPF45手动平衡阀。
+
+对应项目/应用：Khalifa University（历史综合材料供货）反映工程渠道；本次测试批发选品。
+
+证据状态：**历史综合材料项目，未证实该项目供平衡阀**。
+
+开发判断（推断）：按批发门店的补货及类别选择切入，先问新增品牌由总部还是门店决定。
+
+合作障碍：Pegler关系和品牌指定可能限制；门店不是独立采购客户，不重复计数。
+
+首封目标：确认阀门新增品牌的实际评审部门。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://junaidworld.com/pegler-valves-wholesale-supplier/)
+- [联系与身份依据](https://junaidworld.com/plumbing-sanitary-ware-products-contact/)
+- [项目/合作条件依据](https://junaidworld.com/junaid-sanitary-project-portfolio/)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：Who approves an additional valve line for Junaid’s branches?**
+
+Hello Junaid team,
+
+The Pegler wholesale information on your site covers manual and automatic balancing valves. Your Deira and Al Qusais branches also make the route to trade customers visible.
+
+For an additional balancing-valve brand, is the product decision made centrally or by the branch purchasing team?
+
+FriesGo Global is exploring wholesale distribution of mechanical balancing valves. We would like to reach the person who evaluates a new line, establish whether another source is permitted, and only then select a product for review. We are not asking your stores to replace a customer's specified Pegler item.
+
+FriesGo Global
+
+### 中文译文
+
+Junaid团队您好：
+
+官网的Pegler批发介绍涵盖手动及自动平衡阀，Deira和Al Qusais门店也展示了服务行业客户的渠道。
+
+新增一个平衡阀品牌，是由总部统一决定，还是由门店采购团队决定？
+
+FriesGo Global正在寻找机械平衡阀的批发分销合作，希望先联系负责新产品线评审的同事，明确是否允许增加其他来源，再选择产品提交审核。我们不会要求门店替换客户指定的Pegler产品。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系sales@junaid.ae并请求转相关采购/产品岗位；确认阀门新增品牌的实际评审部门。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## U03　ANBI General Trading LLC
+
+**阿联酋 · B组 · 77/100 · 阀门库存贸易/零售批发及平台运营商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://anbisolutions.com/](https://anbisolutions.com/)|
+|首选业务邮箱|info@anbisolutions.com|
+|电话/已核即时渠道|+971 4 336 1377；HVAC部门 +971 4 338 7577|
+|地址|Showroom 8 & 9, Al Rigga Street, Deira, Dubai, P.O. Box 112089；HVAC仓：Warehouse 7, Al Asayel St, Al Quoz 1|
+|联系人/应转岗位|公司咨询→请转阀门采购/供应商团队；未确认个人|
+|备用渠道|websales@anbisolutions.com（公开产品页，网店销售）；官网联系表及Sell on ANBI流程页|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网在售Oventrop VFC、VTR平衡阀，Deira实体展厅与Al Quoz HVAC部门可核；Sell on ANBI页面有公开供应商流程。
+
+匹配产品：SPF45手动平衡阀。
+
+对应项目/应用：实体库存分销与平台供应商准入的两种合作方式。
+
+证据状态：**应用场景；公开伙伴招募不是确定采购需求**。
+
+开发判断（推断）：先问海外供货直采与本地平台入驻的区别，避免误认为中国企业可以直接注册开店。
+
+合作障碍：平台规则要求当地注册持牌主体；FriesGo目前未证实满足；不是直接入驻可执行客户。
+
+首封目标：确认是否直接评估海外供货，或只接受阿联酋持牌供应商。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://anbisolutions.com/en/product/oventrop-double-regulating-hydrocontrol-vfc-valve-pn16-3256)
+- [联系与身份依据](https://anbisolutions.com/en/contact)
+- [项目/合作条件依据](https://anbisolutions.com/sell)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：ANBI supplier route: overseas purchasing or UAE vendor registration?**
+
+Hello ANBI vendor team,
+
+Your online range includes Oventrop Hydrocontrol balancing valves, and the Sell on ANBI page describes a warehouse-backed vendor arrangement. The same page requires a locally registered and licensed business.
+
+FriesGo Global is an overseas industrial supplier considering a supply relationship for mechanical balancing valves. We have not established eligibility for that local vendor programme.
+
+Does ANBI also assess overseas suppliers through its own purchasing team, or must every proposal come through a UAE-licensed vendor? Clarifying the route first would help us prepare the appropriate product and company information without starting an unsuitable registration.
+
+FriesGo Global
+
+### 中文译文
+
+ANBI供应商团队您好：
+
+贵司网店经营Oventrop Hydrocontrol平衡阀，Sell on ANBI页面介绍了由仓库支持的供应商合作模式，并要求当地注册持牌企业。
+
+FriesGo Global是海外工业品供应商，希望探讨机械平衡阀供货，目前尚未确认符合本地供应商项目资格。
+
+ANBI是否也由内部采购团队直接评估海外供应商，还是所有合作都必须通过阿联酋持牌供应商？先明确这一途径，有助于我们准备正确的产品及公司资料，避免启动不合适的入驻申请。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系info@anbisolutions.com并请求转相关采购/产品岗位；确认是否直接评估海外供货，或只接受阿联酋持牌供应商。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## U04　Lustre Middle East Electro Mechanical Services L.L.C.
+
+**阿联酋 · A组 · 81/100 · 机电材料供应/集成商（兼制造业务）**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://lustre.ae/](https://lustre.ae/)|
+|首选业务邮箱|support@lustre.ae|
+|电话/已核即时渠道|+971 4 229 6955|
+|地址|Warehouse No. 3, Al Qusais Industrial Area 3, Dubai|
+|联系人/应转岗位|公司支持邮箱→请转机械产品/冷冻水阀门采购|
+|备用渠道|官网联系表；未核实电话具有WhatsApp功能|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网冷冻水阀门页明确列DRV，另经营冷冻水泵、FCU/AHU和管道配件；有Al Qusais实体仓地址。
+
+匹配产品：SPF45手动平衡阀。
+
+对应项目/应用：冷冻水泵—管道—DRV组合配套。
+
+证据状态：**应用场景；项目页无可核实的文字项目名称**。
+
+开发判断（推断）：从已有泵与DRV产品组合切入，测试平衡阀是否按项目清单外采。
+
+合作障碍：公司兼制造业务，未证明自制这类阀门；需确认是否外购转售，不能按纯贸易商看待。
+
+首封目标：确认冷冻水DRV是按清单采购，还是全部固定来源。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://lustre.ae/chilled-water-valves/)
+- [联系与身份依据](https://lustre.ae/contact/)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：Lustre’s chilled-water package: how is the DRV sourced?**
+
+Hello Lustre mechanical-products team,
+
+Your chilled-water valve page lists DRVs, while the broader mechanical range includes chilled-water pumps and FCU/AHU equipment. I would like to understand how the valve is selected within that package.
+
+Is the DRV bought against each project's schedule, or is that position tied to a fixed product source?
+
+FriesGo Global supplies the SPF45 manual balancing family. If project-by-project selection is possible, we could check one valve schedule for functional and dimensional fit. That would establish whether our supply role is relevant to Lustre before either team invests in a broader product discussion.
+
+FriesGo Global
+
+### 中文译文
+
+Lustre机械产品团队您好：
+
+贵司冷冻水阀门页列有DRV，机械产品还包含冷冻水泵和FCU/AHU设备。我想了解成套供货中如何选择这只阀。
+
+DRV是按每个项目的清单采购，还是已经绑定固定产品来源？
+
+FriesGo Global供应SPF45手动平衡阀。如果允许逐项目选型，我们可以按一份阀门清单核对功能和尺寸，先判断供货角色是否适合Lustre，再由双方投入更完整的产品讨论。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系support@lustre.ae并请求转相关采购/产品岗位；确认冷冻水DRV是按清单采购，还是全部固定来源。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## U05　Dutco Tennant LLC
+
+**阿联酋 · B组 · 79/100 · MEP及工程设备分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://www.dutcotennant.com/](https://www.dutcotennant.com/)|
+|首选业务邮箱|info@dutcotennant.com|
+|电话/已核即时渠道|+971 4 215 2799（联系页）；+971 4 222 0186（官网另列）|
+|地址|Dubai, U.A.E., P.O. Box 233；官网联系页有地区办事处，具体拜访点需确认|
+|联系人/应转岗位|公司通用邮箱→请转MEP Supplies供应商准入负责人|
+|备用渠道|https://www.dutcotennant.com/connect-us（可选择MEP Supplies）；未指定任何地区邮箱为采购邮箱|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：2025产品册MEP Supplies列冷冻水平衡阀；官网文章区分静态平衡、自力式压差和自力式恒流，提供MEP业务联系入口。
+
+匹配产品：SPF45；ZTY47；ZL-4M。
+
+对应项目/应用：进入MEP业务单元的供应商技术预审。
+
+证据状态：**应用场景；未取得具名项目的新阀门采购证据**。
+
+开发判断（推断）：先拿到新阀门供应商的审核清单，再决定是否投入送样，不向大型分销商泛发报价。
+
+合作障碍：技术审核与项目品牌指定门槛未核；联系方式不等于采购权；历史文章不能证明当前有订单。
+
+首封目标：请提供MEP阀门供应商预审清单/负责团队。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://www.dutcotennant.com/images/DT-Product-Brochure-2025.pdf)
+- [联系与身份依据](https://www.dutcotennant.com/connect-us)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：MEP valve supplier prequalification at Dutco Tennant**
+
+Dear MEP Supplies team,
+
+Dutco Tennant's 2025 brochure includes balancing valves within the chilled-water offering. We would like to understand the admission process for an additional hydronic-valve supplier.
+
+Could you direct us to the relevant prequalification checklist or supplier-review contact?
+
+FriesGo Global's scope includes manual balancing, self-acting differential-pressure control and self-acting constant-flow valves. We would map the documents currently available against your requirements before requesting a technical review or offering samples. Any further proposal would depend on the product duty, required approvals and the nominated-brand rules of the project concerned.
+
+FriesGo Global
+
+### 中文译文
+
+MEP Supplies团队您好：
+
+Dutco Tennant的2025产品册将平衡阀纳入冷冻水产品。我们希望了解新增水力控制阀供应商的准入流程。
+
+能否提供相应的预审清单，或转给负责供应商审核的同事？
+
+FriesGo Global的范围包括手动平衡、自力式压差控制和自力式恒流阀。我们会先对照贵司要求梳理现有文件，再申请技术评审或讨论样品。后续提案须取决于实际功能、审批要求以及相关项目对指定品牌的规定。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系info@dutcotennant.com并请求转相关采购/产品岗位；请提供MEP阀门供应商预审清单/负责团队。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## U06　Maunsell Building Materials Trading LLC
+
+**阿联酋 · B组 · 72/100 · HVAC阀门/冷水机组代理分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://maunselltrading.com/](https://maunselltrading.com/)|
+|首选业务邮箱|sales@maunselltrading.com|
+|电话/已核即时渠道|+971 4 430 8767|
+|地址|Office 206, Level 2, Building 1, Park Heights Square, Dubai Hills, P.O. Box 31750；仓库：Al Sajaa, Emirates Industrial City, Sharjah|
+|联系人/应转岗位|销售团队→请转阀门产品负责人；未确认采购个人|
+|备用渠道|公司LinkedIn：https://www.linkedin.com/company/maunsell-building-materials-trading-llc；官网联系页|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网列Maplef独家分销及冷冻水阀门、PICV和FCU组件；项目页列Tabreed Seaworld和Empower DLRC区域供冷项目。
+
+匹配产品：ZTY47或SPF45（冷冻水邻近品类）。
+
+对应项目/应用：Tabreed Seaworld区域供冷（历史参考）；类似项目非指定品牌的机械阀配套。
+
+证据状态：**历史项目；未披露三款主推阀门及当前采购**。
+
+开发判断（推断）：先核Maplef独家分销是否覆盖所有询价，再问区域供冷配套中可接受其他来源的位置。
+
+合作障碍：Maplef独家关系；公开三款具体在售证据不足，属于邻近品类；不能把FriesGo写成PICV供货商。
+
+首封目标：确认是否存在Maplef范围之外、可评估新增机械阀来源的采购位置。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://maunselltrading.com/our-products/)
+- [联系与身份依据](https://maunselltrading.com/contact-us/)
+- [项目/合作条件依据](https://maunselltrading.com/our-projects/)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：Outside Maplef’s scope: a hydronic sourcing question for Maunsell**
+
+Hello Maunsell team,
+
+Your project references include Tabreed Seaworld, and your product page identifies an exclusive Maplef relationship. I would like to ask about the boundary of that relationship before proposing anything.
+
+Are there chilled-water mechanical-valve enquiries outside the Maplef scope for which Maunsell can assess another source?
+
+FriesGo Global supplies manual balancing and self-acting differential-pressure valves. If there is an appropriate non-nominated position, we could check one duty and its required documentation with your valve team. This is an enquiry about future sourcing scope, not an assumption that the Seaworld reference represents an open requirement.
+
+FriesGo Global
+
+### 中文译文
+
+Maunsell团队您好：
+
+贵司项目参考包含Tabreed Seaworld，产品页也说明了Maplef独家合作关系。在提出产品建议前，我想先了解这一关系的范围。
+
+是否存在Maplef范围之外的冷冻水机械阀询价，允许Maunsell评估其他来源？
+
+FriesGo Global供应手动平衡及自力式压差阀。如果有适当且未指定品牌的采购位置，可以与阀门团队核对一个工况及文件要求。此次询问的是未来选品范围，不认为Seaworld历史参考代表当前正在采购。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系sales@maunselltrading.com并请求转相关采购/产品岗位；确认是否存在Maplef范围之外、可评估新增机械阀来源的采购位置。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+
+
+## U07　Astic General Trading L.L.C.
+
+**阿联酋 · B组 · 77/100 · HVAC/MEP材料库存分销商**
+
+### 联系资料
+
+|字段|内容|
+|---|---|
+|官网|[https://astic-dubai.com/](https://astic-dubai.com/)|
+|首选业务邮箱|info@astic-dubai.com|
+|电话/已核即时渠道|+971 4 571 5600|
+|地址|Dubai Industrial City, Dubai, U.A.E., P.O. Box 32218（按官网）|
+|联系人/应转岗位|公司通用咨询→请转HVAC阀门产品/采购负责人|
+|备用渠道|官网Contact入口；Fax +971 4 575 4737；没有核实个人采购联系方式|
+|采购权限|低：公开销售/通用入口，采购权限未核实|
+|核验状态|公司公开渠道已核；邮箱未做投递/采购权限测试|
+
+### 为什么选这家公司
+
+已核事实：官网Belven页列DN15–300平衡阀并声明UAE独家合作；公司主页说明跨欧洲、GCC、中东、非洲及东南亚进出口。
+
+匹配产品：SPF45手动平衡阀。
+
+对应项目/应用：现有Belven代理以外的规格/应用覆盖评估。
+
+证据状态：**应用场景；不假设存在供应缺口或指定项目**。
+
+开发判断（推断）：直接承认现有Belven独家合作，先判断未覆盖规格是否允许新增供应商。
+
+合作障碍：独家代理冲突可能直接排除；不声称比Belven便宜或能无条件替换；网站直连波动，浏览工具可读。
+
+首封目标：若没有代理范围外的需求，明确结束本轮推介。
+
+来源（均于2026-10-23核读；公司自述不等于独立业绩审计）：
+
+- [产品/业务依据](https://astic-dubai.com/product/belven-valves)
+- [联系与身份依据](https://astic-dubai.com/)
+
+### 首封开发信（英语）
+
+**Subject / Tiêu đề：A range-coverage check beyond ASTIC’s Belven agreement**
+
+Hello ASTIC valve team,
+
+Your Belven page lists balancing valves from DN15 to DN300 and explains the exclusive UAE relationship. I would not propose a competing line without checking whether there is a legitimate gap in scope.
+
+Does ASTIC receive mechanical balancing-valve enquiries outside that agreement's product or application coverage?
+
+If so, FriesGo Global could review the particular size and duty against our SPF45 catalogue. The connection standard and installed dimensions would need separate confirmation. If your current agreement covers every relevant position, please simply let us know; we would not take this proposal further.
+
+FriesGo Global
+
+### 中文译文
+
+ASTIC阀门团队您好：
+
+贵司Belven页面列有DN15至DN300平衡阀，并说明阿联酋独家合作关系。只有先确认存在合理的范围空缺，才有必要讨论可能竞争的产品线。
+
+ASTIC是否收到过该协议产品或应用范围以外的机械平衡阀询价？
+
+如果有，FriesGo Global可按具体口径和工况对照SPF45目录。连接标准及安装尺寸须另外确认。如果现有协议已覆盖全部相关采购位置，简单告知即可，我们不会继续推进这项建议。
+
+FriesGo Global
+
+### 跟进与退出
+
+先联系info@astic-dubai.com并请求转相关采购/产品岗位；若没有代理范围外的需求，明确结束本轮推介。 发送后5个工作日无回应时，通过公开电话/表单仅核联系人；再过7个工作日仍无有效信息则暂停。 对方明确拒绝或要求停止时立即停止。
+

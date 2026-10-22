@@ -1,0 +1,221 @@
+[
+  {
+    "id": "V01",
+    "email": "kinhdoanh@tuanhungphat.vn",
+    "source_matches": [
+      "https://tuanhungphat.vn/van-can-bang-tinh/",
+      "https://tuanhungphat.vn/lien-he/",
+      "https://tuanhungphat.vn/van-can-bang/"
+    ],
+    "contact_source": "https://tuanhungphat.vn/lien-he/",
+    "product_source": "https://tuanhungphat.vn/van-can-bang-tinh/"
+  },
+  {
+    "id": "V02",
+    "email": "kinhdoanh@dohaco.com",
+    "source_matches": [
+      "https://dohaco.com/",
+      "https://dohaco.com/nganh/24890/van-can-bang-balancing-valves.html",
+      "https://dohaco.com/lienhe"
+    ],
+    "contact_source": "https://dohaco.com/lienhe",
+    "product_source": "https://dohaco.com/nganh/24890/van-can-bang-balancing-valves.html"
+  },
+  {
+    "id": "V03",
+    "email": "erikovn.sg@gmail.com",
+    "source_matches": [
+      "https://eriko.com.vn/7-lien-he"
+    ],
+    "contact_source": "https://eriko.com.vn/7-lien-he",
+    "product_source": "https://eriko.com.vn/284-van-can-bang-van-can-bangd25"
+  },
+  {
+    "id": "V04",
+    "email": "sales.vimijsc@gmail.com",
+    "source_matches": [
+      "https://vimi.com.vn/lien-he",
+      "https://vimi.com.vn/"
+    ],
+    "contact_source": "https://vimi.com.vn/lien-he",
+    "product_source": "https://vimi.com.vn/van-samyang"
+  },
+  {
+    "id": "V05",
+    "email": "info@wili.com.vn",
+    "source_matches": [
+      "https://daytrichmau.com/cimberio/",
+      "https://wili.com.vn/project-list/",
+      "https://wili.com.vn/balancing-valve/",
+      "https://wili.com.vn/"
+    ],
+    "contact_source": "https://wili.com.vn/",
+    "product_source": "https://wili.com.vn/balancing-valve/"
+  },
+  {
+    "id": "V06",
+    "email": "info@combitek.com",
+    "source_matches": [
+      "https://combitek.com/",
+      "https://combitek.com/san-pham/van-can-bang-chenh-ap-noi-bich/",
+      "https://combitek.com/lien-he/",
+      "https://combitek.com/du-an/"
+    ],
+    "contact_source": "https://combitek.com/lien-he/",
+    "product_source": "https://combitek.com/san-pham/van-can-bang-chenh-ap-noi-bich/"
+  },
+  {
+    "id": "V07",
+    "email": "sales@pgtech.com.vn",
+    "source_matches": [
+      "https://pgtech.com.vn/"
+    ],
+    "contact_source": "https://pgtech.com.vn/",
+    "product_source": "https://pgtech.com.vn/Upload/file/profile-pgtech-2025-vne.pdf"
+  },
+  {
+    "id": "M01",
+    "email": "enquiry@optimusdistributor.com",
+    "source_matches": [
+      "https://www.optimusdistributor.com.my/contact",
+      "https://www.optimusdistributor.com.my/",
+      "https://www.optimusdistributor.com.my/faq",
+      "https://www.optimusdistributor.com.my/pettinaroli-hydronic-balancing-and-picv"
+    ],
+    "contact_source": "https://www.optimusdistributor.com.my/contact",
+    "product_source": "https://www.optimusdistributor.com.my/showproducts/productid/4588118/cid/479227/art-6535dn-balancing-valve/"
+  },
+  {
+    "id": "M02",
+    "email": "adminsales01@culmi.com.my",
+    "source_matches": [
+      "https://www.culmi.com.my/",
+      "https://www.culmi.com.my/index.php?ws=contactus"
+    ],
+    "contact_source": "https://www.culmi.com.my/index.php?ws=contactus",
+    "product_source": "https://www.culmi.com.my/index.php?products_id=2780082&ws=showproducts"
+  },
+  {
+    "id": "M03",
+    "email": "scgroup@sengchoon.com",
+    "source_matches": [
+      "https://sengchoon.com/projects.php",
+      "https://sengchoon.com/products.php",
+      "https://sengchoon.com/contact-us.php"
+    ],
+    "contact_source": "https://sengchoon.com/contact-us.php",
+    "product_source": "https://sengchoon.com.my/services/"
+  },
+  {
+    "id": "M04",
+    "email": "sales@sca.com.my",
+    "source_matches": [
+      "https://sca.com.my/contact/ (public protected email decoded)"
+    ],
+    "contact_source": "https://sca.com.my/contact/",
+    "product_source": "https://sca.com.my/product/balancing-valves/"
+  },
+  {
+    "id": "M05",
+    "email": "enquiry@envalco.com.my",
+    "source_matches": [
+      "https://www.envalco.com.my/contact-us/ (browser read successful; later direct access intermittent)"
+    ],
+    "contact_source": "https://www.envalco.com.my/contact-us/",
+    "product_source": "https://www.envalco.com.my/"
+  },
+  {
+    "id": "M06",
+    "email": "irinkang@nyk.com.my",
+    "source_matches": [
+      "https://www.nyk.com.my/ourproducts/cid/587735/cat/pibcv-picv-dynamic-balancing-valve/#contact",
+      "https://www.nyk.com.my/#contact",
+      "https://www.nyk.com.my/ourproducts/cid/587735/cat/pibcv-picv-dynamic-balancing-valve/",
+      "https://www.nyk.com.my/contactus/",
+      "https://www.nyk.com.my/gallery/",
+      "https://www.nyk.com.my/"
+    ],
+    "contact_source": "https://www.nyk.com.my/contactus/",
+    "product_source": "https://www.nyk.com.my/ourproducts/cid/587735/cat/pibcv-picv-dynamic-balancing-valve/"
+  },
+  {
+    "id": "U01",
+    "email": "info@fct-me.com",
+    "source_matches": [
+      "https://fct-me.com/Contact",
+      "https://fct-me.com/",
+      "https://fct-me.com/products/",
+      "https://fct-me.com/Projects"
+    ],
+    "contact_source": "https://fct-me.com/",
+    "product_source": "https://fct-me.com/products/"
+  },
+  {
+    "id": "U02",
+    "email": "sales@junaid.ae",
+    "source_matches": [
+      "https://junaidworld.com/plumbing-sanitary-ware-products-contact/",
+      "https://junaidworld.com/",
+      "https://junaidworld.com/junaid-sanitary-project-portfolio/",
+      "https://junaidworld.com/pegler-valves-wholesale-supplier/"
+    ],
+    "contact_source": "https://junaidworld.com/plumbing-sanitary-ware-products-contact/",
+    "product_source": "https://junaidworld.com/pegler-valves-wholesale-supplier/"
+  },
+  {
+    "id": "U03",
+    "email": "info@anbisolutions.com",
+    "source_matches": [
+      "https://anbisolutions.com/en/product/oventrop-double-regulating-hydrocontrol-vfc-valve-pn16-3256",
+      "https://anbisolutions.com/",
+      "https://anbisolutions.com/en/contact",
+      "https://anbisolutions.com/sell"
+    ],
+    "contact_source": "https://anbisolutions.com/en/contact",
+    "product_source": "https://anbisolutions.com/en/product/oventrop-double-regulating-hydrocontrol-vfc-valve-pn16-3256"
+  },
+  {
+    "id": "U04",
+    "email": "support@lustre.ae",
+    "source_matches": [
+      "https://lustre.ae/chilled-water-valves/",
+      "https://lustre.ae/major-projects/",
+      "https://lustre.ae/",
+      "https://lustre.ae/contact/"
+    ],
+    "contact_source": "https://lustre.ae/contact/",
+    "product_source": "https://lustre.ae/chilled-water-valves/"
+  },
+  {
+    "id": "U05",
+    "email": "info@dutcotennant.com",
+    "source_matches": [
+      "https://www.dutcotennant.com/category/instrumentation-automation-and-network-monitoring/process-instrumentation/contact-level-measurement",
+      "https://www.dutcotennant.com/",
+      "https://www.dutcotennant.com/connect-us"
+    ],
+    "contact_source": "https://www.dutcotennant.com/connect-us",
+    "product_source": "https://www.dutcotennant.com/images/DT-Product-Brochure-2025.pdf"
+  },
+  {
+    "id": "U06",
+    "email": "sales@maunselltrading.com",
+    "source_matches": [
+      "https://maunselltrading.com/",
+      "https://maunselltrading.com/our-projects/",
+      "https://maunselltrading.com/our-products/",
+      "https://maunselltrading.com/contact-us/"
+    ],
+    "contact_source": "https://maunselltrading.com/contact-us/",
+    "product_source": "https://maunselltrading.com/our-products/"
+  },
+  {
+    "id": "U07",
+    "email": "info@astic-dubai.com",
+    "source_matches": [
+      "https://astic-dubai.com/ (official homepage read successfully in browser tool)"
+    ],
+    "contact_source": "https://astic-dubai.com/",
+    "product_source": "https://astic-dubai.com/product/belven-valves"
+  }
+]

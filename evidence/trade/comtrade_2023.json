@@ -1,0 +1,8 @@
+{
+  "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2023&reporterCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&cmdCode=848180&flowCode=M&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+  "status": 429,
+  "response": {
+    "statusCode": 429,
+    "message": "Rate limit is exceeded. Try again in 3 seconds."
+  }
+}

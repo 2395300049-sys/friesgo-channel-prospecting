@@ -1,0 +1,12 @@
+To: support@lustre.ae
+Subject: Lustre’s chilled-water package: how is the DRV sourced?
+
+Hello Lustre mechanical-products team,
+
+Your chilled-water valve page lists DRVs, while the broader mechanical range includes chilled-water pumps and FCU/AHU equipment. I would like to understand how the valve is selected within that package.
+
+Is the DRV bought against each project's schedule, or is that position tied to a fixed product source?
+
+FriesGo Global supplies the SPF45 manual balancing family. If project-by-project selection is possible, we could check one valve schedule for functional and dimensional fit. That would establish whether our supply role is relevant to Lustre before either team invests in a broader product discussion.
+
+FriesGo Global

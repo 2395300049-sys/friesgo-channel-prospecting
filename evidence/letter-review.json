@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-23",
+  "accounts": 20,
+  "unique_web_domains": 20,
+  "countries": {
+    "越南": 7,
+    "马来西亚": 6,
+    "阿联酋": 7
+  },
+  "priorities": {
+    "A": 11,
+    "B": 9
+  },
+  "emails_public_records": 20,
+  "individual_letter_files": 20,
+  "sendable_text_files": 20,
+  "english_word_counts": {
+    "V01": 98,
+    "V02": 98,
+    "V03": 100,
+    "V04": 102,
+    "V05": 96,
+    "V06": 97,
+    "V07": 102,
+    "M01": 104,
+    "M02": 99,
+    "M03": 105,
+    "M04": 102,
+    "M05": 101,
+    "M06": 97,
+    "U01": 101,
+    "U02": 98,
+    "U03": 99,
+    "U04": 98,
+    "U05": 92,
+    "U06": 98,
+    "U07": 97
+  },
+  "max_character_similarity": [
+    [
+      0.10773899848254932,
+      "M01",
+      "M02"
+    ],
+    [
+      0.10416666666666667,
+      "V07",
+      "U01"
+    ],
+    [
+      0.10264150943396226,
+      "M01",
+      "U06"
+    ],
+    [
+      0.09885931558935361,
+      "M01",
+      "U01"
+    ],
+    [
+      0.09744779582366589,
+      "V04",
+      "M02"
+    ]
+  ],
+  "similarity_note": "SequenceMatcher is a mechanical check only; manual review checked different customer facts, propositions and questions.",
+  "sent_messages": 0
+}

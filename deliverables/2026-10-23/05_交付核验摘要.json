@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-23",
+  "accounts": 20,
+  "unique_account_ids": 20,
+  "countries": {
+    "越南": 7,
+    "马来西亚": 6,
+    "阿联酋": 7
+  },
+  "priorities": {
+    "A": 11,
+    "B": 9
+  },
+  "public_business_email_routes": 20,
+  "telephone_and_address_records": 20,
+  "emails_delivery_tested": false,
+  "purchasing_authority_verified": 0,
+  "current_RFQs_verified": 0,
+  "independent_outreach_drafts": 20,
+  "vietnamese_drafts": 7,
+  "english_master_drafts": 20,
+  "chinese_translations": 20,
+  "max_english_words": 105,
+  "xlsx_contact_letter_score_consistency": "20/20 matched canonical account records",
+  "xlsx_formula_errors": 0,
+  "trade_annual_records": 24,
+  "trade_latest_complete_year": 2025,
+  "trade_2026_monthly_latest_available_month": null,
+  "visual_review": "All 5 sheets reviewed through rendered key ranges; source-column clipping found and corrected.",
+  "sent_messages": 0
+}

@@ -1,0 +1,272 @@
+{
+  "markets": [
+    [
+      "越南",
+      "首批1",
+      "7家；Hà Nội进口阀门/机电分销，HCM阀门贸易",
+      "进口多来源产品的商户可核，既有楼宇渠道，适合先验证SPF45；ZTY/ZL按回路再扩展。",
+      "2025制冷规划提供应用方向；不能直接推出法兰水力阀市场规模。",
+      "买方是否直接进口、能否新增品牌、法兰和技术文件要求仍缺。",
+      "向V01/V02测试一款允许新增品牌的法兰阀；接受证据为负责人确认+具体规格。",
+      "S07"
+    ],
+    [
+      "马来西亚",
+      "首批2",
+      "6家；Selangor/Subang Jaya—Shah Alam—Petaling Jaya",
+      "暖通阀门、计量、预制组件渠道集中；具体平衡阀/组件业务可核。",
+      "节能政策是应用背景，不是平衡阀强制采购要求；2025中国对其该宽口径出口同比下降。",
+      "多家已有欧洲品牌；小口径组件与大口径法兰阀边界必须确认。",
+      "优先M01/M02，索取一条BOM或更换尺寸；若只接受指定品牌则退出该条需求。",
+      "S06"
+    ],
+    [
+      "阿联酋",
+      "首批3",
+      "7家；Dubai Deira/Al Qusais/工业区及区域供冷分销",
+      "区域供冷运营和工程需求有官方依据，阀门分销与实体门店可核。",
+      "高需求不等于新供应商能进入；品牌、项目指定和平台本地资格都可能挡住供货。",
+      "准入文件、审核流程、当地履约、付款与物流成本均未落实。",
+      "先U01/U02确认产品负责人，U03先核海外直采路线；不直接平台入驻。",
+      "S04 / S05"
+    ],
+    [
+      "哈萨克斯坦",
+      "后续验证",
+      "本轮未建立合格客户池，不挤入20家",
+      "供热网络改造与产品功能相关；是值得保留的供热市场。",
+      "政府2025投入及2026改造计划有依据，未证明具体分销商订单。",
+      "国家适用技术文件、回路参数、当地经销链与俄语售后资料未完成本轮核验。",
+      "下一轮从Aquatherm官方名单开始重新核商户；不能据宏观资金直接发项目报价。",
+      "S08"
+    ],
+    [
+      "乌兹别克斯坦",
+      "后续验证",
+      "本轮未建立合格客户池",
+      "供热更新与ZTY/ZL应用相邻，Bukhara PPP可作下游产业信号。",
+      "政府EOI自身说明不构成采购承诺；截止2026-06-27，已过期。",
+      "本地进口商、项目供应链及产品标准要求未核实。",
+      "找进口分销商解释其供热项目采购链；不把EOI联系人当阀门经销商。",
+      "S09"
+    ],
+    [
+      "沙特阿拉伯",
+      "后续验证",
+      "本轮未完成独立当地商户名单；FCT沙特分支不另计",
+      "官方2025年报反映建设与房地产活动；可通过已核UAE渠道了解区域覆盖。",
+      "国家建设活动不能代替三类阀门的需求量证据。",
+      "当地采购实体、供应商审核及产品准入/服务要求未核实。",
+      "在U01负责人回复后，核实其是否有独立沙特采购需求。",
+      "S16"
+    ],
+    [
+      "印度尼西亚",
+      "后续验证",
+      "本轮未建立合格客户池",
+      "2023—2025中国该宽口径出口连续增加，值得进一步做暖通经销商专项核验。",
+      "绿色住房案例不能等同于中央冷冻水系统或本产品采购。",
+      "实际品类分销网络、进口手续、连接标准、价格与交付未取得。",
+      "下一轮先核冷热水系统经销与库存品类，再决定是否扩张名单。",
+      "S17"
+    ],
+    [
+      "德国",
+      "资料建设后再议",
+      "不将阀门制造商/品牌办公室列作现成采购客户",
+      "宽口径对华采购规模大，但本次没有证明FriesGo在具体暖通渠道能赢。",
+      "不能因市场大就忽略技术文件、品牌及供应商审核。",
+      "未提供适用于所选型号、工况及客户要求的完整技术/准入证据，成本竞争力未知。",
+      "先以一份真实分销商要求清单补资料；不声称任何欧盟合规已通过。",
+      "S01 / S03"
+    ]
+  ],
+  "channels": [
+    [
+      "C1",
+      "越南Hà Nội进口阀门/机电分销网",
+      "V01、V03、V04、V06、V07",
+      "终端路线：分销商→机电承包商/代理/楼宇项目；以公司公开业务为依据。",
+      "Yellow Pages只作入口；再核五家公司产品、进口/分销描述及官网联系方式。",
+      "S15；五家公司官网",
+      "实体办公室分散，不是已证实的单一阀门批发城；没有证实五家互有交易。"
+    ],
+    [
+      "C2",
+      "越南HCM阀门贸易与暖通设备网",
+      "V02、V05",
+      "DOHACO服务代理商及工程企业；Wili有酒店Control Valve供货参考。",
+      "从阀门品类检索到商户；以官网产品页和项目表复核。",
+      "V02/V05产品及联系来源",
+      "DOHACO与Wili彼此业务关系未知；不把Wili不同网站重复计数。"
+    ],
+    [
+      "C3",
+      "马来西亚Subang Jaya暖通配件分销集群",
+      "M01、M02、M06",
+      "三家官网地址位于Subang Jaya；平衡阀/PICV及组件品类可核。",
+      "Newpages商户页→官网身份、地址及联系→功能筛选；NYKK另有2026 MARVEX自述活动。",
+      "S14；M01/M02/M06官网",
+      "不是一处统一市场；NYKK电动PICV与本品是间接匹配，不作替换推销。"
+    ],
+    [
+      "C4",
+      "马来西亚Shah Alam/Petaling Jaya管道阀门分销网",
+      "M03、M04、M05",
+      "库存/预制组件、机械阀、恒流阀渠道；以公司服务/产品页为依据。",
+      "官方产品及预制服务→本地主体联系→筛独家代理/尺寸障碍。",
+      "M03/M04/M05官网",
+      "Envalco独家品牌边界未确认；集团及分支只计一个账户。"
+    ],
+    [
+      "C5",
+      "Dubai实体门店及工程型阀门分销",
+      "U01、U02、U03、U05",
+      "FCT的HVAC/给排水；Junaid多门店；ANBI的Deira/Al Quoz；Dutco的MEP单元。",
+      "行业目录/品类检索作为入口；官网在售品类、实体地址及审核流程复核。",
+      "S13；四家公司官网",
+      "不推定四家入驻同一展会/园区，也不声称公开邮箱都是采购邮箱。"
+    ],
+    [
+      "C6",
+      "Dubai/Sharjah机电材料与区域供冷配套网",
+      "U04、U06、U07",
+      "Lustre的DRV配套；Maunsell区域供冷项目；Astic进出口与Belven范围。",
+      "产品/项目页→贸易/供应角色→代理范围→联系页面。",
+      "U04/U06/U07官网",
+      "独家代理或兼制造业务须先确认外采位置；不是所有公司都愿新增供应商。"
+    ]
+  ],
+  "sources": {
+    "S01": [
+      "UN Comtrade，中国2023年HS848180对八国出口",
+      "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2023&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500"
+    ],
+    "S02": [
+      "UN Comtrade，中国2024年HS848180对八国出口",
+      "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2024&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500"
+    ],
+    "S03": [
+      "UN Comtrade，中国2025年HS848180对八国出口",
+      "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2025&reporterCode=156&cmdCode=848180&flowCode=X&partnerCode=784%2C458%2C704%2C398%2C860%2C682%2C360%2C276&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500"
+    ],
+    "S04": [
+      "迪拜RSB：区域供冷及冷却需求",
+      "https://www.rsbdubai.gov.ae/en/regulating-efficient-cooling/"
+    ],
+    "S05": [
+      "Dubai Media Office，2026-05-14，Empower扩建",
+      "https://www.mediaoffice.ae/en/news/2026/may/14-05/empower-continues-expanding-dubais-future-ready-district-cooling-infrastructure"
+    ],
+    "S06": [
+      "马来西亚能源委员会：EECA 2024及适用范围",
+      "https://www.st.gov.my/stakeholders/energy-efficiency/energy-efficiency-and-conservation-act-eeca-2024"
+    ],
+    "S07": [
+      "ETP/UNOPS：越南可持续制冷项目及2025报告入口",
+      "https://www.energytransitionpartnership.org/projects/national-green-cooling-program/"
+    ],
+    "S08": [
+      "哈萨克斯坦总理官网，2026-05-05，能源及公用设施改造",
+      "https://primeminister.kz/en/news/over-1-trillion-tenge-to-be-allocated-for-modernization-of-energy-and-utilities-infrastructure-31348"
+    ],
+    "S09": [
+      "乌兹别克斯坦政府：Bukhara供热PPP意向征集，2026-06-03",
+      "https://gov.uz/en/mc/news/view/172675"
+    ],
+    "S10": [
+      "HVACR Vietnam官方2026活动与行业连接入口",
+      "https://www.hvacrvietnam.com/en/industry-connect/"
+    ],
+    "S11": [
+      "ENGINEER & MARVEX 2025官方展前目录",
+      "https://engineermalaysia.com.my/wp-content/uploads/2025/09/ENGINEER-MARVEX-2025-eShow-Preview.pdf"
+    ],
+    "S12": [
+      "HVACR World，Dubai官方渠道平台",
+      "https://www.hvacr-world.com/"
+    ],
+    "S13": [
+      "ReachUAE，Dubai平衡阀商户发现入口",
+      "https://www.reachuae.com/dubai/valves-c457/balancing-valve-c5641"
+    ],
+    "S14": [
+      "Newpages，Optimus平衡阀商户页",
+      "https://www.newpages.com.my/v2/en/company/747235/products/479227/Balancing-Valve.html"
+    ],
+    "S15": [
+      "Vietnam Yellow Pages，Tuấn Hưng Phát商户页",
+      "https://www.yellowpages.vn/lgs/1187729013/van-cong-nghiep-tuan-hung-phat-cong-ty-tnhh-thuong-mai-tuan-hung-phat.html"
+    ],
+    "S16": [
+      "Saudi Vision 2030，2025年报官方入口",
+      "https://www.vision2030.gov.sa/en/overview"
+    ],
+    "S17": [
+      "UNEP 2024/2025建筑报告，含印尼绿色住房案例",
+      "https://wedocs.unep.org/bitstream/handle/20.500.11822/47214/Global-Status-Report-2024_2025.pdf?sequence=3"
+    ],
+    "S18": [
+      "ISH官方展商产品渠道示例",
+      "https://ish.messefrankfurt.com/frankfurt/en/exhibitor-search.detail.html/esbe-ab.html"
+    ]
+  },
+  "trade": [
+    {
+      "country": "越南",
+      "code": 704,
+      "2023": 265786333.0,
+      "2024": 340342363.0,
+      "2025": 402012083.0
+    },
+    {
+      "country": "马来西亚",
+      "code": 458,
+      "2023": 251386516.0,
+      "2024": 306334463.0,
+      "2025": 291577030.0
+    },
+    {
+      "country": "阿联酋",
+      "code": 784,
+      "2023": 399858446.0,
+      "2024": 515823197.0,
+      "2025": 687834600.0
+    },
+    {
+      "country": "哈萨克斯坦",
+      "code": 398,
+      "2023": 138009427.0,
+      "2024": 186070422.0,
+      "2025": 214438866.0
+    },
+    {
+      "country": "乌兹别克斯坦",
+      "code": 860,
+      "2023": 102189969.0,
+      "2024": 109432479.0,
+      "2025": 120934465.0
+    },
+    {
+      "country": "沙特阿拉伯",
+      "code": 682,
+      "2023": 230010962.0,
+      "2024": 338296081.0,
+      "2025": 432511832.0
+    },
+    {
+      "country": "印度尼西亚",
+      "code": 360,
+      "2023": 417280284.0,
+      "2024": 505515308.0,
+      "2025": 524927470.0
+    },
+    {
+      "country": "德国",
+      "code": 276,
+      "2023": 533541542.0,
+      "2024": 602989785.0,
+      "2025": 660333398.0
+    }
+  ]
+}

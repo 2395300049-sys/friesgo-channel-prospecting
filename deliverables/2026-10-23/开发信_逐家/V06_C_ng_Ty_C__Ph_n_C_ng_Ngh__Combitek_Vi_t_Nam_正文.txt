@@ -1,0 +1,12 @@
+To: info@combitek.com
+Subject: Đối chiếu thông số mạch nước cho van điều khiển chênh áp
+
+Kính gửi bộ phận kỹ thuật Combitek,
+
+Chúng tôi liên hệ về sản phẩm van cân bằng chênh áp nối bích trên website của quý công ty.
+
+Trước khi trao đổi thương hiệu hoặc giá, chúng tôi muốn hiểu một điều kiện mạch nước: lưu lượng thiết kế và giá trị chênh áp cần duy trì. Hai thông số này giúp xác định liệu van điều khiển chênh áp tự lực ZTY47 của chúng tôi có phù hợp để xem xét hay không.
+
+FriesGo Global là đơn vị cung ứng sản phẩm công nghiệp, mong tìm đối tác phân phối van thủy lực HVAC. Quý công ty có thể cung cấp hai thông số trên cho một mạch nước tiêu biểu không? Sau đó mới đối chiếu sơ đồ điều khiển và kết nối, không mặc định tương đương sản phẩm hiện có.
+
+FriesGo Global
