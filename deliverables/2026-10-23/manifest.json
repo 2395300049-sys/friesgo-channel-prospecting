@@ -19,8 +19,8 @@
     },
     {
       "path": "03_20家客户档案与开发信.md",
-      "bytes": 80961,
-      "sha256": "6541e3140c2f6fb2115f7e68845385843f119e4b84dd6400526327de256f4c6c"
+      "bytes": 80960,
+      "sha256": "237eedb38aac27d7411861acd250c8088333b346acfe9bcf3ed4ec06cceb779c"
     },
     {
       "path": "04_来源核验索引.csv",
@@ -49,8 +49,8 @@
     },
     {
       "path": "开发信_逐家/M01_Optimus_Distributor__M__Sdn_Bhd.md",
-      "bytes": 3490,
-      "sha256": "0bcbc1b5d4ae00136bea1c4cb2d913faba53d2b10c655aebfdb7747bb00dfe83"
+      "bytes": 3489,
+      "sha256": "61fa32e2d663025954a395bd03dc35ff1e4811fda7e0d5e7381df6611e509e6a"
     },
     {
       "path": "开发信_逐家/M01_Optimus_Distributor__M__Sdn_Bhd_正文.txt",
@@ -59,8 +59,8 @@
     },
     {
       "path": "开发信_逐家/M02_Culmi_Air-Cond___Refrigeration_Parts_Supply_Sdn_Bh.md",
-      "bytes": 3598,
-      "sha256": "db0494c2962a7e3727de1218990af9deaeeecf08625686519fe18985510bee64"
+      "bytes": 3597,
+      "sha256": "fe59d7047f5a165ba98e898ba1a15025cc2f9427a078afa0526f0ea84ce60bda"
     },
     {
       "path": "开发信_逐家/M02_Culmi_Air-Cond___Refrigeration_Parts_Supply_Sdn_Bh_正文.txt",
@@ -69,8 +69,8 @@
     },
     {
       "path": "开发信_逐家/M03_Seng_Choon_Hardware__M__Sdn_Bhd.md",
-      "bytes": 3656,
-      "sha256": "f46faa2707b93318465c4938ae476e113af1504a08173b2a33d9e89e1c00feca"
+      "bytes": 3655,
+      "sha256": "443849e547a3aaaaf7790481ca4bda796c50a86175e352568e685f90ef647cd0"
     },
     {
       "path": "开发信_逐家/M03_Seng_Choon_Hardware__M__Sdn_Bhd_正文.txt",
@@ -79,8 +79,8 @@
     },
     {
       "path": "开发信_逐家/M04_Source_Code_Asia_Sdn_Bhd___HVAC___Metering_Divisio.md",
-      "bytes": 3395,
-      "sha256": "303c33916ff2777043d381961640ebb3b7a25fbec1a22f429433fe3229a8b995"
+      "bytes": 3394,
+      "sha256": "3a67368e755067ca3b5d31b743c7632fe3510b8437c6dc62113fac7165552a69"
     },
     {
       "path": "开发信_逐家/M04_Source_Code_Asia_Sdn_Bhd___HVAC___Metering_Divisio_正文.txt",
@@ -89,8 +89,8 @@
     },
     {
       "path": "开发信_逐家/M05_Envalco_Sdn_Bhd.md",
-      "bytes": 3449,
-      "sha256": "ee3f51f0ca7f11e25bbe9adec83fddf856afac60598b4767080f95c470e300b0"
+      "bytes": 3448,
+      "sha256": "6336fdce71be8af5152e676ae248a1e7358c43d3c71ec33dd049663434bee706"
     },
     {
       "path": "开发信_逐家/M05_Envalco_Sdn_Bhd_正文.txt",
@@ -99,8 +99,8 @@
     },
     {
       "path": "开发信_逐家/M06_NYKK_Engineering_Group_Sdn_Bhd.md",
-      "bytes": 3522,
-      "sha256": "531dc932b933fea4c2ab5622d963e3603a4d2a2654a39fb6f87ae6e6eb1824de"
+      "bytes": 3521,
+      "sha256": "7d471df33c475c6f025d33351e1fe01c32886e0961d8aa7f8ada21d402c33a25"
     },
     {
       "path": "开发信_逐家/M06_NYKK_Engineering_Group_Sdn_Bhd_正文.txt",
@@ -109,8 +109,8 @@
     },
     {
       "path": "开发信_逐家/U01_Fluid_Control_Trading_LLC__FCT_.md",
-      "bytes": 3453,
-      "sha256": "dea361b3c4d0621e3fd0f9f2597e017b87f43c3602ea1b4dd3b775d28abf748e"
+      "bytes": 3452,
+      "sha256": "e051369213e3dfb5ccd229ea703919a203d83933f08ddf9aafe633fc4e321716"
     },
     {
       "path": "开发信_逐家/U01_Fluid_Control_Trading_LLC__FCT__正文.txt",
@@ -119,8 +119,8 @@
     },
     {
       "path": "开发信_逐家/U02_Junaid_Sanitary_and_Electrical_Material_Trading_LL.md",
-      "bytes": 3531,
-      "sha256": "1119fa696c6725c01ba55edd19afffeaaf251b90e4426b9ea3a2c36743a3eb19"
+      "bytes": 3530,
+      "sha256": "66f11ddc3ee409ac35c16194168436948a7b29d9858d81e4606eb65d5e6ac1c9"
     },
     {
       "path": "开发信_逐家/U02_Junaid_Sanitary_and_Electrical_Material_Trading_LL_正文.txt",
@@ -129,8 +129,8 @@
     },
     {
       "path": "开发信_逐家/U03_ANBI_General_Trading_LLC.md",
-      "bytes": 3720,
-      "sha256": "cfea295d7ce76a46252c7e57f594a7d53cc124f1d3188fc73274bffcd2b0ab09"
+      "bytes": 3719,
+      "sha256": "08a1ca314d6a9e48ccce482fe77b8f2dc178650a4dd091b5e90db961e3c967b8"
     },
     {
       "path": "开发信_逐家/U03_ANBI_General_Trading_LLC_正文.txt",
@@ -139,8 +139,8 @@
     },
     {
       "path": "开发信_逐家/U04_Lustre_Middle_East_Electro_Mechanical_Services_L_L.md",
-      "bytes": 3208,
-      "sha256": "8e6ac017cd9015c5b1a3e295955a0e767069b7b5bbe8bdbc8fbdd6c733783a12"
+      "bytes": 3207,
+      "sha256": "016498293daac0b9787b122cc5eca44495afb876d236dbb94622e05351c8473f"
     },
     {
       "path": "开发信_逐家/U04_Lustre_Middle_East_Electro_Mechanical_Services_L_L_正文.txt",
@@ -149,8 +149,8 @@
     },
     {
       "path": "开发信_逐家/U05_Dutco_Tennant_LLC.md",
-      "bytes": 3505,
-      "sha256": "7db13ab445493f68317cbf7c195ea2c2ebcec311aa4ced6a4a8158fdbceaa7d7"
+      "bytes": 3504,
+      "sha256": "fbac8f1c5281c3b4b95f86ccedd35da51629c36ef17cedca18389888e8a201c1"
     },
     {
       "path": "开发信_逐家/U05_Dutco_Tennant_LLC_正文.txt",
@@ -159,8 +159,8 @@
     },
     {
       "path": "开发信_逐家/U06_Maunsell_Building_Materials_Trading_LLC.md",
-      "bytes": 3732,
-      "sha256": "4e51ff743179209e24272842cd712bd1a0ca4eb24f2518815e6f5eb4b2c57c67"
+      "bytes": 3731,
+      "sha256": "09d476f604fc4ce0e67c3c7808798b0e65257e9f27b03b281c812a2bd8f4d90f"
     },
     {
       "path": "开发信_逐家/U06_Maunsell_Building_Materials_Trading_LLC_正文.txt",
@@ -169,8 +169,8 @@
     },
     {
       "path": "开发信_逐家/U07_Astic_General_Trading_L_L_C_.md",
-      "bytes": 3324,
-      "sha256": "ade7c9457bb0564c82ce3915fbffa139a476915f2686abf063d3549652640f32"
+      "bytes": 3323,
+      "sha256": "c62ec4c5b87d04f160248ff49249c35141d87e6ead7da32cf4ce42e149562da5"
     },
     {
       "path": "开发信_逐家/U07_Astic_General_Trading_L_L_C__正文.txt",
@@ -179,8 +179,8 @@
     },
     {
       "path": "开发信_逐家/V01_C_ng_Ty_TNHH_Th__ng_M_i_Tu_n_H_ng_Ph_t.md",
-      "bytes": 4508,
-      "sha256": "902e60e9b66de0c408ce1229f17165808f9c494986110833aea9e1f1e85885dd"
+      "bytes": 4507,
+      "sha256": "e171c1e105b0a0bbcbe7b223bd8a65e74bd29531f9117ee1e8ef64aad9241ee9"
     },
     {
       "path": "开发信_逐家/V01_C_ng_Ty_TNHH_Th__ng_M_i_Tu_n_H_ng_Ph_t_正文.txt",
@@ -189,8 +189,8 @@
     },
     {
       "path": "开发信_逐家/V02_C_ng_Ty_TNHH_Th__ng_M_i_D_ch_V__DOHACO.md",
-      "bytes": 4336,
-      "sha256": "5f15396ad69dfa85120f28d11f5add35c56ad458c587d8788dc43c51f38a6295"
+      "bytes": 4335,
+      "sha256": "223a490e96aa72c44b8d9d601d2ad10a04bd2c21c62867239dcf9c4c4160d6d0"
     },
     {
       "path": "开发信_逐家/V02_C_ng_Ty_TNHH_Th__ng_M_i_D_ch_V__DOHACO_正文.txt",
@@ -199,8 +199,8 @@
     },
     {
       "path": "开发信_逐家/V03_C_ng_Ty_TNHH_C___i_n_L_nh_Eriko.md",
-      "bytes": 4731,
-      "sha256": "792aae078220226815907251baa848f79d0966932da524e7248f081d7afa0cf7"
+      "bytes": 4730,
+      "sha256": "80a1f223e7729bd9a5a49f57dbe885ac573213a07afeb6e5fd7165088a89eaa8"
     },
     {
       "path": "开发信_逐家/V03_C_ng_Ty_TNHH_C___i_n_L_nh_Eriko_正文.txt",
@@ -209,8 +209,8 @@
     },
     {
       "path": "开发信_逐家/V04_C_ng_Ty_C__Ph_n_K__Thu_t_VIMI.md",
-      "bytes": 4285,
-      "sha256": "6ff6bf11bd4c3bd3746daf5c8d603af57e399300176ad6db28a52082633a8cb5"
+      "bytes": 4284,
+      "sha256": "86b5bc62c177a8e87e17f8d67d03a3142c4dc82c5671b81cb2fae83eea3ef781"
     },
     {
       "path": "开发信_逐家/V04_C_ng_Ty_C__Ph_n_K__Thu_t_VIMI_正文.txt",
@@ -219,8 +219,8 @@
     },
     {
       "path": "开发信_逐家/V05_C_ng_Ty_TNHH_Wili___Wili_Co___Ltd_.md",
-      "bytes": 4668,
-      "sha256": "b292c8edceb43cded3996c7cdeb91137ebcc87b0ad510eec248a4f67ab2af411"
+      "bytes": 4667,
+      "sha256": "9239071f82c469b703397cd12582b2dcd0c9f3dc89cc0d8be1bda8886a4941c0"
     },
     {
       "path": "开发信_逐家/V05_C_ng_Ty_TNHH_Wili___Wili_Co___Ltd__正文.txt",
@@ -229,8 +229,8 @@
     },
     {
       "path": "开发信_逐家/V06_C_ng_Ty_C__Ph_n_C_ng_Ngh__Combitek_Vi_t_Nam.md",
-      "bytes": 4580,
-      "sha256": "cb49938a886fbbca7f8f82dbfd9ba8aeaa92e83de4629d926184c76422eaa33e"
+      "bytes": 4579,
+      "sha256": "50f0d6c698245b145b1adf1521d494119fe7615a89bbc67a3f10f6a923141679"
     },
     {
       "path": "开发信_逐家/V06_C_ng_Ty_C__Ph_n_C_ng_Ngh__Combitek_Vi_t_Nam_正文.txt",
@@ -239,8 +239,8 @@
     },
     {
       "path": "开发信_逐家/V07_PGTECH___PGTECH_GROUP_LIMITED______.md",
-      "bytes": 4453,
-      "sha256": "45820da0c913ac4d6e842cbf6d748a4b8f3559c101893a0f8eea40eb745729e7"
+      "bytes": 4452,
+      "sha256": "87d6868ae073f0faa4c611523726ac6c00c0a13aea388cf343c737e1781adff8"
     },
     {
       "path": "开发信_逐家/V07_PGTECH___PGTECH_GROUP_LIMITED_______正文.txt",
