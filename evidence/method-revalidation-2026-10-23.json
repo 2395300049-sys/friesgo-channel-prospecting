@@ -1,0 +1,187 @@
+{
+  "review_date": "2026-10-23",
+  "review_kind": "二次商业方法审查与六家公开资料复核",
+  "method": "官方网页阅读；VIMI补用官网直接读取。仅存少量改写摘要，不转载网页全文。",
+  "read_record_count": 17,
+  "independent_accounts": 6,
+  "buyer_interviews_completed": 0,
+  "outreach_sent": 0,
+  "sources": [
+    {
+      "account_id": "V01",
+      "url": "https://tuanhungphat.vn/van-can-bang-tinh/",
+      "checked_on": "2026-10-23",
+      "observation": "静态平衡阀文章自述直接进口FAF；来源开放政策未知。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "V01",
+      "url": "https://tuanhungphat.vn/lien-he/",
+      "checked_on": "2026-10-23",
+      "observation": "公开业务邮箱kinhdoanh@tuanhungphat.vn，销售电话0961 694 858；管理号码不等于采购。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "V02",
+      "url": "https://dohaco.com/nganh/24890/van-can-bang-balancing-valves.html",
+      "checked_on": "2026-10-23",
+      "observation": "目录列R206B、41-05、45-01；R206B/45-01标题为螺纹，不足以证明法兰需求。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "V02",
+      "url": "https://dohaco.com/lienhe",
+      "checked_on": "2026-10-23",
+      "observation": "kinhdoanh@dohaco.com；Mr. Tài公开职务为销售，不认定采购负责人。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "V02",
+      "url": "https://dohaco.com/sanpham/99821/van-can-bang-41-05.html",
+      "checked_on": "2026-10-23",
+      "observation": "可读详情未给足连接和性能参数；不从型号名称推定具体功能或可替换性。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "V04",
+      "url": "https://vimi.com.vn/van-samyang",
+      "checked_on": "2026-10-23",
+      "observation": "正文3.7介绍chiller平衡阀；不是FriesGo适配或当前需求证明。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false,
+      "read_method": "网页工具初读，随后urllib取官网+lxml全文人工检索核读",
+      "response_sha256": "00fb9822d09b4a3270fc95b17370f4f63e39f333cdb9513f1c00d0f8028e72c3"
+    },
+    {
+      "account_id": "V04",
+      "url": "https://vimi.com.vn/lien-he",
+      "checked_on": "2026-10-23",
+      "observation": "公开sales.vimijsc@gmail.com、Vimijsc@gmail.com及三地区分支；0967 393 688正文标CSKH/投诉，页脚标Hotline。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false,
+      "read_method": "网页工具初读，随后urllib取官网+lxml全文人工检索核读",
+      "response_sha256": "2c108ea882f39fcef63f81099809ed452c9acadd4d8c6a0eb91acfd294135f13"
+    },
+    {
+      "account_id": "M01",
+      "url": "https://www.optimusdistributor.com.my/showproducts/productid/4588118/cid/479227/art-6535dn-balancing-valve/",
+      "checked_on": "2026-10-23",
+      "observation": "本次跳转总目录，不能当具体规格详情页。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false,
+      "final_url": "https://www.optimusdistributor.com.my/products.html"
+    },
+    {
+      "account_id": "M01",
+      "url": "https://www.optimusdistributor.com.my/products.html",
+      "checked_on": "2026-10-23",
+      "observation": "当前目录列Tiemme Art.6535DN及Pettinaroli等平衡阀/PICV；可读目录未列旧DN65–200范围，不推断产品下架。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "M01",
+      "url": "https://www.optimusdistributor.com.my/contact",
+      "checked_on": "2026-10-23",
+      "observation": "enquiry@optimusdistributor.com、+603 5892 1626及官网WhatsApp +6019 750 3980可核；属于销售/工程入口。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "M02",
+      "url": "https://www.culmi.com.my/index.php?products_id=2780082&ws=showproducts",
+      "checked_on": "2026-10-23",
+      "observation": "本次网页工具访问失败；不推定企业失效。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false,
+      "read_status": "tool_inaccessible"
+    },
+    {
+      "account_id": "M02",
+      "url": "https://www.culmi.com.my/index.php?cat=Valves-Water-and-Steam-Application&products_id=2780082&subcat=HONEYWELL&ws=showproducts",
+      "checked_on": "2026-10-23",
+      "observation": "完整产品URL可读V4-Kombi-F法兰平衡截止阀；有预设、测压与调节保护描述；不移植参数给SPF45。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "M02",
+      "url": "https://www.culmi.com.my/index.php?ws=contactus",
+      "checked_on": "2026-10-23",
+      "observation": "公开adminsales01@culmi.com.my等销售行政邮箱，明确WhatsApp链接+60123111367。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "U01",
+      "url": "https://fct-me.com/products/",
+      "checked_on": "2026-10-23",
+      "observation": "产品分类含平衡阀、压差控制、区域供冷；公开info@fct-me.com。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "U01",
+      "url": "https://fct-me.com/assets/products/balancingvalves.html",
+      "checked_on": "2026-10-23",
+      "observation": "介绍flowconME手动固定孔板DRV和计量站；既有测量方法可能形成技术条件，不能称SPF45等效。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "U01",
+      "url": "https://fct-me.com/",
+      "checked_on": "2026-10-23",
+      "observation": "服务含流量核验和平衡，品牌与改造方案描述不证明新供应来源开放。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    },
+    {
+      "account_id": "U01",
+      "url": "https://fct-me.com/Projects",
+      "checked_on": "2026-10-23",
+      "observation": "本次可读文本主要为地区及图片，无法重新核实Reem Hospital名称；当前首信不引用该项目。",
+      "evidence_type": "公开官网自述或读取结果",
+      "purchasing_authority_verified": false,
+      "current_demand_verified": false,
+      "mail_delivery_tested": false
+    }
+  ]
+}

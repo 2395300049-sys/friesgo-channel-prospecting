@@ -34,6 +34,23 @@ def write_texts(dest, accounts, model):
     evidence=dest/'evidence';evidence.mkdir()
     for name in ['audit-primary-sources.json','source-audit-2026-10-23.json']:
         shutil.copy2(ROOT/'evidence'/name,evidence/name)
+    # Current method changes must travel with the letters they explain.
+    if model.get('method_review'):
+        source=ROOT/model['method_review']
+        (dest/source.name).write_text(source.read_text().replace('../evidence/','evidence/'))
+    if model.get('method_evidence'):
+        source=ROOT/model['method_evidence']
+        shutil.copy2(source,evidence/source.name)
+    if model.get('pilot_action_pack'):
+        # Recreate the cards from current inputs; never bundle stale draft text.
+        by_id={a['id']:a for a in accounts}
+        waves=model['pilot_policy'].get('waves',[{'ids':model['pilot_ids'],'purpose':'小批验证'}])
+        require([i for w in waves for i in w['ids']]==model['pilot_ids'],'Pilot wave order must match current pilot IDs')
+        parts=['# 当前首轮逐家行动包\n\n从本批主数据生成；草稿未发送。公开入口不证明采购权限或当前需求。\n\n采购路径询问与产品补证并行；先取得一次真实转介、来源政策答复或资料审核要求。每家仅用一个首选渠道；发送需明确指令。真实操作、拒收与买方回复保存于私有副本。\n\n']
+        for n,wave in enumerate(waves,1):
+            parts.append(f"# 第{n}组：{wave['purpose']}\n\n")
+            parts.extend(account_text(by_id[i]) for i in wave['ids'])
+        (dest/Path(model['pilot_action_pack']).name).write_text(''.join(parts).rstrip()+'\n')
     shutil.copytree(ROOT/'evidence/trade',evidence/'trade')
     (dest/'04_20家客户与开发信.md').write_text(('# 20家候选账户与逐家开发信\n\nP1为小批研究验证队列，P2先补条件，P3暂缓；均未确认购买意愿。\n\n'+''.join(account_text(a) for a in accounts)).rstrip()+'\n')
     letters=dest/'开发信_逐家';letters.mkdir()
@@ -45,6 +62,9 @@ def write_texts(dest, accounts, model):
         w=csv.DictWriter(f,fieldnames=keys,lineterminator='\n');w.writeheader()
         for a in accounts:w.writerow({k:(a['review'][k] if k in a['review'] else a[k]) for k in keys})
     (dest/'00_先读这里.txt').write_text('先读01审核报告，再看02推进手册和07客户工作簿。06打印表始终一页横版，记录格留空。\n20家是候选账户，当前队列见07；没有发送或确认需求。\n03为原市场研究，旧A/B分数和排序仅供追溯；当前行动以01及07的P队列为准。\n填写操作、买方回复和成本前，请将电子工作副本移到private目录或公司受控位置；不上传公开仓库。\n')
+    if model.get('method_review'):
+        with (dest/'00_先读这里.txt').open('a') as f:
+            f.write('当前思路与分组先读'+Path(model['method_review']).name+'及'+Path(model['pilot_action_pack']).name+'；v2已验收下载保留为历史快照。\n')
 
 def validate_texts(dest, accounts):
     dossier=(dest/'04_20家客户与开发信.md').read_text()

@@ -18,7 +18,25 @@
     "review_after_workdays": 15,
     "first_followup_workdays": 5,
     "pause_after_additional_workdays": 7,
-    "note": "人为设置的资源试验规则，非行业转化率；窗口以真实发送日为起点，不自动发送"
+    "note": "人为设置的资源试验规则，非行业转化率；窗口以真实发送日为起点，不自动发送；6家是候选池，按3+3分组，不同时启动；本轮没有发送。",
+    "waves": [
+      {
+        "ids": [
+          "V01",
+          "V02",
+          "V04"
+        ],
+        "purpose": "先在一个国家核采购路径；不是国别优劣结论"
+      },
+      {
+        "ids": [
+          "M01",
+          "M02",
+          "U01"
+        ],
+        "purpose": "复盘第一组后调整再验证；U01用于技术审核路径学习"
+      }
+    ]
   },
   "technical_fields": [
     [
@@ -146,5 +164,9 @@
       "已发生有效对话的账户数"
     ]
   ],
-  "product_passport": "docs/product-passport.md"
+  "product_passport": "docs/product-passport.md",
+  "working_revision": "2026-10-23-method-revalidation",
+  "method_review": "docs/method-revalidation-2026-10-23.md",
+  "pilot_action_pack": "docs/pilot-action-pack-2026-10-23.md",
+  "method_evidence": "evidence/method-revalidation-2026-10-23.json"
 }
