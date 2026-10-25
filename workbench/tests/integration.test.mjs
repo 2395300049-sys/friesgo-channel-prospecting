@@ -8,6 +8,16 @@ import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {DatabaseSync} from 'node:sqlite';
+import {deflateRawSync} from 'node:zlib';
+function wordFixture(xml,method=8){
+  const name=Buffer.from('word/document.xml'),raw=Buffer.from(xml),body=method===8?deflateRawSync(raw):raw;
+  const local=Buffer.alloc(30+name.length);local.writeUInt32LE(0x04034b50);local.writeUInt16LE(20,4);local.writeUInt16LE(method,8);local.writeUInt32LE(body.length,18);local.writeUInt32LE(raw.length,22);local.writeUInt16LE(name.length,26);name.copy(local,30);
+  const central=Buffer.alloc(46+name.length);central.writeUInt32LE(0x02014b50);central.writeUInt16LE(20,4);central.writeUInt16LE(20,6);central.writeUInt16LE(method,10);central.writeUInt32LE(body.length,20);central.writeUInt32LE(raw.length,24);central.writeUInt16LE(name.length,28);name.copy(central,46);
+  const end=Buffer.alloc(22);end.writeUInt32LE(0x06054b50);end.writeUInt16LE(1,8);end.writeUInt16LE(1,10);end.writeUInt32LE(central.length,12);end.writeUInt32LE(local.length+body.length,16);return Buffer.concat([local,body,central,end]);
+}
+const doc=body=>'<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body>'+body+'</w:body></w:document>';
+const p=text=>'<w:p><w:r><w:t>'+text+'</w:t></w:r></w:p>';
+const table=rows=>'<w:tbl>'+rows.map(row=>'<w:tr>'+row.map(cell=>'<w:tc>'+p(cell)+'</w:tc>').join('')+'</w:tr>').join('')+'</w:tbl>';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 
@@ -30,6 +40,7 @@ test('本地工作台与操作历史集成验收',async t=>{
   const find=async(kind,id)=>(await get())[kind].find(x=>x.id===id);
   const count=async()=>(await history({})).total;
   const sqlite=fn=>{const db=new DatabaseSync(path.join(dir,'friesgo.sqlite'));try{return fn(db);}finally{db.close();}};
+  async function uploadWord(bytes,filename='客户.docx',status=200){const r=await fetch(base+'/api/import/word',{method:'POST',headers:{'Content-Type':'application/octet-stream','X-FriesGo-Filename':encodeURIComponent(filename)},body:bytes});const d=await r.json();assert.equal(r.status,status,JSON.stringify(d));return d;}
   let account;
   await t.test('无账号初始化与旧日志兼容',async()=>{
     const d=await get();assert.equal(d.accounts.length,24);assert.equal(d.letters.length,24);assert.equal(d.replies.length,13);account=d.accounts.find(x=>x.id==='C02');
@@ -72,5 +83,30 @@ test('本地工作台与操作历史集成验收',async t=>{
   });
   await t.test('完整进程重启保留资料和历史',async()=>{
     const before=await count();await stop();await start();assert.equal(await count(),before);assert.equal((await find('states','C02')).status,'停止联系');assert.equal((await find('accounts','C02')).city,'验收城市');
+  });
+  await t.test('Word客户表格识别、实体解码及解析不写入',async()=>{
+    const n=await count(),before=await get();
+    const parsed=await uploadWord(wordFixture(doc(table([['公司名称','国家','邮箱','官网'],['A &amp; B Ltd','波兰','sales@example.invalid','https://example.invalid/'],['Second Company','越南','','']]))));
+    assert.equal(parsed.candidates.length,2);assert.equal(parsed.candidates[0].fields.name,'A & B Ltd');assert.equal(parsed.candidates[0].fields.country,'波兰');assert.ok(!('email' in parsed.candidates[1].fields));assert.equal((await get()).accounts.length,before.accounts.length);assert.equal(await count(),n);
+  });
+  await t.test('带标签的段落、编号标题和原稿联系表',async()=>{
+    const heading='<w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>客户 02：Khansaheb Group</w:t><w:br/><w:t>阿联酋 · 项目路径</w:t></w:r></w:p>';
+    const body=heading+table([['角色（原稿）','官网/原入口','邮箱（待复核）','电话（待复核）'],['建筑总包','https://khansaheb.com','hello@example.invalid','12345']]);
+    const parsed=await uploadWord(wordFixture(doc(body),0));assert.equal(parsed.candidates.length,1);assert.equal(parsed.candidates[0].fields.id,'C02');assert.equal(parsed.candidates[0].fields.email,'hello@example.invalid');assert.equal(parsed.candidates[0].fields.role,'建筑总包');
+    const plain=await uploadWord(wordFixture(doc(p('公司名称：New Company')+p('国家：土耳其')+p('官网：https://example.invalid/'))));assert.equal(plain.candidates[0].fields.country,'土耳其');
+    const missing=await uploadWord(wordFixture(doc(table([['公司名称','邮箱'],['Country Missing','x@example.invalid']]))));assert.deepEqual(missing.candidates[0].missing,['国家或地区']);
+  });
+  await t.test('本系统Word识别24家和双语草稿，人工跟进状态不参与录入',async()=>{
+    const file=new Uint8Array(await (await fetch(base+'/api/export')).arrayBuffer()),n=await count();
+    const parsed=await uploadWord(file,'系统工作册.docx');assert.equal(parsed.candidates.length,24);
+    assert.equal(parsed.candidates.filter(c=>c.fields.letter).length,24);
+    assert.ok(parsed.candidates.every(c=>!('status' in c.fields)&&!('owner' in c.fields)&&!('next_date' in c.fields)));
+    assert.equal(await count(),n);
+  });
+  await t.test('普通Word可提取参考正文，损坏和旧格式明确拒绝',async()=>{
+    const plain=await uploadWord(wordFixture(doc(p('客户提供的现场说明，没有可直接识别的公司字段。'))));assert.equal(plain.candidates.length,0);assert.match(plain.text,/现场说明/);
+    await uploadWord(Buffer.from('not a zip'),'旧文档.doc',400);await uploadWord(Buffer.from('not a zip'),'损坏.docx',400);
+    await uploadWord(wordFixture('<!DOCTYPE x [<!ENTITY a "unsafe">]>'+doc(p('x'))),'声明.docx',400);
+    const invalid=wordFixture(doc(p('too large')));const at=invalid.indexOf(Buffer.from([0x50,0x4b,0x01,0x02]));invalid.writeUInt32LE(7*1024*1024,at+24);await uploadWord(invalid,'过大.docx',413);
   });
 });
