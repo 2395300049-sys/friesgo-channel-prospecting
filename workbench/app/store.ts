@@ -79,25 +79,65 @@ export async function previewImport(input:Item){
   }
   return {changes,added:changes.filter(x=>x.action==='新增客户').length,updated:changes.filter(x=>x.action!=='新增客户').length};
 }
-export async function importResearch(input:Item,actor:string){
-  const digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify(input.accounts))))).map(x=>x.toString(16).padStart(2,'0')).join('');
+async function fingerprint(value:any){return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify(value))))).map(x=>x.toString(16).padStart(2,'0')).join('');}
+async function previewExcelImport(input:Item){
+  if(!Array.isArray(input.accounts)||input.accounts.length>100)throw new AppError('请选择客户资料，单批最多100家');
+  const current=await loadData(),seen=new Set<string>(),normalized=(s:string)=>s.normalize('NFKC').replace(/\s+/g,'').toLowerCase();
+  const accounts=input.accounts.map((a:Item)=>{if(!a||typeof a!=='object')throw new AppError('客户资料格式错误');const name=required(a.name,'公司名称',250),country=required(a.country,'国家或地区',100),key=normalized(name)+'|'+normalized(country);if(seen.has(key))throw new AppError(`${name} 在选中资料中重复，请合并后再导入`);seen.add(key);if(a.id)return a;const matches=current.accounts.filter((x:Item)=>normalized(x.name)===normalized(name)&&normalized(x.country)===normalized(country));if(matches.length>1)throw new AppError(`${name} 有多个同名主体，请核对客户ID`);return matches.length?{...a,id:matches[0].id,name:matches[0].name}:a;});
+  const preview=await previewImport({...input,accounts});const today=new Date(Date.now()+8*3600000).toISOString().slice(0,10);
+  for(let i=0;i<preview.changes.length;i++){
+    const x=preview.changes[i],raw=input.accounts[i].tracking||{},tracking:Item={},warnings:string[]=[];
+    for(const k of ['contact_name','contact_title','contact_channel','reply_summary','status','owner','next_action','linkedin_added'])if(raw[k])tracking[k]=required(raw[k],k,k==='reply_summary'?5000:1000);
+    for(const k of ['sent_on','next_date','follow4','follow10','follow20'])if(raw[k])tracking[k]=date(raw[k]);
+    if(tracking.sent_on>today)throw new AppError(`${x.name} 的实际发送日在未来，请改为计划日期`);
+    if(tracking.status&&!stages.includes(tracking.status))warnings.push('原表阶段不在系统选项中，保留在原表参考记录，不改变当前阶段');
+    if(!tracking.contact_name&&(tracking.contact_title||tracking.contact_channel))warnings.push('联系人缺少姓名或部门，仅保存为原表参考记录');
+    const before=await getRecord('state',x.id),base=before||{id:x.id,account_id:x.id,status:'未联系',owner:'',next_action:'',next_date:''};
+    const after={...base};delete after._revision;delete after._updated_at;
+    if(input.apply_state===true){for(const k of ['owner','next_action','next_date'])if(tracking[k])after[k]=tracking[k];if(stages.includes(tracking.status))after.status=tracking.status;}
+    if(after.next_date&&!after.next_action)throw new AppError(`${x.name} 的下次动作日期缺少对应动作，请补充后迁入安排`);
+    x.tracking=tracking;x.source={filename:clean(input.accounts[i].source?.filename,180),sheet:clean(input.accounts[i].source?.sheet,100),row:clean(String(input.accounts[i].source?.row||''),12),original_id:clean(input.accounts[i].source?.original_id,100)};
+    x.before_state=base;x.after_state=after;x.state_changes=historyChanges(base,after);x.warnings=warnings;
+    x.account_revision=(await getRecord('account',x.id))?._revision||0;
+    const expected=input.accounts[i].expected;if(expected&&(expected.account!==x.account_revision||expected.state!==(before?._revision||0)))throw new AppError(`${x.name} 在预览后已被修改，请重新预览`,409);
+  }
+  return {...preview,tracking_enabled:input.include_tracking===true,state_enabled:input.apply_state===true};
+}
+export async function importResearch(input:Item,actor:string,excel=false){
+  const digest=await fingerprint(excel?{accounts:input.accounts,include_tracking:input.include_tracking===true,apply_state:input.apply_state===true}:input.accounts);
   const id=clean(input.batch_id,120)||'research-'+digest.slice(0,24);
   const prior=await db().prepare('SELECT * FROM import_batches WHERE id=?').bind(id).first<any>();
   if(prior){if(prior.hash!==digest)throw new AppError('该批次编号已用于不同资料',409);return {...JSON.parse(prior.summary),replayed:true};}
-  const preview=await previewImport(input);const ts=now();const jobs:any[]=[];
-  const write=async(kind:string,recordId:string,value:any)=>{
+  const preview=excel?await previewExcelImport(input):await previewImport(input);const ts=now();const jobs:any[]=[];let contacts=0,activities=0,stateUpdates=0,letters=0;
+  const write=async(kind:string,recordId:string,value:any,source?:Item)=>{
     const previous=await getRecord(kind,recordId);if(previous&&!historyChanges(previous,value).length)return;
     if(previous)jobs.push(db().prepare('UPDATE records SET data=?,revision=CASE WHEN revision=? THEN revision+1 ELSE NULL END,updated_at=? WHERE key=?').bind(JSON.stringify(value),previous._revision,ts,keyOf(kind,recordId)));
     else jobs.push(db().prepare('INSERT INTO records(key,kind,data,revision,updated_at) VALUES(?,?,?,1,?)').bind(keyOf(kind,recordId),kind,JSON.stringify(value),ts));
-    jobs.push(auditStatement(keyOf(kind,recordId),previous?'update':'create',actor,await auditDetails(kind,previous,value,{batch_id:id,source:'research_import',revision:(previous?previous._revision:0)+1}),ts));
+    jobs.push(auditStatement(keyOf(kind,recordId),previous?'update':'create',actor,await auditDetails(kind,previous,value,{batch_id:id,source:excel?'excel_import':'research_import',source_row:source,revision:(previous?previous._revision:0)+1}),ts));
   };
-  for(const x of preview.changes){await write('account',x.id,{...x.research,id:x.id});
-    if(x.action==='新增客户')jobs.push(db().prepare('INSERT OR IGNORE INTO records(key,kind,data,revision,updated_at) VALUES(?,?,?,1,?)').bind(keyOf('state',x.id),'state',JSON.stringify({id:x.id,account_id:x.id,status:'未联系',owner:'',next_action:'',next_date:''}),ts));
-    if(x.letter){const l=validateLetter({...x.letter,account_id:x.id});const lid='import-'+uuid();await write('letter',lid,{...l,id:lid,status:'candidate',created_at:ts});}
+  for(const x of preview.changes){await write('account',x.id,{...x.research,id:x.id},x.source);
+    if(excel){if(x.action==='新增客户'||x.state_changes.length){await write('state',x.id,x.after_state,x.source);if(x.state_changes.length)stateUpdates++;}}
+    else if(x.action==='新增客户')jobs.push(db().prepare('INSERT OR IGNORE INTO records(key,kind,data,revision,updated_at) VALUES(?,?,?,1,?)').bind(keyOf('state',x.id),'state',JSON.stringify({id:x.id,account_id:x.id,status:'未联系',owner:'',next_action:'',next_date:''}),ts));
+    if(x.letter){const l=validateLetter({...x.letter,account_id:x.id});const lid=excel?'excel-'+(await fingerprint(l)).slice(0,40):'import-'+uuid();if(!excel||!await getRecord('letter',lid)){await write('letter',lid,{...l,id:lid,status:'candidate',created_at:ts, ...(excel?{import_source:x.source}:{})},x.source);letters++;}}
+    if(excel&&input.include_tracking===true){
+      const tr=x.tracking,source=x.source,all=await loadData();
+      if(tr.contact_name){const address=tr.contact_channel||'',email=address.match(/[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}/)?.[0]||'',phone=!email?address.slice(0,100):'';
+        const value={account_id:x.id,name:tr.contact_name,title:tr.contact_title||'',email,phone,whatsapp:'',linkedin:'',source_url:'',verified_on:'',verification:'Excel 原表迁入，身份及渠道未重新核验',import_source:source};
+        const contactId='excel-'+(await fingerprint({account:x.id,name:value.name,email,phone})).slice(0,40);
+        if(!all.contacts.some((c:Item)=>c.account_id===x.id&&c.name===value.name&&(email?c.email===email:phone?c.phone===phone:true))&&!await getRecord('contact',contactId)){await write('contact',contactId,{...value,id:contactId},source);contacts++;}
+      }
+      const addActivity=async(kind:string,occurred:string,summary:string,identity:Item)=>{const activityId='excel-'+(await fingerprint({account:x.id,...identity})).slice(0,40);if(await getRecord('activity',activityId))return;await write('activity',activityId,{id:activityId,account_id:x.id,kind,channel:'Excel历史迁入',summary,occurred_on:occurred,letter_id:'',letter_snapshot:null,created_at:ts,import_source:source,imported_undated:!occurred},source);activities++;};
+      if(tr.sent_on)await addActivity('outreach',tr.sent_on,'原表登记首封实际发送日；发送渠道、收件人及当时正文未提供。',{type:'sent',date:tr.sent_on});
+      if(tr.reply_summary)await addActivity('note','','原表客户回复摘要（原发生日期、人工/自动回复类型未提供）：\n'+tr.reply_summary,{type:'reply_reference',text:tr.reply_summary});
+      const reference:Item={};for(const k of ['follow4','follow10','follow20','linkedin_added'])if(tr[k])reference[k]=tr[k];
+      if(!tr.contact_name)for(const k of ['contact_title','contact_channel'])if(tr[k])reference[k]=tr[k];
+      if(tr.status&&!stages.includes(tr.status))reference.original_status=tr.status;
+      if(Object.keys(reference).length)await addActivity('note','','原表参考信息（跟进日期为计划，不代表已执行）：\n'+JSON.stringify(reference,null,2),{type:'reference',...reference});
+    }
   }
-  const summary={added:preview.added,updated:preview.updated,batch_id:id,ignored_fields:preview.changes.flatMap(x=>x.ignored_fields),source:clean(input.source,300)||'研究资料导入'};
+  const summary={added:preview.added,updated:preview.updated,batch_id:id,ignored_fields:preview.changes.flatMap(x=>x.ignored_fields),source:clean(input.source,300)||'研究资料导入',...(excel?{contacts,activities,state_updates:stateUpdates,letters}: {})};
   jobs.push(db().prepare('INSERT INTO import_batches(id,hash,summary,created_at) VALUES(?,?,?,?)').bind(id,digest,JSON.stringify(summary),ts));
-  jobs.push(auditStatement(id,'research_import',actor,{version:2,kind:'import',label:summary.source,account_ids:preview.changes.map(x=>x.id),accounts:preview.changes.map(x=>({id:x.id,name:x.name})),changes:[],...summary,summary:`${summary.source}：新增 ${summary.added} 家、更新 ${summary.updated} 家客户。`},ts));
+  jobs.push(auditStatement(id,excel?'excel_import':'research_import',actor,{version:2,kind:'import',label:summary.source,account_ids:preview.changes.map(x=>x.id),accounts:preview.changes.map(x=>({id:x.id,name:x.name})),changes:[],...summary,...(excel?{source_rows:preview.changes.map(x=>({id:x.id,source:x.source,tracking:x.tracking,include_tracking:input.include_tracking===true,apply_state:input.apply_state===true}))}:{}),summary:`${summary.source}：新增 ${summary.added} 家、更新 ${summary.updated} 家客户。`},ts));
   try{await db().batch(jobs);}catch(e){const repeat=await db().prepare('SELECT hash,summary FROM import_batches WHERE id=?').bind(id).first<any>();if(repeat?.hash===digest)return {...JSON.parse(repeat.summary),replayed:true};throw e;}
   return summary;
 }
@@ -112,6 +152,8 @@ export async function command(action:string,input:Item,actor:string):Promise<any
   }
   if(action==='preview_import')return previewImport(input);
   if(action==='import_research')return importResearch(input,actor);
+  if(action==='preview_excel_import')return previewExcelImport(input);
+  if(action==='import_excel')return importResearch(input,actor,true);
   if(action==='save_account'){
     const id=clean(input.id,80)||'C-'+uuid();const old=await getRecord('account',id);const a=research(input,old||{});
     const saved=await save('account',id,{...a,number:old?.number},actor,input._revision);

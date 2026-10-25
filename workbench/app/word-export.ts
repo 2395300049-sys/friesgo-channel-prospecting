@@ -25,7 +25,7 @@ export function exportWord(data:any){
     const projects=data.projects.filter((p:any)=>p.links?.some((l:any)=>l.account_id===a.id));
     if(projects.length){body+=p('关联项目','Heading2');for(const project of projects)body+=p(`${project.name}\n阶段：${project.phase}；采购状态：${project.procurement_status}\n采购窗口：${project.window_start||'待核'} 至 ${project.window_end||'待核'}（${project.date_basis}）\n来源：${project.source_url||'待补充'}\n说明：${project.note||''}`);}
     const activities=data.activities.filter((x:any)=>x.account_id===a.id);
-    if(activities.length){body+=p('跟进记录','Heading2');for(const x of activities){body+=p(`${x.occurred_on||x.created_at.slice(0,10)}  ${x.channel}  ${x.kind==='automatic_reply'?'自动回复':x.kind==='reply'?'人工回复':x.kind==='outreach'?'实际联系':'内部备注'}\n${x.summary}`);if(x.letter_snapshot)body+=p('当时登记的正文\nSubject: '+x.letter_snapshot.subject+'\n'+x.letter_snapshot.body);}}
+    if(activities.length){body+=p('跟进记录','Heading2');for(const x of activities){body+=p(`${x.occurred_on||(x.imported_undated?'原发生日期未提供；导入于 '+x.created_at.slice(0,10):x.created_at.slice(0,10))}  ${x.channel}  ${x.kind==='automatic_reply'?'自动回复':x.kind==='reply'?'人工回复':x.kind==='outreach'?'实际联系':'内部备注'}\n${x.summary}`);if(x.letter_snapshot)body+=p('当时登记的正文\nSubject: '+x.letter_snapshot.subject+'\n'+x.letter_snapshot.body);}}
     const tasks=data.tasks.filter((x:any)=>x.account_id===a.id);if(tasks.length)body+=p('任务','Heading2')+table([['动作','日期','状态'],...tasks.map((x:any)=>[x.title,x.due_date,x.status==='done'?'已完成':x.status==='cancelled'?'已取消':'待办'])],[6000,1800,2186],true);
   }
   if(data.russian)body+=p('俄语简短介绍稿','Heading1',true)+table(data.russian,[4993,4993]);

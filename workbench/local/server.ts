@@ -7,6 +7,7 @@ import {exportWord} from '../app/word-export';
 import {allHistory,readHistory,recordEvent} from '../app/history-store';
 import {databasePath,closeDatabase} from './database';
 import {parseWord} from './word-import';
+import {parseExcel} from './excel-import';
 const port=Number(process.env.FRIESGO_PORT||5173);
 if(!Number.isInteger(port)||port<1024||port>65535)throw Error('本地端口无效');
 const root=path.join(path.dirname(fileURLToPath(import.meta.url)),'public');
@@ -19,7 +20,7 @@ const server=http.createServer(async(req,res)=>{
     if(!origins.has(origin))throw new AppError('只允许本机访问',403);
     if(req.headers.origin&&!origins.has(req.headers.origin)||req.headers['sec-fetch-site']==='cross-site')throw new AppError('请求来源不匹配',403);
     const url=new URL(req.url||'/',origin);
-    if(req.method==='GET'&&url.pathname==='/api/health')return send(200,{app:'friesgo-local',mode:'local',version:3,instance:process.env.FRIESGO_INSTANCE||''});
+    if(req.method==='GET'&&url.pathname==='/api/health')return send(200,{app:'friesgo-local',mode:'local',version:4,instance:process.env.FRIESGO_INSTANCE||''});
     if(req.method==='GET'&&url.pathname==='/api/data')return send(200,await loadData());
     if(req.method==='GET'&&url.pathname==='/api/history')return send(200,await readHistory(Object.fromEntries(url.searchParams)));
     if(req.method==='GET'&&url.pathname==='/api/history/export'){
@@ -42,6 +43,13 @@ const server=http.createServer(async(req,res)=>{
       for await(const chunk of req){size+=chunk.length;if(size>8*1024*1024)throw new AppError('Word 文件请控制在 8MB 以内',413);chunks.push(chunk);}
       let filename='Word资料.docx';try{filename=decodeURIComponent(String(req.headers['x-friesgo-filename']||filename)).slice(0,180);}catch{throw new AppError('文件名格式不正确');}
       return send(200,parseWord(Buffer.concat(chunks),filename,(await loadData()).accounts));
+    }
+    if(req.method==='POST'&&url.pathname==='/api/import/excel'){
+      let size=0;const chunks:Buffer[]=[];
+      for await(const chunk of req){size+=chunk.length;if(size>8*1024*1024)throw new AppError('Excel 文件请控制在 8MB 以内',413);chunks.push(chunk);}
+      let filename='客户跟进表.xlsx',mapping;try{filename=decodeURIComponent(String(req.headers['x-friesgo-filename']||filename)).slice(0,180);if(url.searchParams.has('mapping'))mapping=JSON.parse(url.searchParams.get('mapping')!);}catch{throw new AppError('文件名或列对应格式不正确');}
+      if(mapping&&(typeof mapping!=='object'||Array.isArray(mapping)))throw new AppError('列对应格式不正确');
+      return send(200,parseExcel(Buffer.concat(chunks),filename,(await loadData()).accounts,{sheet:url.searchParams.get('sheet'),header_row:url.searchParams.get('header_row'),mapping}));
     }
     if(req.method==='POST'&&url.pathname==='/api/command'){
       if(!req.headers['content-type']?.includes('application/json'))throw new AppError('需要JSON资料',415);
