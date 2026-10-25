@@ -1,0 +1,10 @@
+import {build} from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {mkdir,copyFile} from 'node:fs/promises';
+const root=path.dirname(fileURLToPath(import.meta.url));
+await build({configFile:false,root,plugins:[react()],publicDir:path.resolve(root,'../public'),css:{postcss:path.resolve(root,'..')},build:{outDir:'dist/public',emptyOutDir:true}});
+await build({configFile:false,root,resolve:{alias:{'cloudflare:workers':path.join(root,'database.ts')}},build:{ssr:path.join(root,'server.ts'),outDir:'dist',emptyOutDir:false,rollupOptions:{output:{entryFileNames:'server.mjs'}}},ssr:{noExternal:true}});
+await copyFile(path.join(root,'launcher.mjs'),path.join(root,'dist/launcher.mjs'));
+console.log('本地版构建完成：local/dist；运营数据位于 workbench/data，重建不会覆盖。');
