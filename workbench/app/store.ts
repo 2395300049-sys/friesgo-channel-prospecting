@@ -2,6 +2,8 @@ import {env} from 'cloudflare:workers';
 import seed from './seed.json';
 import {AppError} from './errors';
 import {auditDetails,auditStatement,historyChanges,recordEvent} from './history-store';
+import {previewCountryImport,importCountryResearch,countryAccountTextFields,countryAccountStructuredFields,countryProjectFields,researchField} from './country-store';
+import {setFollowup,saveInterest} from './followup-store';
 export {AppError} from './errors';
 export type Item=Record<string,any>;
 const now=()=>new Date().toISOString();
@@ -26,8 +28,8 @@ export async function ensureSeed(){
 }
 export async function loadData(){
   await ensureSeed();const rows=await db().prepare('SELECT * FROM records ORDER BY updated_at DESC,key').all<any>();
-  const result:Item={accounts:[],states:[],contacts:[],letters:[],activities:[],tasks:[],projects:[],settings:{},replies:seed.replies,tech:seed.tech,channels:seed.channels,russian:seed.russian};
-  const names:Item={account:'accounts',state:'states',contact:'contacts',letter:'letters',activity:'activities',task:'tasks',project:'projects'};
+  const result:Item={accounts:[],states:[],contacts:[],letters:[],activities:[],tasks:[],projects:[],countries:[],routes:[],settings:{},replies:seed.replies,tech:seed.tech,channels:seed.channels,russian:seed.russian};
+  const names:Item={account:'accounts',state:'states',contact:'contacts',letter:'letters',activity:'activities',task:'tasks',project:'projects',country:'countries',route:'routes'};
   for(const r of rows.results||[]){if(r.kind==='settings')result.settings=parse(r);else if(names[r.kind])result[names[r.kind]].push(parse(r));}
   result.accounts.sort((a:any,b:any)=>(a.number||99999)-(b.number||99999)||a.name.localeCompare(b.name));
   result.imports=(await db().prepare('SELECT id,summary,created_at FROM import_batches ORDER BY created_at DESC LIMIT 30').all<any>()).results.map(r=>({...r,summary:JSON.parse(r.summary)}));
@@ -50,15 +52,17 @@ async function save(kind:string,id:string,value:Item,actor:string,revision?:numb
   return getRecord(kind,id);
 }
 async function accountExists(id:string){if(!await getRecord('account',id))throw new AppError('客户不存在',404);}
-export const stages=['未联系','已联系','人工回复','需求确认','待资料','待报价','已报价','样品评估','试单','暂停','停止联系'];
-const accountFields=['name','country','city','role','email','phone','url','domain','address','queue','note','writing_fact','writing_source','product_focus','verification','verified_on','planned_date','socials'];
+export const stages=['未联系','已联系','人工回复','意向客户','需求确认','待资料','待报价','已报价','样品评估','试单','暂停','停止联系'];
+const accountFields=['name','country','city','role','email','phone','url','domain','address','queue','note','writing_fact','writing_source','product_focus','verification','verified_on','planned_date','socials',...countryAccountTextFields,...countryAccountStructuredFields];
 function research(input:Item,old:Item={}){
   const a:Item={...old};delete a._revision;delete a._updated_at;
-  for(const field of accountFields)if(input[field]!==undefined)a[field]=field==='socials'?input[field]:clean(input[field]);
+  for(const field of accountFields)if(input[field]!==undefined)a[field]=field==='socials'?input[field]:countryAccountStructuredFields.includes(field)?researchField(input[field],field):clean(input[field]);
   a.name=required(a.name,'公司名称',250);a.country=required(a.country,'国家或地区',100);
-  for(const k of ['url','writing_source'])if(a[k])a[k]=safeUrl(a[k]);
+  for(const k of ['url','writing_source','contact_url','fit_url'])if(a[k])a[k]=safeUrl(a[k]);
+  if(a.grade&&!['S','A','B','C'].includes(a.grade))throw new AppError('研究级别应为S/A/B/C');
+  if(a.country_code&&!/^[A-Z]{2}$/.test(a.country_code))throw new AppError('国家代码需要两位大写英文字母');
   if(a.verified_on)date(a.verified_on);if(a.planned_date)date(a.planned_date);
-  if(a.socials){if(typeof a.socials!=='object'||Array.isArray(a.socials))throw new AppError('社媒格式错误');const valid:Item={};for(const k of ['whatsapp','linkedin','facebook','instagram','zalo','wechat'])if(a.socials[k])valid[k]=k==='wechat'?clean(a.socials[k],100):safeUrl(a.socials[k]);a.socials=valid;}
+  if(a.socials){if(typeof a.socials!=='object'||Array.isArray(a.socials))throw new AppError('社媒格式错误');const valid:Item={};for(const k of ['whatsapp','linkedin','facebook','instagram','telegram','zalo','wechat'])if(a.socials[k])valid[k]=k==='wechat'?clean(a.socials[k],100):safeUrl(a.socials[k]);a.socials=valid;}
   return a;
 }
 function domain(a:Item){try{return new URL(a.url||'https://'+a.domain).hostname.replace(/^www\./,'').toLowerCase();}catch{return '';}}
@@ -144,6 +148,8 @@ export async function importResearch(input:Item,actor:string,excel=false){
 function validateLetter(x:Item){return {account_id:required(x.account_id,'客户ID',80),language:required(x.language,'语言',40),subject:required(x.subject,'外文主题',500),body:required(x.body,'外文正文'),cnsubject:required(x.cnsubject,'中文主题',500),cn:required(x.cn,'中文对照'),evidence:clean(x.evidence),source_url:safeUrl(x.source_url)};}
 export async function command(action:string,input:Item,actor:string):Promise<any>{
   await ensureSeed();
+  if(action==='set_followup')return setFollowup(input,actor);
+  if(action==='save_interest')return saveInterest(input,actor);
   if(action==='record_copy'){
     const l=await getRecord('letter',required(input.letter_id,'开发信版本',100));if(!l)throw new AppError('开发信版本不存在',404);
     const a=await getRecord('account',l.account_id),settings=await getRecord('settings','main');
@@ -151,6 +157,8 @@ export async function command(action:string,input:Item,actor:string):Promise<any
     await recordEvent('copy_letter',actor,{kind:'letter',entity_key:'letter:'+l.id,label:l.subject,account_ids:[l.account_id],accounts:[{id:l.account_id,name:a?.name||l.account_id}],summary:'复制开发信 · '+(a?.name||l.account_id),after:{subject:l.subject,body:fill(l.body),cnsubject:l.cnsubject,cn:fill(l.cn),language:l.language},note:'登记复制成功的草稿版本，不代表已发送。'});return {recorded:true};
   }
   if(action==='preview_import')return previewImport(input);
+  if(action==='preview_country_import')return previewCountryImport(input);
+  if(action==='import_country_research')return importCountryResearch(input,actor);
   if(action==='import_research')return importResearch(input,actor);
   if(action==='preview_excel_import')return previewExcelImport(input);
   if(action==='import_excel')return importResearch(input,actor,true);
@@ -162,7 +170,8 @@ export async function command(action:string,input:Item,actor:string):Promise<any
   if(action==='save_state'){
     const id=required(input.account_id,'客户ID',80);await accountExists(id);
     if(!stages.includes(input.status))throw new AppError('客户阶段无效');
-    const value={account_id:id,status:input.status,owner:clean(input.owner,100),next_action:clean(input.next_action,1000),next_date:date(input.next_date)};
+    const previous=await getRecord('state',id);
+    const value={...(previous||{}),account_id:id,status:input.status,owner:clean(input.owner,100),next_action:clean(input.next_action,1000),next_date:date(input.next_date)};
     if(value.next_date&&!value.next_action)throw new AppError('设置日期时也请填写下一步动作');
     return save('state',id,value,actor,input._revision);
   }
@@ -193,7 +202,8 @@ export async function command(action:string,input:Item,actor:string):Promise<any
     const p={name:required(input.name,'项目名称',300),country:clean(input.country,100),location:clean(input.location,300),phase:clean(input.phase,80)||'待核实',procurement_status:clean(input.procurement_status,100)||'采购方待核',window_start:date(input.window_start),window_end:date(input.window_end),date_basis:input.date_basis==='已确认'?'已确认':'估计待核',source_url:safeUrl(input.source_url),source_date:date(input.source_date),verified_on:date(input.verified_on),requirements:clean(input.requirements,3000),note:clean(input.note,4000),links:links.map((x:any)=>({account_id:x.account_id,role:clean(x.role,150)}))};
     if(p.window_start&&p.window_end&&p.window_start>p.window_end)throw new AppError('采购窗口结束日期不能早于开始日期');
     if(p.date_basis==='已确认'&&(!p.source_url||!p.verified_on))throw new AppError('确认采购时间需要填写来源和核验日期');
-    return save('project',id,p,actor,input._revision);
+    const previous=await getRecord('project',id),extra:Item={};for(const field of countryProjectFields)if(input[field]!==undefined)extra[field]=researchField(input[field],field);
+    return save('project',id,{...(previous||{}),...extra,...p},actor,input._revision);
   }
   if(action==='save_letter'){await accountExists(input.account_id);const l=validateLetter(input);return save('letter',uuid(),{...l,status:'draft',created_at:now()},actor);}
   if(action==='save_settings')return save('settings','main',{name:clean(input.name,150),position:clean(input.position,150),website:safeUrl(input.website),whatsapp:clean(input.whatsapp,100),email:clean(input.email,200),company:'FriesGo Global'},actor,input._revision);

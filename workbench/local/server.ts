@@ -8,11 +8,12 @@ import {allHistory,readHistory,recordEvent} from '../app/history-store';
 import {databasePath,closeDatabase} from './database';
 import {parseWord} from './word-import';
 import {parseExcel} from './excel-import';
+import {followupCSV,validWorkDay,workDay} from '../app/followup-model';
 const port=Number(process.env.FRIESGO_PORT||5173);
 if(!Number.isInteger(port)||port<1024||port>65535)throw Error('本地端口无效');
 const root=path.join(path.dirname(fileURLToPath(import.meta.url)),'public');
 const origins=new Set([`http://127.0.0.1:${port}`,`http://localhost:${port}`]);
-const types:Record<string,string>={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.ico':'image/x-icon'};
+const types:Record<string,string>={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.ico':'image/x-icon'};
 const server=http.createServer(async(req,res)=>{
   const send=(status:number,body:any,type='application/json; charset=utf-8',headers:Record<string,string>={})=>{res.writeHead(status,{'Content-Type':type,'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer',...headers});res.end(typeof body==='string'||body instanceof Uint8Array?body:JSON.stringify(body));};
   try{
@@ -20,8 +21,15 @@ const server=http.createServer(async(req,res)=>{
     if(!origins.has(origin))throw new AppError('只允许本机访问',403);
     if(req.headers.origin&&!origins.has(req.headers.origin)||req.headers['sec-fetch-site']==='cross-site')throw new AppError('请求来源不匹配',403);
     const url=new URL(req.url||'/',origin);
-    if(req.method==='GET'&&url.pathname==='/api/health')return send(200,{app:'friesgo-local',mode:'local',version:4,instance:process.env.FRIESGO_INSTANCE||''});
+    if(req.method==='GET'&&url.pathname==='/api/health')return send(200,{app:'friesgo-local',mode:'local',version:6,instance:process.env.FRIESGO_INSTANCE||''});
     if(req.method==='GET'&&url.pathname==='/api/data')return send(200,await loadData());
+    if(req.method==='GET'&&url.pathname==='/api/followups/export'){
+      const day=url.searchParams.get('date')||workDay();
+      if(!validWorkDay(day)||day>workDay())throw new AppError('请选择今天或之前的有效跟进日期');
+      const data=await loadData(),csv=followupCSV(data,day);
+      await recordEvent('export_followups','local-owner',{kind:'export',label:day+'跟进名单',summary:'导出跟进名单 · '+day});
+      return send(200,csv,'text/csv; charset=utf-8',{'Content-Disposition':`attachment; filename="FriesGo-followups-${day}.csv"`});
+    }
     if(req.method==='GET'&&url.pathname==='/api/history')return send(200,await readHistory(Object.fromEntries(url.searchParams)));
     if(req.method==='GET'&&url.pathname==='/api/history/export'){
       const history=await allHistory(Object.fromEntries(url.searchParams));const bytes=JSON.stringify({exported_at:new Date().toISOString(),history},null,2);

@@ -11,7 +11,7 @@ export async function auditDetails(kind:string,before:Item|null,after:Item|null,
   const accounts:Item[]=[];
   for(const id of accountIds){const r=await db().prepare('SELECT data FROM records WHERE key=?').bind('account:'+id).first<any>();accounts.push({id,name:kind==='account'&&after?.id===id?after.name:r?JSON.parse(r.data).name:id});}
     const label=kind==='settings'?'业务员签名':kind==='state'?accounts[0]?.name:kind==='letter'?after?.subject:kind==='activity'?(after?.summary||'沟通记录').slice(0,90):after?.name||after?.title||before?.name||before?.title||historyKinds[kind];
-  const fieldLabels:Record<string,string>=kind==='state'?{status:'客户阶段'}:kind==='task'?{title:'任务内容',status:'任务状态'}:kind==='contact'?{name:'联系人或部门',title:'职位'}:kind==='settings'?{name:'英文姓名'}:kind==='project'?{name:'项目名称'}:kind==='account'?{name:'公司名称'}:{};
+  const fieldLabels:Record<string,string>=kind==='state'?{status:'客户阶段'}:kind==='task'?{title:'任务内容',status:'任务状态'}:kind==='contact'?{name:'联系人或部门',title:'职位'}:kind==='settings'?{name:'英文姓名'}:kind==='project'?{name:'项目名称',owner:'项目业主'}:kind==='account'?{name:'公司名称'}:{};
   const changes=historyChanges(before,after).map(c=>({...c,label:fieldLabels[c.field]||c.label}));
   const summary=kind==='task'&&before&&after?.status==='done'&&before.status!=='done'?'完成任务 · '+after.title:kind==='state'&&before?.next_action&&!after?.next_action?'完成跟进安排 · '+(accounts[0]?.name||'客户'):undefined;
   return {version:2,kind,label,account_ids:accountIds,accounts,before:clean(before),after:clean(after),changes,...(summary?{summary}:{}),...extra};
