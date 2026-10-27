@@ -75,7 +75,7 @@ test('本地工作台与操作历史集成验收',async t=>{
     const dates=await history({from:'2026-10-24',to:'2026-10-24'});assert.ok(dates.items.some(x=>x.id==='legacy-fixture'));assert.equal((await fetch(base+'/api/history?from=2026-02-30')).status,400);
   });
   await t.test('备份、筛选导出和真正的 Word 文件',async()=>{
-    const b=await get('/api/backup');assert.equal(b.schema_version,2);assert.ok(b.history.length>0);assert.equal((await get('/api/history/export?account_id=C02&kind=project')).history.length,2);
+    const b=await get('/api/backup');assert.equal(b.schema_version,3);assert.ok(b.tables.audit_events.length>0);assert.equal((await get('/api/history/export?account_id=C02&kind=project')).history.length,2);
     const r=await fetch(base+'/api/export');assert.equal(r.status,200);assert.match(r.headers.get('content-type'),/wordprocessingml/);const bytes=new Uint8Array(await r.arrayBuffer());assert.equal(bytes[0],80);assert.equal(bytes[1],75);assert.ok(new TextDecoder().decode(bytes).includes('操作历史'));
   });
   await t.test('只允许本机来源',async()=>{

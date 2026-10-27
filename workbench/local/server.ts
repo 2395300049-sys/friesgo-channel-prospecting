@@ -9,6 +9,7 @@ import {databasePath,closeDatabase} from './database';
 import {parseWord} from './word-import';
 import {parseExcel} from './excel-import';
 import {followupCSV,validWorkDay,workDay} from '../app/followup-model';
+import {createFullBackup,previewFullBackup,restoreFullBackup} from './full-backup';
 const port=Number(process.env.FRIESGO_PORT||5173);
 if(!Number.isInteger(port)||port<1024||port>65535)throw Error('本地端口无效');
 const root=path.join(path.dirname(fileURLToPath(import.meta.url)),'public');
@@ -21,7 +22,7 @@ const server=http.createServer(async(req,res)=>{
     if(!origins.has(origin))throw new AppError('只允许本机访问',403);
     if(req.headers.origin&&!origins.has(req.headers.origin)||req.headers['sec-fetch-site']==='cross-site')throw new AppError('请求来源不匹配',403);
     const url=new URL(req.url||'/',origin);
-    if(req.method==='GET'&&url.pathname==='/api/health')return send(200,{app:'friesgo-local',mode:'local',version:6,instance:process.env.FRIESGO_INSTANCE||''});
+    if(req.method==='GET'&&url.pathname==='/api/health')return send(200,{app:'friesgo-local',mode:'local',version:7,instance:process.env.FRIESGO_INSTANCE||''});
     if(req.method==='GET'&&url.pathname==='/api/data')return send(200,await loadData());
     if(req.method==='GET'&&url.pathname==='/api/followups/export'){
       const day=url.searchParams.get('date')||workDay();
@@ -37,9 +38,18 @@ const server=http.createServer(async(req,res)=>{
       return send(200,bytes,'application/json; charset=utf-8',{'Content-Disposition':'attachment; filename="FriesGo-history.json"'});
     }
     if(req.method==='GET'&&url.pathname==='/api/backup'){
-      const data=await loadData(),history=await allHistory();const bytes=JSON.stringify({schema_version:2,exported_at:new Date().toISOString(),...data,history},null,2);
-      await recordEvent('export_backup','local-owner',{kind:'export',label:'完整数据备份',summary:`生成 JSON 备份 · ${data.accounts.length} 家客户、${history.length} 条历史`});
+      const data=await loadData();
+      await recordEvent('export_backup','local-owner',{kind:'export',label:'完整数据备份',summary:`生成完整迁移 JSON · ${data.accounts.length} 家客户`});
+      const bytes=JSON.stringify(createFullBackup());
       return send(200,bytes,'application/json; charset=utf-8',{'Content-Disposition':'attachment; filename="FriesGo-backup.json"'});
+    }
+    if(req.method==='POST'&&['/api/backup/preview','/api/backup/restore'].includes(url.pathname)){
+      if(!req.headers['content-type']?.includes('application/json'))throw new AppError('需要JSON备份',415);
+      let size=0;const chunks:Buffer[]=[];
+      for await(const part of req){size+=part.length;if(size>128*1024*1024)throw new AppError('完整备份请控制在128MB以内',413);chunks.push(part);}
+      let input:any;try{input=JSON.parse(Buffer.concat(chunks).toString('utf8').replace(/^\uFEFF/,''));}catch{throw new AppError('JSON备份格式不正确');}
+      await loadData();
+      return send(200,url.pathname==='/api/backup/preview'?previewFullBackup(input):restoreFullBackup(input?.backup,input?.expected));
     }
     if(req.method==='GET'&&url.pathname==='/api/export'){
       const data=await loadData(),history=await allHistory();const bytes=exportWord({...data,history});

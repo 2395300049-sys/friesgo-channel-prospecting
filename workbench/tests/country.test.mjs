@@ -141,8 +141,9 @@ test('国家研究导入：证据、跨国身份、经营隔离与原子验收',
 
   await t.test('完整备份和进程重启保留国家研究、关联与经营历史',async()=>{
     const before=await get(),backup=await get('/api/backup');
-    assert.deepEqual(backup.countries,before.countries);assert.deepEqual(backup.routes,before.routes);assert.deepEqual(backup.projects,before.projects);
-    assert.equal(backup.countries.find(x=>x.id==='ZZ').customs.annual[0].value_usd,1000);assert.ok(backup.history.length>0);
+    const saved=kind=>backup.tables.records.filter(x=>x.kind===kind).map(x=>({...JSON.parse(x.data),_revision:x.revision,_updated_at:x.updated_at})).sort((a,b)=>a.id.localeCompare(b.id));
+    for(const [kind,field] of [['country','countries'],['route','routes'],['project','projects']])assert.deepEqual(saved(kind),[...before[field]].sort((a,b)=>a.id.localeCompare(b.id)));
+    assert.equal(saved('country').find(x=>x.id==='ZZ').customs.annual[0].value_usd,1000);assert.ok(backup.tables.audit_events.length>0);
     const persistedBefore=persisted();await stop();await start();await get();assert.deepEqual(persisted(),persistedBefore);
     assert.equal((await find('states','ZZ-A1')).status,'停止联系');assert.equal((await find('accounts','ZZ-A1')).grade,'B');
   });

@@ -25,4 +25,16 @@ export const env={DB:{prepare:(sql:string)=>new Statement(sql),batch:async(state
   try{const values=statements.map(s=>sqlite.prepare(s.sql).run(...s.args));sqlite.exec('COMMIT');return values;}
   catch(error){sqlite.exec('ROLLBACK');throw error;}
 }}};
+export function databaseSnapshot(){
+  return {
+    records:sqlite.prepare('SELECT * FROM records ORDER BY key').all(),
+    audit_events:sqlite.prepare('SELECT * FROM audit_events ORDER BY id').all(),
+    import_batches:sqlite.prepare('SELECT * FROM import_batches ORDER BY id').all()
+  };
+}
+export function databaseTransaction<T>(run:(database:DatabaseSync)=>T):T{
+  sqlite.exec('BEGIN IMMEDIATE');
+  try{const result=run(sqlite);sqlite.exec('COMMIT');return result;}
+  catch(error){sqlite.exec('ROLLBACK');throw error;}
+}
 export function closeDatabase(){sqlite.close();}
